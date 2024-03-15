@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from src.ResNet18.ResidualBlock import ResidualBlock
+from src.Models.ResNet18.ResidualBlock import ResidualBlock
 
 # -----------------------------------------------------------------------------
 # ResNet18

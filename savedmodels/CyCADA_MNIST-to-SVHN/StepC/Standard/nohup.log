@@ -1,0 +1,807 @@
+nohup: ignoring input
+/home/infres/olapabe-23/MNIST-SVHN-Transfer/src/solvers/CyCADASolver.py:454: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  # Display original image
+Using device cuda
+Using downloaded and verified file: ./data/SVHN/color/raw/train/train_32x32.mat
+Using downloaded and verified file: ./data/SVHN/color/raw/test/test_32x32.mat
+Train Step C - Epoch [1]:               D_feat Discriminator loss: 1.3865,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [1]: 	Accuracy: 33.29%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [2]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [2]: 	Accuracy: 30.03%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [3]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [3]: 	Accuracy: 28.05%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [4]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [4]: 	Accuracy: 27.17%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [5]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [5]: 	Accuracy: 26.12%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [6]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [6]: 	Accuracy: 27.31%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [7]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [7]: 	Accuracy: 27.24%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [8]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [8]: 	Accuracy: 26.56%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [9]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [9]: 	Accuracy: 26.24%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [10]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [10]: 	Accuracy: 26.90%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [11]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [11]: 	Accuracy: 26.80%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [12]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [12]: 	Accuracy: 26.80%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [13]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [13]: 	Accuracy: 26.79%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [14]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [14]: 	Accuracy: 26.65%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [15]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [15]: 	Accuracy: 26.40%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [16]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [16]: 	Accuracy: 26.38%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [17]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [17]: 	Accuracy: 26.28%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [18]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [18]: 	Accuracy: 26.19%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [19]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [19]: 	Accuracy: 26.05%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [20]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [20]: 	Accuracy: 25.94%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [21]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [21]: 	Accuracy: 25.87%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [22]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [22]: 	Accuracy: 25.82%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [23]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [23]: 	Accuracy: 25.78%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [24]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [24]: 	Accuracy: 25.74%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [25]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [25]: 	Accuracy: 25.67%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [26]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [26]: 	Accuracy: 25.61%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [27]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [27]: 	Accuracy: 25.56%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [28]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [28]: 	Accuracy: 25.49%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [29]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [29]: 	Accuracy: 25.44%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [30]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [30]: 	Accuracy: 25.38%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [31]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [31]: 	Accuracy: 25.30%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [32]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [32]: 	Accuracy: 25.26%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [33]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [33]: 	Accuracy: 25.08%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [34]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [34]: 	Accuracy: 25.02%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [35]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [35]: 	Accuracy: 24.91%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [36]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [36]: 	Accuracy: 24.74%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [37]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [37]: 	Accuracy: 24.43%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [38]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [38]: 	Accuracy: 24.25%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [39]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [39]: 	Accuracy: 23.99%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [40]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [40]: 	Accuracy: 23.57%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [41]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [41]: 	Accuracy: 23.13%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [42]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [42]: 	Accuracy: 22.59%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [43]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [43]: 	Accuracy: 22.36%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [44]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [44]: 	Accuracy: 21.89%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [45]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [45]: 	Accuracy: 21.41%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [46]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [46]: 	Accuracy: 20.87%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [47]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [47]: 	Accuracy: 20.67%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [48]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [48]: 	Accuracy: 20.11%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [49]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [49]: 	Accuracy: 20.06%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [50]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [50]: 	Accuracy: 19.57%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [51]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [51]: 	Accuracy: 19.43%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [52]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [52]: 	Accuracy: 18.59%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [53]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [53]: 	Accuracy: 19.38%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [54]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [54]: 	Accuracy: 18.45%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [55]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [55]: 	Accuracy: 18.04%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [56]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [56]: 	Accuracy: 18.91%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [57]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [57]: 	Accuracy: 17.80%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [58]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [58]: 	Accuracy: 17.28%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [59]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [59]: 	Accuracy: 17.17%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [60]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [60]: 	Accuracy: 17.14%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [61]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [61]: 	Accuracy: 17.16%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [62]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [62]: 	Accuracy: 16.54%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [63]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [63]: 	Accuracy: 16.66%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [64]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [64]: 	Accuracy: 16.47%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [65]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [65]: 	Accuracy: 16.58%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [66]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [66]: 	Accuracy: 16.35%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [67]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [67]: 	Accuracy: 16.00%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [68]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [68]: 	Accuracy: 15.98%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [69]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [69]: 	Accuracy: 15.41%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [70]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [70]: 	Accuracy: 15.16%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [71]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [71]: 	Accuracy: 14.90%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [72]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [72]: 	Accuracy: 14.64%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [73]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [73]: 	Accuracy: 14.58%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [74]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [74]: 	Accuracy: 14.70%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [75]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [75]: 	Accuracy: 14.92%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [76]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [76]: 	Accuracy: 15.67%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [77]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [77]: 	Accuracy: 14.29%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [78]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [78]: 	Accuracy: 19.06%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [79]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [79]: 	Accuracy: 19.34%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [80]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [80]: 	Accuracy: 19.41%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [81]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [81]: 	Accuracy: 19.38%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [82]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [82]: 	Accuracy: 19.55%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [83]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [83]: 	Accuracy: 19.43%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [84]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [84]: 	Accuracy: 19.51%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [85]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [85]: 	Accuracy: 19.89%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [86]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [86]: 	Accuracy: 20.03%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [87]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [87]: 	Accuracy: 20.04%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [88]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [88]: 	Accuracy: 20.01%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [89]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [89]: 	Accuracy: 14.44%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [90]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [90]: 	Accuracy: 12.80%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [91]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [91]: 	Accuracy: 12.78%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [92]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [92]: 	Accuracy: 11.16%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [93]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [93]: 	Accuracy: 10.74%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [94]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [94]: 	Accuracy: 11.34%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [95]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [95]: 	Accuracy: 11.77%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [96]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [96]: 	Accuracy: 12.37%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [97]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [97]: 	Accuracy: 12.93%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [98]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [98]: 	Accuracy: 12.51%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [99]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [99]: 	Accuracy: 11.69%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [100]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [100]: 	Accuracy: 12.10%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [101]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [101]: 	Accuracy: 12.61%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [102]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [102]: 	Accuracy: 12.58%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [103]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [103]: 	Accuracy: 12.89%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [104]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [104]: 	Accuracy: 13.14%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [105]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [105]: 	Accuracy: 13.54%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [106]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [106]: 	Accuracy: 13.79%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [107]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [107]: 	Accuracy: 13.71%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [108]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [108]: 	Accuracy: 13.96%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [109]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [109]: 	Accuracy: 14.37%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [110]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [110]: 	Accuracy: 13.24%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [111]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [111]: 	Accuracy: 12.45%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [112]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [112]: 	Accuracy: 12.07%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [113]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [113]: 	Accuracy: 10.36%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [114]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [114]: 	Accuracy: 10.92%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [115]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [115]: 	Accuracy: 11.12%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [116]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [116]: 	Accuracy: 11.28%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [117]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [117]: 	Accuracy: 11.24%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [118]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [118]: 	Accuracy: 11.16%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [119]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [119]: 	Accuracy: 11.24%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [120]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [120]: 	Accuracy: 11.26%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [121]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [121]: 	Accuracy: 11.17%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [122]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [122]: 	Accuracy: 11.29%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [123]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [123]: 	Accuracy: 11.46%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [124]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [124]: 	Accuracy: 11.80%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [125]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [125]: 	Accuracy: 11.99%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [126]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [126]: 	Accuracy: 12.84%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [127]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [127]: 	Accuracy: 13.33%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [128]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [128]: 	Accuracy: 13.64%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [129]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [129]: 	Accuracy: 13.75%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [130]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [130]: 	Accuracy: 14.40%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [131]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [131]: 	Accuracy: 14.79%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [132]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [132]: 	Accuracy: 14.97%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [133]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [133]: 	Accuracy: 16.24%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [134]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [134]: 	Accuracy: 17.34%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [135]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [135]: 	Accuracy: 18.58%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [136]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [136]: 	Accuracy: 19.02%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [137]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [137]: 	Accuracy: 20.78%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [138]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [138]: 	Accuracy: 24.49%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [139]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [139]: 	Accuracy: 24.09%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [140]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [140]: 	Accuracy: 23.79%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [141]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [141]: 	Accuracy: 23.13%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [142]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [142]: 	Accuracy: 23.61%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [143]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [143]: 	Accuracy: 23.60%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [144]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [144]: 	Accuracy: 23.60%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [145]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [145]: 	Accuracy: 23.21%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [146]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [146]: 	Accuracy: 23.20%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [147]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [147]: 	Accuracy: 18.61%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [148]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [148]: 	Accuracy: 18.00%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [149]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [149]: 	Accuracy: 17.22%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [150]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [150]: 	Accuracy: 16.69%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [151]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [151]: 	Accuracy: 16.29%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [152]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [152]: 	Accuracy: 15.70%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [153]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [153]: 	Accuracy: 15.64%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [154]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [154]: 	Accuracy: 15.68%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [155]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [155]: 	Accuracy: 15.55%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [156]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [156]: 	Accuracy: 15.15%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [157]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [157]: 	Accuracy: 14.93%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [158]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [158]: 	Accuracy: 14.70%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [159]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [159]: 	Accuracy: 14.35%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [160]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [160]: 	Accuracy: 14.06%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [161]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [161]: 	Accuracy: 13.59%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [162]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [162]: 	Accuracy: 13.62%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [163]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [163]: 	Accuracy: 13.71%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [164]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [164]: 	Accuracy: 13.63%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [165]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [165]: 	Accuracy: 13.81%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [166]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [166]: 	Accuracy: 14.15%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [167]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [167]: 	Accuracy: 14.17%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [168]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [168]: 	Accuracy: 14.16%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [169]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [169]: 	Accuracy: 14.20%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [170]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [170]: 	Accuracy: 14.26%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [171]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [171]: 	Accuracy: 14.35%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [172]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [172]: 	Accuracy: 14.05%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [173]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [173]: 	Accuracy: 14.27%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [174]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [174]: 	Accuracy: 14.27%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [175]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [175]: 	Accuracy: 14.66%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [176]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [176]: 	Accuracy: 14.87%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [177]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [177]: 	Accuracy: 14.80%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [178]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [178]: 	Accuracy: 14.45%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [179]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [179]: 	Accuracy: 14.31%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [180]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [180]: 	Accuracy: 14.17%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [181]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [181]: 	Accuracy: 13.98%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [182]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [182]: 	Accuracy: 13.98%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [183]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [183]: 	Accuracy: 14.09%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [184]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [184]: 	Accuracy: 14.34%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [185]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [185]: 	Accuracy: 14.98%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [186]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [186]: 	Accuracy: 15.27%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [187]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [187]: 	Accuracy: 15.35%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [188]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [188]: 	Accuracy: 15.25%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [189]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [189]: 	Accuracy: 15.30%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [190]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [190]: 	Accuracy: 15.45%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [191]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [191]: 	Accuracy: 15.83%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [192]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [192]: 	Accuracy: 15.94%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [193]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [193]: 	Accuracy: 16.05%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [194]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [194]: 	Accuracy: 16.22%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [195]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [195]: 	Accuracy: 12.93%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [196]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [196]: 	Accuracy: 11.38%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [197]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [197]: 	Accuracy: 11.16%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [198]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [198]: 	Accuracy: 11.43%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [199]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [199]: 	Accuracy: 11.87%
+-----------------------------------------------------------------------------------------------
+
+Train Step C - Epoch [200]:               D_feat Discriminator loss: 1.3863,               F_T Genearator Loss: 0.6932
+Test Step C - Epoch [200]: 	Accuracy: 12.98%
+-----------------------------------------------------------------------------------------------
+
+The process took 164.9077870408694 minutes to complete.

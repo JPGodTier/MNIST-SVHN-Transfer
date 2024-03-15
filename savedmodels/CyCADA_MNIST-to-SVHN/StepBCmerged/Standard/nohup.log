@@ -1,0 +1,407 @@
+nohup: ignoring input
+/home/infres/olapabe-23/MNIST-SVHN-Transfer/src/solvers/CyCADASolver_Dfeataccuracy_BCmerged.py:394: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig, axes = plt.subplots(nrows=2, ncols=10, figsize=(15, 4))  # Set up the subplot grid
+Using device cuda
+Using downloaded and verified file: ./data/SVHN/color/raw/train/train_32x32.mat
+Using downloaded and verified file: ./data/SVHN/color/raw/test/test_32x32.mat
+Train Step B - Epoch [1]:               Discriminator GAN loss: 0.4594,               Generator GAN Loss: 1.4231,               Cycle loss: 1.1442,               Semantic Loss: 1.5092,               D_feat GAN Loss: 0.6931,               F_T GAN Loss: 0.0000,               Task loss: 2.1638
+Test Step B - Epoch [1]: 	Accuracy: 12.02%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [2]:               Discriminator GAN loss: 0.5850,               Generator GAN Loss: 1.2114,               Cycle loss: 0.7368,               Semantic Loss: 0.9330,               D_feat GAN Loss: 0.6931,               F_T GAN Loss: 0.0000,               Task loss: 1.6715
+Test Step B - Epoch [2]: 	Accuracy: 13.44%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [3]:               Discriminator GAN loss: 0.7082,               Generator GAN Loss: 0.7028,               Cycle loss: 0.4926,               Semantic Loss: 0.4754,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.9419
+Test Step B - Epoch [3]: 	Accuracy: 12.67%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [4]:               Discriminator GAN loss: 0.7093,               Generator GAN Loss: 0.6969,               Cycle loss: 0.4547,               Semantic Loss: 0.3256,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.6319
+Test Step B - Epoch [4]: 	Accuracy: 12.30%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [5]:               Discriminator GAN loss: 0.7077,               Generator GAN Loss: 0.6959,               Cycle loss: 0.3662,               Semantic Loss: 0.2248,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.4947
+Test Step B - Epoch [5]: 	Accuracy: 14.48%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [6]:               Discriminator GAN loss: 0.6987,               Generator GAN Loss: 0.6949,               Cycle loss: 0.2854,               Semantic Loss: 0.1497,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.4178
+Test Step B - Epoch [6]: 	Accuracy: 15.50%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [7]:               Discriminator GAN loss: 0.6998,               Generator GAN Loss: 0.6912,               Cycle loss: 0.2612,               Semantic Loss: 0.1041,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.3667
+Test Step B - Epoch [7]: 	Accuracy: 16.67%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [8]:               Discriminator GAN loss: 0.6978,               Generator GAN Loss: 0.6949,               Cycle loss: 0.2462,               Semantic Loss: 0.0756,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.3213
+Test Step B - Epoch [8]: 	Accuracy: 14.35%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [9]:               Discriminator GAN loss: 0.6951,               Generator GAN Loss: 0.6971,               Cycle loss: 0.2314,               Semantic Loss: 0.0594,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.2829
+Test Step B - Epoch [9]: 	Accuracy: 16.62%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [10]:               Discriminator GAN loss: 0.6984,               Generator GAN Loss: 0.6979,               Cycle loss: 0.2233,               Semantic Loss: 0.0526,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.2531
+Test Step B - Epoch [10]: 	Accuracy: 17.97%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [11]:               Discriminator GAN loss: 0.6938,               Generator GAN Loss: 0.7002,               Cycle loss: 0.2133,               Semantic Loss: 0.0461,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.2110
+Test Step B - Epoch [11]: 	Accuracy: 17.80%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [12]:               Discriminator GAN loss: 0.6955,               Generator GAN Loss: 0.7005,               Cycle loss: 0.2052,               Semantic Loss: 0.0449,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1890
+Test Step B - Epoch [12]: 	Accuracy: 18.65%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [13]:               Discriminator GAN loss: 0.6936,               Generator GAN Loss: 0.7015,               Cycle loss: 0.1974,               Semantic Loss: 0.0450,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1663
+Test Step B - Epoch [13]: 	Accuracy: 19.74%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [14]:               Discriminator GAN loss: 0.6916,               Generator GAN Loss: 0.7054,               Cycle loss: 0.1916,               Semantic Loss: 0.0430,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1577
+Test Step B - Epoch [14]: 	Accuracy: 18.70%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [15]:               Discriminator GAN loss: 0.6913,               Generator GAN Loss: 0.7076,               Cycle loss: 0.1875,               Semantic Loss: 0.0468,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1506
+Test Step B - Epoch [15]: 	Accuracy: 20.74%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [16]:               Discriminator GAN loss: 0.6894,               Generator GAN Loss: 0.7118,               Cycle loss: 0.1836,               Semantic Loss: 0.0465,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1474
+Test Step B - Epoch [16]: 	Accuracy: 19.99%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [17]:               Discriminator GAN loss: 0.6913,               Generator GAN Loss: 0.7155,               Cycle loss: 0.1808,               Semantic Loss: 0.0512,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1531
+Test Step B - Epoch [17]: 	Accuracy: 22.86%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [18]:               Discriminator GAN loss: 0.6877,               Generator GAN Loss: 0.7131,               Cycle loss: 0.1761,               Semantic Loss: 0.0513,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1412
+Test Step B - Epoch [18]: 	Accuracy: 23.64%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [19]:               Discriminator GAN loss: 0.6846,               Generator GAN Loss: 0.7191,               Cycle loss: 0.1739,               Semantic Loss: 0.0553,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1313
+Test Step B - Epoch [19]: 	Accuracy: 23.97%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [20]:               Discriminator GAN loss: 0.6879,               Generator GAN Loss: 0.7172,               Cycle loss: 0.1710,               Semantic Loss: 0.0584,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1059
+Test Step B - Epoch [20]: 	Accuracy: 24.94%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [21]:               Discriminator GAN loss: 0.6829,               Generator GAN Loss: 0.7271,               Cycle loss: 0.1661,               Semantic Loss: 0.0571,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1123
+Test Step B - Epoch [21]: 	Accuracy: 25.77%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [22]:               Discriminator GAN loss: 0.6834,               Generator GAN Loss: 0.7265,               Cycle loss: 0.1632,               Semantic Loss: 0.0618,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1127
+Test Step B - Epoch [22]: 	Accuracy: 26.80%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [23]:               Discriminator GAN loss: 0.6832,               Generator GAN Loss: 0.7293,               Cycle loss: 0.1587,               Semantic Loss: 0.0637,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1105
+Test Step B - Epoch [23]: 	Accuracy: 26.69%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [24]:               Discriminator GAN loss: 0.6813,               Generator GAN Loss: 0.7331,               Cycle loss: 0.1546,               Semantic Loss: 0.0649,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0949
+Test Step B - Epoch [24]: 	Accuracy: 28.12%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [25]:               Discriminator GAN loss: 0.6792,               Generator GAN Loss: 0.7281,               Cycle loss: 0.1517,               Semantic Loss: 0.0695,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1016
+Test Step B - Epoch [25]: 	Accuracy: 28.18%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [26]:               Discriminator GAN loss: 0.6779,               Generator GAN Loss: 0.7376,               Cycle loss: 0.1488,               Semantic Loss: 0.0717,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0914
+Test Step B - Epoch [26]: 	Accuracy: 29.97%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [27]:               Discriminator GAN loss: 0.6807,               Generator GAN Loss: 0.7399,               Cycle loss: 0.1476,               Semantic Loss: 0.0763,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1121
+Test Step B - Epoch [27]: 	Accuracy: 27.52%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [28]:               Discriminator GAN loss: 0.6772,               Generator GAN Loss: 0.7425,               Cycle loss: 0.1462,               Semantic Loss: 0.0785,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0922
+Test Step B - Epoch [28]: 	Accuracy: 31.25%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [29]:               Discriminator GAN loss: 0.6755,               Generator GAN Loss: 0.7424,               Cycle loss: 0.1442,               Semantic Loss: 0.0784,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1003
+Test Step B - Epoch [29]: 	Accuracy: 31.00%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [30]:               Discriminator GAN loss: 0.6766,               Generator GAN Loss: 0.7389,               Cycle loss: 0.1428,               Semantic Loss: 0.0778,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1006
+Test Step B - Epoch [30]: 	Accuracy: 30.19%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [31]:               Discriminator GAN loss: 0.6702,               Generator GAN Loss: 0.7482,               Cycle loss: 0.1401,               Semantic Loss: 0.0856,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0972
+Test Step B - Epoch [31]: 	Accuracy: 30.31%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [32]:               Discriminator GAN loss: 0.6763,               Generator GAN Loss: 0.7446,               Cycle loss: 0.1399,               Semantic Loss: 0.0908,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0902
+Test Step B - Epoch [32]: 	Accuracy: 32.05%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [33]:               Discriminator GAN loss: 0.6769,               Generator GAN Loss: 0.7534,               Cycle loss: 0.1386,               Semantic Loss: 0.0895,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0986
+Test Step B - Epoch [33]: 	Accuracy: 32.88%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [34]:               Discriminator GAN loss: 0.6672,               Generator GAN Loss: 0.7483,               Cycle loss: 0.1367,               Semantic Loss: 0.0814,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0912
+Test Step B - Epoch [34]: 	Accuracy: 32.61%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [35]:               Discriminator GAN loss: 0.6740,               Generator GAN Loss: 0.7444,               Cycle loss: 0.1372,               Semantic Loss: 0.1005,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0889
+Test Step B - Epoch [35]: 	Accuracy: 32.15%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [36]:               Discriminator GAN loss: 0.6702,               Generator GAN Loss: 0.7596,               Cycle loss: 0.1336,               Semantic Loss: 0.0918,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0789
+Test Step B - Epoch [36]: 	Accuracy: 34.38%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [37]:               Discriminator GAN loss: 0.6756,               Generator GAN Loss: 0.7466,               Cycle loss: 0.1334,               Semantic Loss: 0.0904,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0900
+Test Step B - Epoch [37]: 	Accuracy: 34.50%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [38]:               Discriminator GAN loss: 0.6722,               Generator GAN Loss: 0.7462,               Cycle loss: 0.1316,               Semantic Loss: 0.1015,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0940
+Test Step B - Epoch [38]: 	Accuracy: 31.40%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [39]:               Discriminator GAN loss: 0.6706,               Generator GAN Loss: 0.7583,               Cycle loss: 0.1308,               Semantic Loss: 0.0884,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0907
+Test Step B - Epoch [39]: 	Accuracy: 32.19%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [40]:               Discriminator GAN loss: 0.6701,               Generator GAN Loss: 0.7602,               Cycle loss: 0.1284,               Semantic Loss: 0.0968,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0875
+Test Step B - Epoch [40]: 	Accuracy: 35.07%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [41]:               Discriminator GAN loss: 0.6663,               Generator GAN Loss: 0.7546,               Cycle loss: 0.1271,               Semantic Loss: 0.1003,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0932
+Test Step B - Epoch [41]: 	Accuracy: 32.67%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [42]:               Discriminator GAN loss: 0.6693,               Generator GAN Loss: 0.7565,               Cycle loss: 0.1281,               Semantic Loss: 0.1060,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1062
+Test Step B - Epoch [42]: 	Accuracy: 32.83%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [43]:               Discriminator GAN loss: 0.6752,               Generator GAN Loss: 0.7665,               Cycle loss: 0.1296,               Semantic Loss: 0.1111,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0890
+Test Step B - Epoch [43]: 	Accuracy: 35.86%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [44]:               Discriminator GAN loss: 0.6638,               Generator GAN Loss: 0.7545,               Cycle loss: 0.1246,               Semantic Loss: 0.0959,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0980
+Test Step B - Epoch [44]: 	Accuracy: 34.64%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [45]:               Discriminator GAN loss: 0.6717,               Generator GAN Loss: 0.7584,               Cycle loss: 0.1249,               Semantic Loss: 0.1051,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0871
+Test Step B - Epoch [45]: 	Accuracy: 38.54%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [46]:               Discriminator GAN loss: 0.6680,               Generator GAN Loss: 0.7635,               Cycle loss: 0.1241,               Semantic Loss: 0.1004,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.1030
+Test Step B - Epoch [46]: 	Accuracy: 39.19%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [47]:               Discriminator GAN loss: 0.6738,               Generator GAN Loss: 0.7663,               Cycle loss: 0.1223,               Semantic Loss: 0.1068,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0889
+Test Step B - Epoch [47]: 	Accuracy: 36.40%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [48]:               Discriminator GAN loss: 0.6682,               Generator GAN Loss: 0.7547,               Cycle loss: 0.1208,               Semantic Loss: 0.1012,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0805
+Test Step B - Epoch [48]: 	Accuracy: 39.04%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [49]:               Discriminator GAN loss: 0.6623,               Generator GAN Loss: 0.7568,               Cycle loss: 0.1182,               Semantic Loss: 0.0987,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0880
+Test Step B - Epoch [49]: 	Accuracy: 37.28%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [50]:               Discriminator GAN loss: 0.6669,               Generator GAN Loss: 0.7675,               Cycle loss: 0.1191,               Semantic Loss: 0.1073,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0872
+Test Step B - Epoch [50]: 	Accuracy: 34.83%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [51]:               Discriminator GAN loss: 0.6672,               Generator GAN Loss: 0.7734,               Cycle loss: 0.1191,               Semantic Loss: 0.1048,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0839
+Test Step B - Epoch [51]: 	Accuracy: 37.71%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [52]:               Discriminator GAN loss: 0.6711,               Generator GAN Loss: 0.7528,               Cycle loss: 0.1169,               Semantic Loss: 0.1009,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0845
+Test Step B - Epoch [52]: 	Accuracy: 36.48%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [53]:               Discriminator GAN loss: 0.6720,               Generator GAN Loss: 0.7521,               Cycle loss: 0.1171,               Semantic Loss: 0.0922,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0881
+Test Step B - Epoch [53]: 	Accuracy: 37.42%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [54]:               Discriminator GAN loss: 0.6653,               Generator GAN Loss: 0.7549,               Cycle loss: 0.1167,               Semantic Loss: 0.1065,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0779
+Test Step B - Epoch [54]: 	Accuracy: 36.24%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [55]:               Discriminator GAN loss: 0.6697,               Generator GAN Loss: 0.7656,               Cycle loss: 0.1143,               Semantic Loss: 0.1011,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0849
+Test Step B - Epoch [55]: 	Accuracy: 40.52%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [56]:               Discriminator GAN loss: 0.6695,               Generator GAN Loss: 0.7664,               Cycle loss: 0.1127,               Semantic Loss: 0.1059,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0867
+Test Step B - Epoch [56]: 	Accuracy: 38.11%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [57]:               Discriminator GAN loss: 0.6684,               Generator GAN Loss: 0.7615,               Cycle loss: 0.1140,               Semantic Loss: 0.1043,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0811
+Test Step B - Epoch [57]: 	Accuracy: 39.85%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [58]:               Discriminator GAN loss: 0.6610,               Generator GAN Loss: 0.7640,               Cycle loss: 0.1102,               Semantic Loss: 0.0973,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0761
+Test Step B - Epoch [58]: 	Accuracy: 38.98%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [59]:               Discriminator GAN loss: 0.6632,               Generator GAN Loss: 0.7663,               Cycle loss: 0.1096,               Semantic Loss: 0.0980,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0795
+Test Step B - Epoch [59]: 	Accuracy: 33.34%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [60]:               Discriminator GAN loss: 0.6728,               Generator GAN Loss: 0.7568,               Cycle loss: 0.1099,               Semantic Loss: 0.1060,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0898
+Test Step B - Epoch [60]: 	Accuracy: 35.57%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [61]:               Discriminator GAN loss: 0.6649,               Generator GAN Loss: 0.7684,               Cycle loss: 0.1092,               Semantic Loss: 0.1047,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0878
+Test Step B - Epoch [61]: 	Accuracy: 39.73%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [62]:               Discriminator GAN loss: 0.6645,               Generator GAN Loss: 0.7675,               Cycle loss: 0.1086,               Semantic Loss: 0.1036,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0620
+Test Step B - Epoch [62]: 	Accuracy: 38.75%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [63]:               Discriminator GAN loss: 0.6677,               Generator GAN Loss: 0.7629,               Cycle loss: 0.1088,               Semantic Loss: 0.1144,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0630
+Test Step B - Epoch [63]: 	Accuracy: 38.69%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [64]:               Discriminator GAN loss: 0.6656,               Generator GAN Loss: 0.7630,               Cycle loss: 0.1062,               Semantic Loss: 0.0979,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0822
+Test Step B - Epoch [64]: 	Accuracy: 40.35%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [65]:               Discriminator GAN loss: 0.6669,               Generator GAN Loss: 0.7705,               Cycle loss: 0.1048,               Semantic Loss: 0.1070,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0702
+Test Step B - Epoch [65]: 	Accuracy: 38.44%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [66]:               Discriminator GAN loss: 0.6567,               Generator GAN Loss: 0.7683,               Cycle loss: 0.1033,               Semantic Loss: 0.0949,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0567
+Test Step B - Epoch [66]: 	Accuracy: 37.88%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [67]:               Discriminator GAN loss: 0.6694,               Generator GAN Loss: 0.7694,               Cycle loss: 0.1052,               Semantic Loss: 0.1138,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0794
+Test Step B - Epoch [67]: 	Accuracy: 37.57%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [68]:               Discriminator GAN loss: 0.6647,               Generator GAN Loss: 0.7678,               Cycle loss: 0.1037,               Semantic Loss: 0.1065,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0823
+Test Step B - Epoch [68]: 	Accuracy: 35.29%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [69]:               Discriminator GAN loss: 0.6726,               Generator GAN Loss: 0.7543,               Cycle loss: 0.1012,               Semantic Loss: 0.0808,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0683
+Test Step B - Epoch [69]: 	Accuracy: 40.54%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [70]:               Discriminator GAN loss: 0.6652,               Generator GAN Loss: 0.7520,               Cycle loss: 0.1022,               Semantic Loss: 0.1120,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0665
+Test Step B - Epoch [70]: 	Accuracy: 37.37%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [71]:               Discriminator GAN loss: 0.6659,               Generator GAN Loss: 0.7633,               Cycle loss: 0.1011,               Semantic Loss: 0.1003,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0727
+Test Step B - Epoch [71]: 	Accuracy: 38.66%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [72]:               Discriminator GAN loss: 0.6606,               Generator GAN Loss: 0.7677,               Cycle loss: 0.0988,               Semantic Loss: 0.1146,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0581
+Test Step B - Epoch [72]: 	Accuracy: 37.31%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [73]:               Discriminator GAN loss: 0.6776,               Generator GAN Loss: 0.7648,               Cycle loss: 0.1023,               Semantic Loss: 0.1055,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0535
+Test Step B - Epoch [73]: 	Accuracy: 39.92%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [74]:               Discriminator GAN loss: 0.6666,               Generator GAN Loss: 0.7565,               Cycle loss: 0.0992,               Semantic Loss: 0.0967,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0824
+Test Step B - Epoch [74]: 	Accuracy: 36.50%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [75]:               Discriminator GAN loss: 0.6648,               Generator GAN Loss: 0.7632,               Cycle loss: 0.0970,               Semantic Loss: 0.0914,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0512
+Test Step B - Epoch [75]: 	Accuracy: 40.05%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [76]:               Discriminator GAN loss: 0.6664,               Generator GAN Loss: 0.7665,               Cycle loss: 0.0973,               Semantic Loss: 0.1036,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0882
+Test Step B - Epoch [76]: 	Accuracy: 39.31%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [77]:               Discriminator GAN loss: 0.6593,               Generator GAN Loss: 0.7632,               Cycle loss: 0.0957,               Semantic Loss: 0.1028,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0514
+Test Step B - Epoch [77]: 	Accuracy: 38.93%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [78]:               Discriminator GAN loss: 0.6680,               Generator GAN Loss: 0.7595,               Cycle loss: 0.0989,               Semantic Loss: 0.0891,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0682
+Test Step B - Epoch [78]: 	Accuracy: 40.10%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [79]:               Discriminator GAN loss: 0.6629,               Generator GAN Loss: 0.7636,               Cycle loss: 0.0945,               Semantic Loss: 0.1091,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0606
+Test Step B - Epoch [79]: 	Accuracy: 42.54%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [80]:               Discriminator GAN loss: 0.6687,               Generator GAN Loss: 0.7627,               Cycle loss: 0.0937,               Semantic Loss: 0.0978,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0604
+Test Step B - Epoch [80]: 	Accuracy: 40.80%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [81]:               Discriminator GAN loss: 0.6668,               Generator GAN Loss: 0.7664,               Cycle loss: 0.0963,               Semantic Loss: 0.1001,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0768
+Test Step B - Epoch [81]: 	Accuracy: 40.07%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [82]:               Discriminator GAN loss: 0.6658,               Generator GAN Loss: 0.7627,               Cycle loss: 0.0943,               Semantic Loss: 0.1077,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0593
+Test Step B - Epoch [82]: 	Accuracy: 39.14%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [83]:               Discriminator GAN loss: 0.6697,               Generator GAN Loss: 0.7648,               Cycle loss: 0.0942,               Semantic Loss: 0.1019,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0741
+Test Step B - Epoch [83]: 	Accuracy: 37.64%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [84]:               Discriminator GAN loss: 0.6663,               Generator GAN Loss: 0.7632,               Cycle loss: 0.0909,               Semantic Loss: 0.1035,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0697
+Test Step B - Epoch [84]: 	Accuracy: 39.16%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [85]:               Discriminator GAN loss: 0.6646,               Generator GAN Loss: 0.7591,               Cycle loss: 0.0956,               Semantic Loss: 0.0939,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0541
+Test Step B - Epoch [85]: 	Accuracy: 36.75%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [86]:               Discriminator GAN loss: 0.6676,               Generator GAN Loss: 0.7663,               Cycle loss: 0.0922,               Semantic Loss: 0.1056,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0634
+Test Step B - Epoch [86]: 	Accuracy: 37.10%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [87]:               Discriminator GAN loss: 0.6623,               Generator GAN Loss: 0.7631,               Cycle loss: 0.0900,               Semantic Loss: 0.0950,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0517
+Test Step B - Epoch [87]: 	Accuracy: 40.55%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [88]:               Discriminator GAN loss: 0.6683,               Generator GAN Loss: 0.7543,               Cycle loss: 0.0934,               Semantic Loss: 0.1131,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0540
+Test Step B - Epoch [88]: 	Accuracy: 39.11%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [89]:               Discriminator GAN loss: 0.6647,               Generator GAN Loss: 0.7760,               Cycle loss: 0.0898,               Semantic Loss: 0.0961,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0451
+Test Step B - Epoch [89]: 	Accuracy: 38.13%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [90]:               Discriminator GAN loss: 0.6609,               Generator GAN Loss: 0.7687,               Cycle loss: 0.0894,               Semantic Loss: 0.1071,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0499
+Test Step B - Epoch [90]: 	Accuracy: 39.29%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [91]:               Discriminator GAN loss: 0.6631,               Generator GAN Loss: 0.7704,               Cycle loss: 0.0929,               Semantic Loss: 0.1078,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0590
+Test Step B - Epoch [91]: 	Accuracy: 40.39%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [92]:               Discriminator GAN loss: 0.6588,               Generator GAN Loss: 0.7730,               Cycle loss: 0.0907,               Semantic Loss: 0.1037,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0883
+Test Step B - Epoch [92]: 	Accuracy: 38.77%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [93]:               Discriminator GAN loss: 0.6695,               Generator GAN Loss: 0.7657,               Cycle loss: 0.0874,               Semantic Loss: 0.1084,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0617
+Test Step B - Epoch [93]: 	Accuracy: 39.66%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [94]:               Discriminator GAN loss: 0.6636,               Generator GAN Loss: 0.7618,               Cycle loss: 0.0896,               Semantic Loss: 0.0920,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0834
+Test Step B - Epoch [94]: 	Accuracy: 34.56%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [95]:               Discriminator GAN loss: 0.6663,               Generator GAN Loss: 0.7672,               Cycle loss: 0.0905,               Semantic Loss: 0.1142,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0583
+Test Step B - Epoch [95]: 	Accuracy: 40.17%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [96]:               Discriminator GAN loss: 0.6601,               Generator GAN Loss: 0.7690,               Cycle loss: 0.0876,               Semantic Loss: 0.1029,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0557
+Test Step B - Epoch [96]: 	Accuracy: 41.44%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [97]:               Discriminator GAN loss: 0.6635,               Generator GAN Loss: 0.7747,               Cycle loss: 0.0875,               Semantic Loss: 0.1099,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0500
+Test Step B - Epoch [97]: 	Accuracy: 37.68%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [98]:               Discriminator GAN loss: 0.6688,               Generator GAN Loss: 0.7544,               Cycle loss: 0.0876,               Semantic Loss: 0.0966,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0605
+Test Step B - Epoch [98]: 	Accuracy: 41.03%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [99]:               Discriminator GAN loss: 0.6595,               Generator GAN Loss: 0.7703,               Cycle loss: 0.0886,               Semantic Loss: 0.1121,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0499
+Test Step B - Epoch [99]: 	Accuracy: 41.33%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [100]:               Discriminator GAN loss: 0.6605,               Generator GAN Loss: 0.7757,               Cycle loss: 0.0856,               Semantic Loss: 0.1185,               D_feat GAN Loss: 0.6932,               F_T GAN Loss: 0.0000,               Task loss: 0.0570
+Test Step B - Epoch [100]: 	Accuracy: 39.84%
+-----------------------------------------------------------------------------------------------
+
+The process took 262.4480419834455 minutes to complete.

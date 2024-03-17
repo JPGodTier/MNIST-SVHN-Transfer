@@ -10,10 +10,10 @@ import numpy as np
 def mnist_loader(batch_size):
     # Resize the data and transform the data to torch.FloatTensor and normalize it
     transform = transforms.Compose([
-        transforms.Resize((224, 224)), # Resize the image to 224x224 for ResNet18
+        transforms.Pad(padding=2), # Resize the image to 32x32
         transforms.Grayscale(num_output_channels=3), # Convert grayscale to RGB by replicating channels
         transforms.ToTensor(), # Transform to tensor type
-        transforms.Normalize((0.1307, 0.1307, 0.1307), (0.3081, 0.3081, 0.3081)) # Mean and STD for MNIST, replicated for 3 channels
+        transforms.Normalize((0.1307, 0.1307, 0.1307), (0.3081, 0.3081, 0.3081)) # Mean and STD for MNIST
     ])
 
     # Load the training and test datasets
@@ -22,9 +22,9 @@ def mnist_loader(batch_size):
     
     # Create data loaders
     mnist_train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
-    minst_test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=False)
+    mnist_test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=False)
 
-    return mnist_train_loader, minst_test_loader
+    return mnist_train_loader, mnist_test_loader
 
 
 # -----------------------------------------------------------------------------
@@ -33,7 +33,7 @@ def mnist_loader(batch_size):
 def svhn_loader(batch_size):
     # Resize the data and transform the data to torch.FloatTensor and normalize it
     transform = transforms.Compose([
-        transforms.Resize((224, 224)), # Resize the image to 224x224 for ResNet18
+        #transforms.Resize((224, 224)), # Resize the image to 224x224 for ResNet18
         transforms.ToTensor(), # Transorm to tensor type
         transforms.Normalize((0.4376821, 0.4437697, 0.47280442), (0.19803012, 0.20101562, 0.19703614)) # Mean and STD for SVHN
     ])

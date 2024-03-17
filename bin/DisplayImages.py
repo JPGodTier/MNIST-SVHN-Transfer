@@ -30,6 +30,8 @@ if __name__ == "__main__":
     # Get the first batch of images and labels from the train loader
     dataiter = iter(train_loader)
     images, labels = next(dataiter)
+    print(images.size())
+
 
     images_number = 50
 

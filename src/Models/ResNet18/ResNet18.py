@@ -39,6 +39,13 @@ class ResNet18(nn.Module):
         self.softmax6 = nn.Softmax(dim=1)
 
     def forward(self, x):
+        # Check if the input x has 1 channel (e.g., MNIST), and if so, convert it to 3 channels
+        if x.size(1) == 1: 
+            x = x.repeat(1, 3, 1, 1)  # Repeat the channel 3 times
+
+        # Resize the image to 224x224 for ResNet18
+        x = F.interpolate(x, size=(224, 224), mode='bilinear', align_corners=False)
+
         # First convolution block
         out = self.relu1(self.maxpool1(self.bn1(self.conv1(x))))
 

@@ -7,7 +7,7 @@ from src.Models.ResNet18.ResidualBlock import ResidualBlock
 # ResNet18
 # -----------------------------------------------------------------------------
 class ResNet18(nn.Module):
-    def __init__(self, in_channels=1, stride=2):
+    def __init__(self, in_channels=3, stride=2):
         super(ResNet18, self).__init__()
 
         # Define the first convolution block

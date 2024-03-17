@@ -31,13 +31,15 @@ if __name__ == "__main__":
     dataiter = iter(train_loader)
     images, labels = next(dataiter)
 
+    images_number = 50
+
     # Show images and print labels
-    images_5 = torchvision.utils.make_grid(images[:5])
+    images = torchvision.utils.make_grid(images[:images_number])
     if dataset == 'mnist':
-        npimg = unnormalize_mnist(images_5)
+        npimg = unnormalize_mnist(images)
     elif dataset == 'svhn':
-        npimg = unnormalize_svhn(images_5)
+        npimg = unnormalize_svhn(images)
 
     plt.imshow(npimg)
     plt.show()
-    print(' '.join('%5s' % labels[j] for j in range(5)))
+    print(' '.join('%5s' % labels[j] for j in range(images_number)))

@@ -11,8 +11,9 @@ def mnist_loader(batch_size):
     # Resize the data and transform the data to torch.FloatTensor and normalize it
     transform = transforms.Compose([
         transforms.Resize((224, 224)), # Resize the image to 224x224 for ResNet18
-        transforms.ToTensor(), # Transorm to tensor type
-        transforms.Normalize((0.1307,), (0.3081,)) # Mean and STD for MNIST
+        transforms.Grayscale(num_output_channels=3), # Convert grayscale to RGB by replicating channels
+        transforms.ToTensor(), # Transform to tensor type
+        transforms.Normalize((0.1307, 0.1307, 0.1307), (0.3081, 0.3081, 0.3081)) # Mean and STD for MNIST, replicated for 3 channels
     ])
 
     # Load the training and test datasets

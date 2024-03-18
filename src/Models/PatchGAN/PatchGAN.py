@@ -1,6 +1,4 @@
-import torch
 import torch.nn as nn
-import torch.nn.functional as F
 from src.Models.PatchGAN.PatchGANBlocks import ConvBlock
 
 

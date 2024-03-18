@@ -64,16 +64,9 @@ def unnormalize_svhn(img):
 # unnormalize_mnist
 # -----------------------------------------------------------------------------
 def unnormalize_mnist(img):
-        mean = 0.1307
-        std = 0.3081
+        mean = np.array([0.1307, 0.1307, 0.1307])
+        std = np.array([0.3081, 0.3081, 0.3081])
         img = img.numpy().transpose((1, 2, 0))  # Convert to numpy image shape (H x W x C)
         img = std * img + mean
         img = np.clip(img, 0, 1)  # Clip to ensure image range stays between 0 and 1
         return img
-
-
-# -----------------------------------------------------------------------------
-# pre-process
-# -----------------------------------------------------------------------------
-# MNIST : colorize, rotate, scaling (lumunosité, contrast, distortion)
-# SVHN : focus on 1 digit

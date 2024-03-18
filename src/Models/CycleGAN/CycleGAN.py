@@ -1,11 +1,8 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.utils.data import DataLoader
-from torchvision import datasets, transforms
-from tqdm import tqdm
-from src.Models.UNet import UNet
-from src.Models.PatchGAN import PatchGAN
+from src.Models.UNet.UNet import UNet
+from src.Models.PatchGAN.PatchGAN import PatchGAN
 
 
 class CycleGAN(nn.Module):
@@ -120,6 +117,8 @@ class CycleGAN(nn.Module):
         loss_G.backward()
         self.optimizer_G.step()
 
+        return loss_G
+
 
     # -----------------------------------------------------------------------------
     # train_discriminators
@@ -133,6 +132,8 @@ class CycleGAN(nn.Module):
         loss_D = (loss_D_S + loss_D_M) / 2
         loss_D.backward()
         self.optimizer_D.step()
+
+        return loss_D
     
 
     # -----------------------------------------------------------------------------
@@ -140,14 +141,23 @@ class CycleGAN(nn.Module):
     # -----------------------------------------------------------------------------
     def train(self, dataloader_S, dataloader_M, num_epochs):
         for epoch in range(num_epochs):
+            print(f"Epoch [{epoch+1}/{num_epochs}] starts")
+            running_loss_G = 0.0
+            running_loss_D = 0.0
+
             for real_S, real_M in zip(dataloader_S, dataloader_M):
-                real_S = real_S.to(self.device)
-                real_M = real_M.to(self.device)
+                # First element of real_S and real_M are the images of the batch
+                real_S = real_S[0].to(self.device)
+                real_M = real_M[0].to(self.device)
 
                 # Generators' forward and backward pass
-                self.train_generators(real_S, real_M)
+                running_loss_G += self.train_generators(real_S, real_M)
 
                 # Discriminators' forward and backward pass
-                self.train_discriminators(real_S, real_M)
+                running_loss_D += self.train_discriminators(real_S, real_M)
 
-            print(f"Epoch [{epoch}/{num_epochs}]")
+            # Average losses over the dataset
+            avg_loss_G = running_loss_G / len(dataloader_S)
+            avg_loss_D = running_loss_D / len(dataloader_M)
+
+            print(f"Epoch [{epoch+1}/{num_epochs}], Loss_G: {avg_loss_G:.4f}, Loss_D: {avg_loss_D:.4f}")

@@ -19,9 +19,9 @@ class CycleGAN(nn.Module):
 
         # Select device
         if torch.cuda.is_available():
-            self.device = torch.device("cuda")
+           self.device = torch.device("cuda")
         elif torch.backends.mps.is_available():
-            self.device = torch.device("mps")
+           self.device = torch.device("mps")
         else:
             self.device = torch.device("cpu")
 
@@ -144,9 +144,9 @@ class CycleGAN(nn.Module):
     
 
     # -----------------------------------------------------------------------------
-    # train
+    # train_cycle_GAN
     # -----------------------------------------------------------------------------
-    def train(self, dataloader_S, dataloader_M, num_epochs):
+    def train_cycle_GAN(self, dataloader_S, dataloader_M, num_epochs):
         for epoch in range(num_epochs):
             print(f"Epoch [{epoch+1}/{num_epochs}] starts")
             running_loss_G = 0.0

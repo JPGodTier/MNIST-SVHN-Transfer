@@ -7,11 +7,21 @@ from src.utils import mnist_loader, svhn_loader, unnormalize_mnist, unnormalize_
 
 # Define parameters
 batch_size = 100 # Batchs size of Dataloader for gradient descent
-device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+
 
 if __name__ == "__main__":
     # Load SVHN and MNIST datasets
     _, dataloader_S_test = svhn_loader(batch_size)
+
+    # Select device
+    if torch.cuda.is_available():
+        device = torch.device("cuda")
+    elif torch.backends.mps.is_available():  # This check is specific to macOS with Apple Silicon
+        device = torch.device("mps")
+    else:
+        device = torch.device("cpu")
+    print(f"Using device {device}")
+
 
     # Load G_SM model
     G_SM = UNet().to(device)  # Initialize the model structure (make sure it matches the saved model)

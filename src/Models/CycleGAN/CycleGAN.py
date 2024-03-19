@@ -17,8 +17,15 @@ class CycleGAN(nn.Module):
         self.D_S = PatchGAN()
         self.D_M = PatchGAN()
 
+        # Select device
+        if torch.cuda.is_available():
+            self.device = torch.device("cuda")
+        elif torch.backends.mps.is_available():
+            self.device = torch.device("mps")
+        else:
+            self.device = torch.device("cpu")
+
         # On device
-        self.device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
         self.G_SM.to(self.device)
         self.G_MS.to(self.device)
         self.D_S.to(self.device)
@@ -145,16 +152,32 @@ class CycleGAN(nn.Module):
             running_loss_G = 0.0
             running_loss_D = 0.0
 
+            loss_G_cumulated = 0
+            loss_D_cumulated = 0
+
+            iteration = 0
             for real_S, real_M in zip(dataloader_S, dataloader_M):
                 # First element of real_S and real_M are the images of the batch
                 real_S = real_S[0].to(self.device)
                 real_M = real_M[0].to(self.device)
 
                 # Generators' forward and backward pass
-                running_loss_G += self.train_generators(real_S, real_M)
+                loss_G = self.train_generators(real_S, real_M)
+                loss_G_cumulated += loss_G
+                running_loss_G += loss_G
+
 
                 # Discriminators' forward and backward pass
-                running_loss_D += self.train_discriminators(real_S, real_M)
+                loss_D = self.train_discriminators(real_S, real_M)
+                loss_D_cumulated += loss_D
+                running_loss_D += loss_D
+
+                iteration += 1
+                if iteration % 50 == 0:
+                    print(f"Iteration {iteration}: Loss_G: {loss_G_cumulated/50:.4f}, Loss_D: {loss_D_cumulated/50:.4f}")
+                    loss_G_cumulated = 0
+                    loss_D_cumulated = 0
+
 
             # Average losses over the dataset
             avg_loss_G = running_loss_G / len(dataloader_S)

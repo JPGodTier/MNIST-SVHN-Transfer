@@ -1,6 +1,7 @@
 import torch.nn as nn
 
 
+
 # -----------------------------------------------------------------------------
 # ConvBlock
 # -----------------------------------------------------------------------------
@@ -10,7 +11,8 @@ class ConvBlock(nn.Module):
         layers = [
             nn.Conv2d(in_channels, out_channels, kernel_size=kernel_size, stride=stride, padding=padding)
         ]
-        
+        nn.init.normal_(layers[0].weight, mean=0.0, std=0.02)
+
         if use_instancenorm:
             layers.append(nn.InstanceNorm2d(out_channels))
         

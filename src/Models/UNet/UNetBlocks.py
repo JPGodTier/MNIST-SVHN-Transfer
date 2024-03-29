@@ -18,6 +18,11 @@ class DoubleConv(nn.Module):
             nn.ReLU(inplace=True)
         )
 
+        # Initialize weights for Conv2d layers
+        for layer in self.double_conv:
+            if isinstance(layer, nn.Conv2d):
+                torch.nn.init.normal_(layer.weight, mean=0.0, std=0.02)
+
     def forward(self, x):
         return self.double_conv(x)
 
@@ -48,6 +53,8 @@ class Up(nn.Module):
             self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)
         else:
             self.up = nn.ConvTranspose2d(in_channels // 2, in_channels // 2, kernel_size=2, stride=2)
+            torch.nn.init.normal_(self.up.weight, mean=0.0, std=0.02)  # Initialize weight for ConvTranspose2d
+
         
         self.conv = DoubleConv(in_channels, out_channels)
         
@@ -64,6 +71,9 @@ class OutConv(nn.Module):
     def __init__(self, in_channels, out_channels):
         super(OutConv, self).__init__()
         self.conv = nn.Conv2d(in_channels, out_channels, kernel_size=1)
+        
+        # Initialize weights for Conv2d layer
+        torch.nn.init.normal_(self.conv.weight, mean=0.0, std=0.02)
 
     def forward(self, x):
         return self.conv(x)

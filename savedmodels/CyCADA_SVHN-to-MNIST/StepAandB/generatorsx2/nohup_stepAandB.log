@@ -1,0 +1,1809 @@
+nohup: ignoring input
+/home/infres/olapabe-23/MNIST-SVHN-Transfer/src/solvers/CyCADASolver.py:454: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  for i in range(10):
+Using device cuda
+Using downloaded and verified file: ./data/SVHN/raw/train/train_32x32.mat
+Using downloaded and verified file: ./data/SVHN/raw/test/test_32x32.mat
+Train Step A - Iteration 0: 	Loss: 0.0461
+Train Step A - Iteration 50: 	Loss: 2.2475
+Train Step A - Iteration 100: 	Loss: 2.2116
+Train Step A - Iteration 150: 	Loss: 2.1409
+Train Step A - Iteration 200: 	Loss: 1.9347
+Train Step A - Iteration 250: 	Loss: 1.6644
+Train Step A - Iteration 300: 	Loss: 1.4233
+Train Step A - Iteration 350: 	Loss: 1.2609
+Train Step A - Iteration 400: 	Loss: 1.1326
+Train Step A - Iteration 450: 	Loss: 1.0572
+Train Step A - Iteration 500: 	Loss: 1.0311
+Train Step A - Iteration 550: 	Loss: 0.9608
+Train Step A - Epoch [1]: 	Loss: 1.5274
+Test Step A - Epoch [1]: 	Accuracy: 78.72%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0169
+Train Step A - Iteration 50: 	Loss: 0.8705
+Train Step A - Iteration 100: 	Loss: 0.8726
+Train Step A - Iteration 150: 	Loss: 0.8088
+Train Step A - Iteration 200: 	Loss: 0.8009
+Train Step A - Iteration 250: 	Loss: 0.7688
+Train Step A - Iteration 300: 	Loss: 0.7382
+Train Step A - Iteration 350: 	Loss: 0.7460
+Train Step A - Iteration 400: 	Loss: 0.7307
+Train Step A - Iteration 450: 	Loss: 0.6878
+Train Step A - Iteration 500: 	Loss: 0.6867
+Train Step A - Iteration 550: 	Loss: 0.7201
+Train Step A - Epoch [2]: 	Loss: 0.7628
+Test Step A - Epoch [2]: 	Accuracy: 83.32%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0174
+Train Step A - Iteration 50: 	Loss: 0.6775
+Train Step A - Iteration 100: 	Loss: 0.6406
+Train Step A - Iteration 150: 	Loss: 0.6604
+Train Step A - Iteration 200: 	Loss: 0.6476
+Train Step A - Iteration 250: 	Loss: 0.6603
+Train Step A - Iteration 300: 	Loss: 0.6176
+Train Step A - Iteration 350: 	Loss: 0.6132
+Train Step A - Iteration 400: 	Loss: 0.5991
+Train Step A - Iteration 450: 	Loss: 0.5953
+Train Step A - Iteration 500: 	Loss: 0.6048
+Train Step A - Iteration 550: 	Loss: 0.6257
+Train Step A - Epoch [3]: 	Loss: 0.6293
+Test Step A - Epoch [3]: 	Accuracy: 84.75%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0111
+Train Step A - Iteration 50: 	Loss: 0.5827
+Train Step A - Iteration 100: 	Loss: 0.5839
+Train Step A - Iteration 150: 	Loss: 0.5531
+Train Step A - Iteration 200: 	Loss: 0.5635
+Train Step A - Iteration 250: 	Loss: 0.5716
+Train Step A - Iteration 300: 	Loss: 0.5780
+Train Step A - Iteration 350: 	Loss: 0.5688
+Train Step A - Iteration 400: 	Loss: 0.5583
+Train Step A - Iteration 450: 	Loss: 0.5433
+Train Step A - Iteration 500: 	Loss: 0.5247
+Train Step A - Iteration 550: 	Loss: 0.5372
+Train Step A - Epoch [4]: 	Loss: 0.5605
+Test Step A - Epoch [4]: 	Accuracy: 85.74%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0088
+Train Step A - Iteration 50: 	Loss: 0.5353
+Train Step A - Iteration 100: 	Loss: 0.5238
+Train Step A - Iteration 150: 	Loss: 0.5235
+Train Step A - Iteration 200: 	Loss: 0.5135
+Train Step A - Iteration 250: 	Loss: 0.5269
+Train Step A - Iteration 300: 	Loss: 0.5272
+Train Step A - Iteration 350: 	Loss: 0.4979
+Train Step A - Iteration 400: 	Loss: 0.5107
+Train Step A - Iteration 450: 	Loss: 0.5147
+Train Step A - Iteration 500: 	Loss: 0.4962
+Train Step A - Iteration 550: 	Loss: 0.4863
+Train Step A - Epoch [5]: 	Loss: 0.5137
+Test Step A - Epoch [5]: 	Accuracy: 86.73%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0088
+Train Step A - Iteration 50: 	Loss: 0.5011
+Train Step A - Iteration 100: 	Loss: 0.4867
+Train Step A - Iteration 150: 	Loss: 0.4798
+Train Step A - Iteration 200: 	Loss: 0.4713
+Train Step A - Iteration 250: 	Loss: 0.4597
+Train Step A - Iteration 300: 	Loss: 0.4958
+Train Step A - Iteration 350: 	Loss: 0.4719
+Train Step A - Iteration 400: 	Loss: 0.4773
+Train Step A - Iteration 450: 	Loss: 0.4780
+Train Step A - Iteration 500: 	Loss: 0.4795
+Train Step A - Iteration 550: 	Loss: 0.4639
+Train Step A - Epoch [6]: 	Loss: 0.4789
+Test Step A - Epoch [6]: 	Accuracy: 87.25%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0116
+Train Step A - Iteration 50: 	Loss: 0.4574
+Train Step A - Iteration 100: 	Loss: 0.4625
+Train Step A - Iteration 150: 	Loss: 0.4394
+Train Step A - Iteration 200: 	Loss: 0.4527
+Train Step A - Iteration 250: 	Loss: 0.4326
+Train Step A - Iteration 300: 	Loss: 0.4505
+Train Step A - Iteration 350: 	Loss: 0.4700
+Train Step A - Iteration 400: 	Loss: 0.4572
+Train Step A - Iteration 450: 	Loss: 0.4337
+Train Step A - Iteration 500: 	Loss: 0.4504
+Train Step A - Iteration 550: 	Loss: 0.4546
+Train Step A - Epoch [7]: 	Loss: 0.4521
+Test Step A - Epoch [7]: 	Accuracy: 87.39%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0115
+Train Step A - Iteration 50: 	Loss: 0.4362
+Train Step A - Iteration 100: 	Loss: 0.4369
+Train Step A - Iteration 150: 	Loss: 0.4271
+Train Step A - Iteration 200: 	Loss: 0.4526
+Train Step A - Iteration 250: 	Loss: 0.4344
+Train Step A - Iteration 300: 	Loss: 0.4249
+Train Step A - Iteration 350: 	Loss: 0.4214
+Train Step A - Iteration 400: 	Loss: 0.4393
+Train Step A - Iteration 450: 	Loss: 0.4014
+Train Step A - Iteration 500: 	Loss: 0.4302
+Train Step A - Iteration 550: 	Loss: 0.4419
+Train Step A - Epoch [8]: 	Loss: 0.4311
+Test Step A - Epoch [8]: 	Accuracy: 88.23%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0071
+Train Step A - Iteration 50: 	Loss: 0.4042
+Train Step A - Iteration 100: 	Loss: 0.4188
+Train Step A - Iteration 150: 	Loss: 0.4118
+Train Step A - Iteration 200: 	Loss: 0.4008
+Train Step A - Iteration 250: 	Loss: 0.4205
+Train Step A - Iteration 300: 	Loss: 0.4174
+Train Step A - Iteration 350: 	Loss: 0.4119
+Train Step A - Iteration 400: 	Loss: 0.4249
+Train Step A - Iteration 450: 	Loss: 0.4111
+Train Step A - Iteration 500: 	Loss: 0.4117
+Train Step A - Iteration 550: 	Loss: 0.4048
+Train Step A - Epoch [9]: 	Loss: 0.4110
+Test Step A - Epoch [9]: 	Accuracy: 88.78%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0099
+Train Step A - Iteration 50: 	Loss: 0.4086
+Train Step A - Iteration 100: 	Loss: 0.3969
+Train Step A - Iteration 150: 	Loss: 0.4028
+Train Step A - Iteration 200: 	Loss: 0.4087
+Train Step A - Iteration 250: 	Loss: 0.4188
+Train Step A - Iteration 300: 	Loss: 0.3955
+Train Step A - Iteration 350: 	Loss: 0.4076
+Train Step A - Iteration 400: 	Loss: 0.4103
+Train Step A - Iteration 450: 	Loss: 0.3670
+Train Step A - Iteration 500: 	Loss: 0.3931
+Train Step A - Iteration 550: 	Loss: 0.3789
+Train Step A - Epoch [10]: 	Loss: 0.3988
+Test Step A - Epoch [10]: 	Accuracy: 88.99%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0093
+Train Step A - Iteration 50: 	Loss: 0.3767
+Train Step A - Iteration 100: 	Loss: 0.3812
+Train Step A - Iteration 150: 	Loss: 0.3883
+Train Step A - Iteration 200: 	Loss: 0.4094
+Train Step A - Iteration 250: 	Loss: 0.3899
+Train Step A - Iteration 300: 	Loss: 0.3732
+Train Step A - Iteration 350: 	Loss: 0.3808
+Train Step A - Iteration 400: 	Loss: 0.3908
+Train Step A - Iteration 450: 	Loss: 0.3679
+Train Step A - Iteration 500: 	Loss: 0.3754
+Train Step A - Iteration 550: 	Loss: 0.3724
+Train Step A - Epoch [11]: 	Loss: 0.3828
+Test Step A - Epoch [11]: 	Accuracy: 89.44%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0090
+Train Step A - Iteration 50: 	Loss: 0.3903
+Train Step A - Iteration 100: 	Loss: 0.3810
+Train Step A - Iteration 150: 	Loss: 0.3674
+Train Step A - Iteration 200: 	Loss: 0.3650
+Train Step A - Iteration 250: 	Loss: 0.3821
+Train Step A - Iteration 300: 	Loss: 0.3737
+Train Step A - Iteration 350: 	Loss: 0.3743
+Train Step A - Iteration 400: 	Loss: 0.3706
+Train Step A - Iteration 450: 	Loss: 0.3572
+Train Step A - Iteration 500: 	Loss: 0.3563
+Train Step A - Iteration 550: 	Loss: 0.3623
+Train Step A - Epoch [12]: 	Loss: 0.3689
+Test Step A - Epoch [12]: 	Accuracy: 89.54%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0086
+Train Step A - Iteration 50: 	Loss: 0.3556
+Train Step A - Iteration 100: 	Loss: 0.3818
+Train Step A - Iteration 150: 	Loss: 0.3409
+Train Step A - Iteration 200: 	Loss: 0.3470
+Train Step A - Iteration 250: 	Loss: 0.3522
+Train Step A - Iteration 300: 	Loss: 0.3695
+Train Step A - Iteration 350: 	Loss: 0.3781
+Train Step A - Iteration 400: 	Loss: 0.3463
+Train Step A - Iteration 450: 	Loss: 0.3687
+Train Step A - Iteration 500: 	Loss: 0.3485
+Train Step A - Iteration 550: 	Loss: 0.3469
+Train Step A - Epoch [13]: 	Loss: 0.3585
+Test Step A - Epoch [13]: 	Accuracy: 89.77%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0070
+Train Step A - Iteration 50: 	Loss: 0.3323
+Train Step A - Iteration 100: 	Loss: 0.3515
+Train Step A - Iteration 150: 	Loss: 0.3488
+Train Step A - Iteration 200: 	Loss: 0.3590
+Train Step A - Iteration 250: 	Loss: 0.3401
+Train Step A - Iteration 300: 	Loss: 0.3557
+Train Step A - Iteration 350: 	Loss: 0.3610
+Train Step A - Iteration 400: 	Loss: 0.3574
+Train Step A - Iteration 450: 	Loss: 0.3530
+Train Step A - Iteration 500: 	Loss: 0.3260
+Train Step A - Iteration 550: 	Loss: 0.3585
+Train Step A - Epoch [14]: 	Loss: 0.3504
+Test Step A - Epoch [14]: 	Accuracy: 90.04%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0026
+Train Step A - Iteration 50: 	Loss: 0.3412
+Train Step A - Iteration 100: 	Loss: 0.3600
+Train Step A - Iteration 150: 	Loss: 0.3362
+Train Step A - Iteration 200: 	Loss: 0.3415
+Train Step A - Iteration 250: 	Loss: 0.3241
+Train Step A - Iteration 300: 	Loss: 0.3545
+Train Step A - Iteration 350: 	Loss: 0.3130
+Train Step A - Iteration 400: 	Loss: 0.3359
+Train Step A - Iteration 450: 	Loss: 0.3470
+Train Step A - Iteration 500: 	Loss: 0.3496
+Train Step A - Iteration 550: 	Loss: 0.3440
+Train Step A - Epoch [15]: 	Loss: 0.3398
+Test Step A - Epoch [15]: 	Accuracy: 90.23%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0090
+Train Step A - Iteration 50: 	Loss: 0.3218
+Train Step A - Iteration 100: 	Loss: 0.3536
+Train Step A - Iteration 150: 	Loss: 0.3272
+Train Step A - Iteration 200: 	Loss: 0.3134
+Train Step A - Iteration 250: 	Loss: 0.3217
+Train Step A - Iteration 300: 	Loss: 0.3347
+Train Step A - Iteration 350: 	Loss: 0.3360
+Train Step A - Iteration 400: 	Loss: 0.3482
+Train Step A - Iteration 450: 	Loss: 0.3316
+Train Step A - Iteration 500: 	Loss: 0.3375
+Train Step A - Iteration 550: 	Loss: 0.3343
+Train Step A - Epoch [16]: 	Loss: 0.3322
+Test Step A - Epoch [16]: 	Accuracy: 90.30%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0050
+Train Step A - Iteration 50: 	Loss: 0.3276
+Train Step A - Iteration 100: 	Loss: 0.3276
+Train Step A - Iteration 150: 	Loss: 0.3198
+Train Step A - Iteration 200: 	Loss: 0.3326
+Train Step A - Iteration 250: 	Loss: 0.3098
+Train Step A - Iteration 300: 	Loss: 0.3421
+Train Step A - Iteration 350: 	Loss: 0.3114
+Train Step A - Iteration 400: 	Loss: 0.3209
+Train Step A - Iteration 450: 	Loss: 0.3268
+Train Step A - Iteration 500: 	Loss: 0.3120
+Train Step A - Iteration 550: 	Loss: 0.3221
+Train Step A - Epoch [17]: 	Loss: 0.3240
+Test Step A - Epoch [17]: 	Accuracy: 90.44%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0052
+Train Step A - Iteration 50: 	Loss: 0.3124
+Train Step A - Iteration 100: 	Loss: 0.3083
+Train Step A - Iteration 150: 	Loss: 0.3085
+Train Step A - Iteration 200: 	Loss: 0.3314
+Train Step A - Iteration 250: 	Loss: 0.3218
+Train Step A - Iteration 300: 	Loss: 0.3144
+Train Step A - Iteration 350: 	Loss: 0.3154
+Train Step A - Iteration 400: 	Loss: 0.3170
+Train Step A - Iteration 450: 	Loss: 0.3047
+Train Step A - Iteration 500: 	Loss: 0.3100
+Train Step A - Iteration 550: 	Loss: 0.3286
+Train Step A - Epoch [18]: 	Loss: 0.3153
+Test Step A - Epoch [18]: 	Accuracy: 90.64%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0053
+Train Step A - Iteration 50: 	Loss: 0.2935
+Train Step A - Iteration 100: 	Loss: 0.3105
+Train Step A - Iteration 150: 	Loss: 0.3345
+Train Step A - Iteration 200: 	Loss: 0.3050
+Train Step A - Iteration 250: 	Loss: 0.3053
+Train Step A - Iteration 300: 	Loss: 0.3087
+Train Step A - Iteration 350: 	Loss: 0.3166
+Train Step A - Iteration 400: 	Loss: 0.3174
+Train Step A - Iteration 450: 	Loss: 0.2908
+Train Step A - Iteration 500: 	Loss: 0.2872
+Train Step A - Iteration 550: 	Loss: 0.3079
+Train Step A - Epoch [19]: 	Loss: 0.3082
+Test Step A - Epoch [19]: 	Accuracy: 90.93%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0047
+Train Step A - Iteration 50: 	Loss: 0.2835
+Train Step A - Iteration 100: 	Loss: 0.2901
+Train Step A - Iteration 150: 	Loss: 0.3034
+Train Step A - Iteration 200: 	Loss: 0.3182
+Train Step A - Iteration 250: 	Loss: 0.2909
+Train Step A - Iteration 300: 	Loss: 0.2878
+Train Step A - Iteration 350: 	Loss: 0.3118
+Train Step A - Iteration 400: 	Loss: 0.3178
+Train Step A - Iteration 450: 	Loss: 0.3162
+Train Step A - Iteration 500: 	Loss: 0.3179
+Train Step A - Iteration 550: 	Loss: 0.3034
+Train Step A - Epoch [20]: 	Loss: 0.3031
+Test Step A - Epoch [20]: 	Accuracy: 91.08%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0084
+Train Step A - Iteration 50: 	Loss: 0.2965
+Train Step A - Iteration 100: 	Loss: 0.2817
+Train Step A - Iteration 150: 	Loss: 0.3120
+Train Step A - Iteration 200: 	Loss: 0.3068
+Train Step A - Iteration 250: 	Loss: 0.2930
+Train Step A - Iteration 300: 	Loss: 0.2813
+Train Step A - Iteration 350: 	Loss: 0.2957
+Train Step A - Iteration 400: 	Loss: 0.3023
+Train Step A - Iteration 450: 	Loss: 0.2998
+Train Step A - Iteration 500: 	Loss: 0.2866
+Train Step A - Iteration 550: 	Loss: 0.2896
+Train Step A - Epoch [21]: 	Loss: 0.2955
+Test Step A - Epoch [21]: 	Accuracy: 91.32%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0039
+Train Step A - Iteration 50: 	Loss: 0.2902
+Train Step A - Iteration 100: 	Loss: 0.2922
+Train Step A - Iteration 150: 	Loss: 0.2917
+Train Step A - Iteration 200: 	Loss: 0.2983
+Train Step A - Iteration 250: 	Loss: 0.3017
+Train Step A - Iteration 300: 	Loss: 0.2824
+Train Step A - Iteration 350: 	Loss: 0.2824
+Train Step A - Iteration 400: 	Loss: 0.2820
+Train Step A - Iteration 450: 	Loss: 0.2895
+Train Step A - Iteration 500: 	Loss: 0.2975
+Train Step A - Iteration 550: 	Loss: 0.2759
+Train Step A - Epoch [22]: 	Loss: 0.2894
+Test Step A - Epoch [22]: 	Accuracy: 91.28%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0081
+Train Step A - Iteration 50: 	Loss: 0.2951
+Train Step A - Iteration 100: 	Loss: 0.2562
+Train Step A - Iteration 150: 	Loss: 0.2672
+Train Step A - Iteration 200: 	Loss: 0.3070
+Train Step A - Iteration 250: 	Loss: 0.2779
+Train Step A - Iteration 300: 	Loss: 0.2780
+Train Step A - Iteration 350: 	Loss: 0.2819
+Train Step A - Iteration 400: 	Loss: 0.2775
+Train Step A - Iteration 450: 	Loss: 0.2798
+Train Step A - Iteration 500: 	Loss: 0.2733
+Train Step A - Iteration 550: 	Loss: 0.3038
+Train Step A - Epoch [23]: 	Loss: 0.2819
+Test Step A - Epoch [23]: 	Accuracy: 91.65%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0032
+Train Step A - Iteration 50: 	Loss: 0.2714
+Train Step A - Iteration 100: 	Loss: 0.2821
+Train Step A - Iteration 150: 	Loss: 0.2696
+Train Step A - Iteration 200: 	Loss: 0.2606
+Train Step A - Iteration 250: 	Loss: 0.2761
+Train Step A - Iteration 300: 	Loss: 0.2786
+Train Step A - Iteration 350: 	Loss: 0.2603
+Train Step A - Iteration 400: 	Loss: 0.2879
+Train Step A - Iteration 450: 	Loss: 0.2938
+Train Step A - Iteration 500: 	Loss: 0.2789
+Train Step A - Iteration 550: 	Loss: 0.2864
+Train Step A - Epoch [24]: 	Loss: 0.2778
+Test Step A - Epoch [24]: 	Accuracy: 91.57%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0062
+Train Step A - Iteration 50: 	Loss: 0.2705
+Train Step A - Iteration 100: 	Loss: 0.2789
+Train Step A - Iteration 150: 	Loss: 0.2734
+Train Step A - Iteration 200: 	Loss: 0.2696
+Train Step A - Iteration 250: 	Loss: 0.2654
+Train Step A - Iteration 300: 	Loss: 0.2736
+Train Step A - Iteration 350: 	Loss: 0.2831
+Train Step A - Iteration 400: 	Loss: 0.2654
+Train Step A - Iteration 450: 	Loss: 0.2812
+Train Step A - Iteration 500: 	Loss: 0.2817
+Train Step A - Iteration 550: 	Loss: 0.2836
+Train Step A - Epoch [25]: 	Loss: 0.2747
+Test Step A - Epoch [25]: 	Accuracy: 91.46%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0045
+Train Step A - Iteration 50: 	Loss: 0.2592
+Train Step A - Iteration 100: 	Loss: 0.2622
+Train Step A - Iteration 150: 	Loss: 0.2601
+Train Step A - Iteration 200: 	Loss: 0.2773
+Train Step A - Iteration 250: 	Loss: 0.2709
+Train Step A - Iteration 300: 	Loss: 0.2699
+Train Step A - Iteration 350: 	Loss: 0.2732
+Train Step A - Iteration 400: 	Loss: 0.2633
+Train Step A - Iteration 450: 	Loss: 0.2586
+Train Step A - Iteration 500: 	Loss: 0.2883
+Train Step A - Iteration 550: 	Loss: 0.2719
+Train Step A - Epoch [26]: 	Loss: 0.2674
+Test Step A - Epoch [26]: 	Accuracy: 91.77%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0043
+Train Step A - Iteration 50: 	Loss: 0.2469
+Train Step A - Iteration 100: 	Loss: 0.2570
+Train Step A - Iteration 150: 	Loss: 0.2456
+Train Step A - Iteration 200: 	Loss: 0.2657
+Train Step A - Iteration 250: 	Loss: 0.2585
+Train Step A - Iteration 300: 	Loss: 0.2725
+Train Step A - Iteration 350: 	Loss: 0.2641
+Train Step A - Iteration 400: 	Loss: 0.2683
+Train Step A - Iteration 450: 	Loss: 0.2448
+Train Step A - Iteration 500: 	Loss: 0.2542
+Train Step A - Iteration 550: 	Loss: 0.2680
+Train Step A - Epoch [27]: 	Loss: 0.2598
+Test Step A - Epoch [27]: 	Accuracy: 91.72%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0042
+Train Step A - Iteration 50: 	Loss: 0.2454
+Train Step A - Iteration 100: 	Loss: 0.2488
+Train Step A - Iteration 150: 	Loss: 0.2433
+Train Step A - Iteration 200: 	Loss: 0.2666
+Train Step A - Iteration 250: 	Loss: 0.2659
+Train Step A - Iteration 300: 	Loss: 0.2549
+Train Step A - Iteration 350: 	Loss: 0.2639
+Train Step A - Iteration 400: 	Loss: 0.2587
+Train Step A - Iteration 450: 	Loss: 0.2628
+Train Step A - Iteration 500: 	Loss: 0.2687
+Train Step A - Iteration 550: 	Loss: 0.2561
+Train Step A - Epoch [28]: 	Loss: 0.2578
+Test Step A - Epoch [28]: 	Accuracy: 91.91%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0051
+Train Step A - Iteration 50: 	Loss: 0.2559
+Train Step A - Iteration 100: 	Loss: 0.2494
+Train Step A - Iteration 150: 	Loss: 0.2173
+Train Step A - Iteration 200: 	Loss: 0.2629
+Train Step A - Iteration 250: 	Loss: 0.2405
+Train Step A - Iteration 300: 	Loss: 0.2745
+Train Step A - Iteration 350: 	Loss: 0.2513
+Train Step A - Iteration 400: 	Loss: 0.2635
+Train Step A - Iteration 450: 	Loss: 0.2463
+Train Step A - Iteration 500: 	Loss: 0.2570
+Train Step A - Iteration 550: 	Loss: 0.2516
+Train Step A - Epoch [29]: 	Loss: 0.2521
+Test Step A - Epoch [29]: 	Accuracy: 92.00%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0061
+Train Step A - Iteration 50: 	Loss: 0.2318
+Train Step A - Iteration 100: 	Loss: 0.2386
+Train Step A - Iteration 150: 	Loss: 0.2632
+Train Step A - Iteration 200: 	Loss: 0.2418
+Train Step A - Iteration 250: 	Loss: 0.2396
+Train Step A - Iteration 300: 	Loss: 0.2566
+Train Step A - Iteration 350: 	Loss: 0.2478
+Train Step A - Iteration 400: 	Loss: 0.2440
+Train Step A - Iteration 450: 	Loss: 0.2638
+Train Step A - Iteration 500: 	Loss: 0.2507
+Train Step A - Iteration 550: 	Loss: 0.2522
+Train Step A - Epoch [30]: 	Loss: 0.2488
+Test Step A - Epoch [30]: 	Accuracy: 92.01%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0051
+Train Step A - Iteration 50: 	Loss: 0.2288
+Train Step A - Iteration 100: 	Loss: 0.2323
+Train Step A - Iteration 150: 	Loss: 0.2533
+Train Step A - Iteration 200: 	Loss: 0.2332
+Train Step A - Iteration 250: 	Loss: 0.2304
+Train Step A - Iteration 300: 	Loss: 0.2376
+Train Step A - Iteration 350: 	Loss: 0.2545
+Train Step A - Iteration 400: 	Loss: 0.2533
+Train Step A - Iteration 450: 	Loss: 0.2301
+Train Step A - Iteration 500: 	Loss: 0.2488
+Train Step A - Iteration 550: 	Loss: 0.2450
+Train Step A - Epoch [31]: 	Loss: 0.2413
+Test Step A - Epoch [31]: 	Accuracy: 91.99%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0039
+Train Step A - Iteration 50: 	Loss: 0.2333
+Train Step A - Iteration 100: 	Loss: 0.2357
+Train Step A - Iteration 150: 	Loss: 0.2525
+Train Step A - Iteration 200: 	Loss: 0.2436
+Train Step A - Iteration 250: 	Loss: 0.2395
+Train Step A - Iteration 300: 	Loss: 0.2330
+Train Step A - Iteration 350: 	Loss: 0.2358
+Train Step A - Iteration 400: 	Loss: 0.2378
+Train Step A - Iteration 450: 	Loss: 0.2307
+Train Step A - Iteration 500: 	Loss: 0.2409
+Train Step A - Iteration 550: 	Loss: 0.2399
+Train Step A - Epoch [32]: 	Loss: 0.2387
+Test Step A - Epoch [32]: 	Accuracy: 92.31%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0054
+Train Step A - Iteration 50: 	Loss: 0.2401
+Train Step A - Iteration 100: 	Loss: 0.2228
+Train Step A - Iteration 150: 	Loss: 0.2382
+Train Step A - Iteration 200: 	Loss: 0.2221
+Train Step A - Iteration 250: 	Loss: 0.2242
+Train Step A - Iteration 300: 	Loss: 0.2404
+Train Step A - Iteration 350: 	Loss: 0.2435
+Train Step A - Iteration 400: 	Loss: 0.2330
+Train Step A - Iteration 450: 	Loss: 0.2309
+Train Step A - Iteration 500: 	Loss: 0.2436
+Train Step A - Iteration 550: 	Loss: 0.2267
+Train Step A - Epoch [33]: 	Loss: 0.2336
+Test Step A - Epoch [33]: 	Accuracy: 92.19%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0028
+Train Step A - Iteration 50: 	Loss: 0.2266
+Train Step A - Iteration 100: 	Loss: 0.2426
+Train Step A - Iteration 150: 	Loss: 0.2393
+Train Step A - Iteration 200: 	Loss: 0.2418
+Train Step A - Iteration 250: 	Loss: 0.2303
+Train Step A - Iteration 300: 	Loss: 0.2193
+Train Step A - Iteration 350: 	Loss: 0.2365
+Train Step A - Iteration 400: 	Loss: 0.2279
+Train Step A - Iteration 450: 	Loss: 0.2377
+Train Step A - Iteration 500: 	Loss: 0.2341
+Train Step A - Iteration 550: 	Loss: 0.2383
+Train Step A - Epoch [34]: 	Loss: 0.2337
+Test Step A - Epoch [34]: 	Accuracy: 92.04%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0054
+Train Step A - Iteration 50: 	Loss: 0.2253
+Train Step A - Iteration 100: 	Loss: 0.2231
+Train Step A - Iteration 150: 	Loss: 0.2210
+Train Step A - Iteration 200: 	Loss: 0.2342
+Train Step A - Iteration 250: 	Loss: 0.2340
+Train Step A - Iteration 300: 	Loss: 0.2464
+Train Step A - Iteration 350: 	Loss: 0.2300
+Train Step A - Iteration 400: 	Loss: 0.2239
+Train Step A - Iteration 450: 	Loss: 0.2307
+Train Step A - Iteration 500: 	Loss: 0.2283
+Train Step A - Iteration 550: 	Loss: 0.2196
+Train Step A - Epoch [35]: 	Loss: 0.2301
+Test Step A - Epoch [35]: 	Accuracy: 92.21%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0042
+Train Step A - Iteration 50: 	Loss: 0.2272
+Train Step A - Iteration 100: 	Loss: 0.2211
+Train Step A - Iteration 150: 	Loss: 0.2221
+Train Step A - Iteration 200: 	Loss: 0.2295
+Train Step A - Iteration 250: 	Loss: 0.2234
+Train Step A - Iteration 300: 	Loss: 0.2225
+Train Step A - Iteration 350: 	Loss: 0.2109
+Train Step A - Iteration 400: 	Loss: 0.2215
+Train Step A - Iteration 450: 	Loss: 0.2437
+Train Step A - Iteration 500: 	Loss: 0.2286
+Train Step A - Iteration 550: 	Loss: 0.2284
+Train Step A - Epoch [36]: 	Loss: 0.2258
+Test Step A - Epoch [36]: 	Accuracy: 92.41%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0032
+Train Step A - Iteration 50: 	Loss: 0.2169
+Train Step A - Iteration 100: 	Loss: 0.2153
+Train Step A - Iteration 150: 	Loss: 0.2149
+Train Step A - Iteration 200: 	Loss: 0.2226
+Train Step A - Iteration 250: 	Loss: 0.2212
+Train Step A - Iteration 300: 	Loss: 0.2298
+Train Step A - Iteration 350: 	Loss: 0.2102
+Train Step A - Iteration 400: 	Loss: 0.2333
+Train Step A - Iteration 450: 	Loss: 0.2099
+Train Step A - Iteration 500: 	Loss: 0.2192
+Train Step A - Iteration 550: 	Loss: 0.2163
+Train Step A - Epoch [37]: 	Loss: 0.2183
+Test Step A - Epoch [37]: 	Accuracy: 92.41%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0020
+Train Step A - Iteration 50: 	Loss: 0.2061
+Train Step A - Iteration 100: 	Loss: 0.2227
+Train Step A - Iteration 150: 	Loss: 0.2260
+Train Step A - Iteration 200: 	Loss: 0.2119
+Train Step A - Iteration 250: 	Loss: 0.2147
+Train Step A - Iteration 300: 	Loss: 0.2142
+Train Step A - Iteration 350: 	Loss: 0.2192
+Train Step A - Iteration 400: 	Loss: 0.2109
+Train Step A - Iteration 450: 	Loss: 0.2220
+Train Step A - Iteration 500: 	Loss: 0.2346
+Train Step A - Iteration 550: 	Loss: 0.2196
+Train Step A - Epoch [38]: 	Loss: 0.2166
+Test Step A - Epoch [38]: 	Accuracy: 92.30%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0078
+Train Step A - Iteration 50: 	Loss: 0.2115
+Train Step A - Iteration 100: 	Loss: 0.2363
+Train Step A - Iteration 150: 	Loss: 0.2250
+Train Step A - Iteration 200: 	Loss: 0.2108
+Train Step A - Iteration 250: 	Loss: 0.2152
+Train Step A - Iteration 300: 	Loss: 0.2129
+Train Step A - Iteration 350: 	Loss: 0.2214
+Train Step A - Iteration 400: 	Loss: 0.2077
+Train Step A - Iteration 450: 	Loss: 0.2149
+Train Step A - Iteration 500: 	Loss: 0.2155
+Train Step A - Iteration 550: 	Loss: 0.1962
+Train Step A - Epoch [39]: 	Loss: 0.2141
+Test Step A - Epoch [39]: 	Accuracy: 92.52%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0068
+Train Step A - Iteration 50: 	Loss: 0.2101
+Train Step A - Iteration 100: 	Loss: 0.1967
+Train Step A - Iteration 150: 	Loss: 0.2039
+Train Step A - Iteration 200: 	Loss: 0.1952
+Train Step A - Iteration 250: 	Loss: 0.2030
+Train Step A - Iteration 300: 	Loss: 0.2071
+Train Step A - Iteration 350: 	Loss: 0.2193
+Train Step A - Iteration 400: 	Loss: 0.2144
+Train Step A - Iteration 450: 	Loss: 0.2048
+Train Step A - Iteration 500: 	Loss: 0.2361
+Train Step A - Iteration 550: 	Loss: 0.2122
+Train Step A - Epoch [40]: 	Loss: 0.2100
+Test Step A - Epoch [40]: 	Accuracy: 92.61%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0026
+Train Step A - Iteration 50: 	Loss: 0.2001
+Train Step A - Iteration 100: 	Loss: 0.1967
+Train Step A - Iteration 150: 	Loss: 0.2194
+Train Step A - Iteration 200: 	Loss: 0.2160
+Train Step A - Iteration 250: 	Loss: 0.1986
+Train Step A - Iteration 300: 	Loss: 0.2107
+Train Step A - Iteration 350: 	Loss: 0.2109
+Train Step A - Iteration 400: 	Loss: 0.2021
+Train Step A - Iteration 450: 	Loss: 0.2040
+Train Step A - Iteration 500: 	Loss: 0.2153
+Train Step A - Iteration 550: 	Loss: 0.2168
+Train Step A - Epoch [41]: 	Loss: 0.2072
+Test Step A - Epoch [41]: 	Accuracy: 92.47%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0017
+Train Step A - Iteration 50: 	Loss: 0.1929
+Train Step A - Iteration 100: 	Loss: 0.1901
+Train Step A - Iteration 150: 	Loss: 0.1936
+Train Step A - Iteration 200: 	Loss: 0.2135
+Train Step A - Iteration 250: 	Loss: 0.1987
+Train Step A - Iteration 300: 	Loss: 0.2004
+Train Step A - Iteration 350: 	Loss: 0.1949
+Train Step A - Iteration 400: 	Loss: 0.2158
+Train Step A - Iteration 450: 	Loss: 0.2058
+Train Step A - Iteration 500: 	Loss: 0.2037
+Train Step A - Iteration 550: 	Loss: 0.2060
+Train Step A - Epoch [42]: 	Loss: 0.2014
+Test Step A - Epoch [42]: 	Accuracy: 92.61%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0034
+Train Step A - Iteration 50: 	Loss: 0.1971
+Train Step A - Iteration 100: 	Loss: 0.1840
+Train Step A - Iteration 150: 	Loss: 0.2021
+Train Step A - Iteration 200: 	Loss: 0.1994
+Train Step A - Iteration 250: 	Loss: 0.2089
+Train Step A - Iteration 300: 	Loss: 0.2013
+Train Step A - Iteration 350: 	Loss: 0.1984
+Train Step A - Iteration 400: 	Loss: 0.1880
+Train Step A - Iteration 450: 	Loss: 0.2094
+Train Step A - Iteration 500: 	Loss: 0.2066
+Train Step A - Iteration 550: 	Loss: 0.2080
+Train Step A - Epoch [43]: 	Loss: 0.2012
+Test Step A - Epoch [43]: 	Accuracy: 92.72%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0039
+Train Step A - Iteration 50: 	Loss: 0.1899
+Train Step A - Iteration 100: 	Loss: 0.2039
+Train Step A - Iteration 150: 	Loss: 0.1949
+Train Step A - Iteration 200: 	Loss: 0.1823
+Train Step A - Iteration 250: 	Loss: 0.1950
+Train Step A - Iteration 300: 	Loss: 0.1882
+Train Step A - Iteration 350: 	Loss: 0.2045
+Train Step A - Iteration 400: 	Loss: 0.1903
+Train Step A - Iteration 450: 	Loss: 0.2108
+Train Step A - Iteration 500: 	Loss: 0.1990
+Train Step A - Iteration 550: 	Loss: 0.2010
+Train Step A - Epoch [44]: 	Loss: 0.1966
+Test Step A - Epoch [44]: 	Accuracy: 92.65%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0029
+Train Step A - Iteration 50: 	Loss: 0.1907
+Train Step A - Iteration 100: 	Loss: 0.1893
+Train Step A - Iteration 150: 	Loss: 0.1997
+Train Step A - Iteration 200: 	Loss: 0.1907
+Train Step A - Iteration 250: 	Loss: 0.1914
+Train Step A - Iteration 300: 	Loss: 0.1910
+Train Step A - Iteration 350: 	Loss: 0.1877
+Train Step A - Iteration 400: 	Loss: 0.1830
+Train Step A - Iteration 450: 	Loss: 0.1849
+Train Step A - Iteration 500: 	Loss: 0.1946
+Train Step A - Iteration 550: 	Loss: 0.2045
+Train Step A - Epoch [45]: 	Loss: 0.1915
+Test Step A - Epoch [45]: 	Accuracy: 92.61%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0037
+Train Step A - Iteration 50: 	Loss: 0.1910
+Train Step A - Iteration 100: 	Loss: 0.1800
+Train Step A - Iteration 150: 	Loss: 0.2034
+Train Step A - Iteration 200: 	Loss: 0.1909
+Train Step A - Iteration 250: 	Loss: 0.1934
+Train Step A - Iteration 300: 	Loss: 0.2025
+Train Step A - Iteration 350: 	Loss: 0.1914
+Train Step A - Iteration 400: 	Loss: 0.1928
+Train Step A - Iteration 450: 	Loss: 0.1889
+Train Step A - Iteration 500: 	Loss: 0.1948
+Train Step A - Iteration 550: 	Loss: 0.1918
+Train Step A - Epoch [46]: 	Loss: 0.1927
+Test Step A - Epoch [46]: 	Accuracy: 92.71%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0030
+Train Step A - Iteration 50: 	Loss: 0.1963
+Train Step A - Iteration 100: 	Loss: 0.2025
+Train Step A - Iteration 150: 	Loss: 0.1820
+Train Step A - Iteration 200: 	Loss: 0.1709
+Train Step A - Iteration 250: 	Loss: 0.1773
+Train Step A - Iteration 300: 	Loss: 0.1728
+Train Step A - Iteration 350: 	Loss: 0.1729
+Train Step A - Iteration 400: 	Loss: 0.1873
+Train Step A - Iteration 450: 	Loss: 0.1842
+Train Step A - Iteration 500: 	Loss: 0.2117
+Train Step A - Iteration 550: 	Loss: 0.1886
+Train Step A - Epoch [47]: 	Loss: 0.1869
+Test Step A - Epoch [47]: 	Accuracy: 92.82%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0050
+Train Step A - Iteration 50: 	Loss: 0.1811
+Train Step A - Iteration 100: 	Loss: 0.1825
+Train Step A - Iteration 150: 	Loss: 0.1859
+Train Step A - Iteration 200: 	Loss: 0.1903
+Train Step A - Iteration 250: 	Loss: 0.1716
+Train Step A - Iteration 300: 	Loss: 0.1896
+Train Step A - Iteration 350: 	Loss: 0.1919
+Train Step A - Iteration 400: 	Loss: 0.1951
+Train Step A - Iteration 450: 	Loss: 0.1744
+Train Step A - Iteration 500: 	Loss: 0.1813
+Train Step A - Iteration 550: 	Loss: 0.1781
+Train Step A - Epoch [48]: 	Loss: 0.1847
+Test Step A - Epoch [48]: 	Accuracy: 92.91%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0046
+Train Step A - Iteration 50: 	Loss: 0.1808
+Train Step A - Iteration 100: 	Loss: 0.1891
+Train Step A - Iteration 150: 	Loss: 0.1858
+Train Step A - Iteration 200: 	Loss: 0.1706
+Train Step A - Iteration 250: 	Loss: 0.1735
+Train Step A - Iteration 300: 	Loss: 0.1867
+Train Step A - Iteration 350: 	Loss: 0.1801
+Train Step A - Iteration 400: 	Loss: 0.1815
+Train Step A - Iteration 450: 	Loss: 0.1950
+Train Step A - Iteration 500: 	Loss: 0.1793
+Train Step A - Iteration 550: 	Loss: 0.1849
+Train Step A - Epoch [49]: 	Loss: 0.1829
+Test Step A - Epoch [49]: 	Accuracy: 92.71%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0030
+Train Step A - Iteration 50: 	Loss: 0.1852
+Train Step A - Iteration 100: 	Loss: 0.1884
+Train Step A - Iteration 150: 	Loss: 0.1804
+Train Step A - Iteration 200: 	Loss: 0.1801
+Train Step A - Iteration 250: 	Loss: 0.1753
+Train Step A - Iteration 300: 	Loss: 0.1841
+Train Step A - Iteration 350: 	Loss: 0.1724
+Train Step A - Iteration 400: 	Loss: 0.1789
+Train Step A - Iteration 450: 	Loss: 0.1791
+Train Step A - Iteration 500: 	Loss: 0.1865
+Train Step A - Iteration 550: 	Loss: 0.1746
+Train Step A - Epoch [50]: 	Loss: 0.1802
+Test Step A - Epoch [50]: 	Accuracy: 92.72%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0028
+Train Step A - Iteration 50: 	Loss: 0.1661
+Train Step A - Iteration 100: 	Loss: 0.1738
+Train Step A - Iteration 150: 	Loss: 0.1618
+Train Step A - Iteration 200: 	Loss: 0.1739
+Train Step A - Iteration 250: 	Loss: 0.1699
+Train Step A - Iteration 300: 	Loss: 0.1781
+Train Step A - Iteration 350: 	Loss: 0.1874
+Train Step A - Iteration 400: 	Loss: 0.1824
+Train Step A - Iteration 450: 	Loss: 0.1774
+Train Step A - Iteration 500: 	Loss: 0.1576
+Train Step A - Iteration 550: 	Loss: 0.1957
+Train Step A - Epoch [51]: 	Loss: 0.1753
+Test Step A - Epoch [51]: 	Accuracy: 92.72%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0023
+Train Step A - Iteration 50: 	Loss: 0.1663
+Train Step A - Iteration 100: 	Loss: 0.1681
+Train Step A - Iteration 150: 	Loss: 0.1845
+Train Step A - Iteration 200: 	Loss: 0.1628
+Train Step A - Iteration 250: 	Loss: 0.1660
+Train Step A - Iteration 300: 	Loss: 0.1781
+Train Step A - Iteration 350: 	Loss: 0.1691
+Train Step A - Iteration 400: 	Loss: 0.1764
+Train Step A - Iteration 450: 	Loss: 0.1897
+Train Step A - Iteration 500: 	Loss: 0.1792
+Train Step A - Iteration 550: 	Loss: 0.1896
+Train Step A - Epoch [52]: 	Loss: 0.1761
+Test Step A - Epoch [52]: 	Accuracy: 92.91%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0039
+Train Step A - Iteration 50: 	Loss: 0.1662
+Train Step A - Iteration 100: 	Loss: 0.1655
+Train Step A - Iteration 150: 	Loss: 0.1706
+Train Step A - Iteration 200: 	Loss: 0.1630
+Train Step A - Iteration 250: 	Loss: 0.1620
+Train Step A - Iteration 300: 	Loss: 0.1880
+Train Step A - Iteration 350: 	Loss: 0.1937
+Train Step A - Iteration 400: 	Loss: 0.1677
+Train Step A - Iteration 450: 	Loss: 0.1825
+Train Step A - Iteration 500: 	Loss: 0.1739
+Train Step A - Iteration 550: 	Loss: 0.1862
+Train Step A - Epoch [53]: 	Loss: 0.1735
+Test Step A - Epoch [53]: 	Accuracy: 92.72%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0023
+Train Step A - Iteration 50: 	Loss: 0.1688
+Train Step A - Iteration 100: 	Loss: 0.1678
+Train Step A - Iteration 150: 	Loss: 0.1761
+Train Step A - Iteration 200: 	Loss: 0.1666
+Train Step A - Iteration 250: 	Loss: 0.1792
+Train Step A - Iteration 300: 	Loss: 0.1536
+Train Step A - Iteration 350: 	Loss: 0.1793
+Train Step A - Iteration 400: 	Loss: 0.1652
+Train Step A - Iteration 450: 	Loss: 0.1705
+Train Step A - Iteration 500: 	Loss: 0.1655
+Train Step A - Iteration 550: 	Loss: 0.1685
+Train Step A - Epoch [54]: 	Loss: 0.1693
+Test Step A - Epoch [54]: 	Accuracy: 92.85%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0044
+Train Step A - Iteration 50: 	Loss: 0.1623
+Train Step A - Iteration 100: 	Loss: 0.1508
+Train Step A - Iteration 150: 	Loss: 0.1830
+Train Step A - Iteration 200: 	Loss: 0.1650
+Train Step A - Iteration 250: 	Loss: 0.1804
+Train Step A - Iteration 300: 	Loss: 0.1682
+Train Step A - Iteration 350: 	Loss: 0.1707
+Train Step A - Iteration 400: 	Loss: 0.1693
+Train Step A - Iteration 450: 	Loss: 0.1683
+Train Step A - Iteration 500: 	Loss: 0.1772
+Train Step A - Iteration 550: 	Loss: 0.1580
+Train Step A - Epoch [55]: 	Loss: 0.1681
+Test Step A - Epoch [55]: 	Accuracy: 92.94%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0028
+Train Step A - Iteration 50: 	Loss: 0.1669
+Train Step A - Iteration 100: 	Loss: 0.1675
+Train Step A - Iteration 150: 	Loss: 0.1782
+Train Step A - Iteration 200: 	Loss: 0.1586
+Train Step A - Iteration 250: 	Loss: 0.1633
+Train Step A - Iteration 300: 	Loss: 0.1780
+Train Step A - Iteration 350: 	Loss: 0.1594
+Train Step A - Iteration 400: 	Loss: 0.1730
+Train Step A - Iteration 450: 	Loss: 0.1531
+Train Step A - Iteration 500: 	Loss: 0.1666
+Train Step A - Iteration 550: 	Loss: 0.1654
+Train Step A - Epoch [56]: 	Loss: 0.1658
+Test Step A - Epoch [56]: 	Accuracy: 92.91%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0026
+Train Step A - Iteration 50: 	Loss: 0.1669
+Train Step A - Iteration 100: 	Loss: 0.1524
+Train Step A - Iteration 150: 	Loss: 0.1701
+Train Step A - Iteration 200: 	Loss: 0.1593
+Train Step A - Iteration 250: 	Loss: 0.1479
+Train Step A - Iteration 300: 	Loss: 0.1654
+Train Step A - Iteration 350: 	Loss: 0.1611
+Train Step A - Iteration 400: 	Loss: 0.1628
+Train Step A - Iteration 450: 	Loss: 0.1859
+Train Step A - Iteration 500: 	Loss: 0.1514
+Train Step A - Iteration 550: 	Loss: 0.1636
+Train Step A - Epoch [57]: 	Loss: 0.1627
+Test Step A - Epoch [57]: 	Accuracy: 92.94%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0082
+Train Step A - Iteration 50: 	Loss: 0.1697
+Train Step A - Iteration 100: 	Loss: 0.1565
+Train Step A - Iteration 150: 	Loss: 0.1431
+Train Step A - Iteration 200: 	Loss: 0.1654
+Train Step A - Iteration 250: 	Loss: 0.1564
+Train Step A - Iteration 300: 	Loss: 0.1584
+Train Step A - Iteration 350: 	Loss: 0.1567
+Train Step A - Iteration 400: 	Loss: 0.1764
+Train Step A - Iteration 450: 	Loss: 0.1602
+Train Step A - Iteration 500: 	Loss: 0.1650
+Train Step A - Iteration 550: 	Loss: 0.1734
+Train Step A - Epoch [58]: 	Loss: 0.1618
+Test Step A - Epoch [58]: 	Accuracy: 92.83%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0033
+Train Step A - Iteration 50: 	Loss: 0.1560
+Train Step A - Iteration 100: 	Loss: 0.1648
+Train Step A - Iteration 150: 	Loss: 0.1467
+Train Step A - Iteration 200: 	Loss: 0.1581
+Train Step A - Iteration 250: 	Loss: 0.1687
+Train Step A - Iteration 300: 	Loss: 0.1609
+Train Step A - Iteration 350: 	Loss: 0.1646
+Train Step A - Iteration 400: 	Loss: 0.1534
+Train Step A - Iteration 450: 	Loss: 0.1588
+Train Step A - Iteration 500: 	Loss: 0.1482
+Train Step A - Iteration 550: 	Loss: 0.1544
+Train Step A - Epoch [59]: 	Loss: 0.1580
+Test Step A - Epoch [59]: 	Accuracy: 92.90%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0025
+Train Step A - Iteration 50: 	Loss: 0.1596
+Train Step A - Iteration 100: 	Loss: 0.1438
+Train Step A - Iteration 150: 	Loss: 0.1590
+Train Step A - Iteration 200: 	Loss: 0.1573
+Train Step A - Iteration 250: 	Loss: 0.1416
+Train Step A - Iteration 300: 	Loss: 0.1489
+Train Step A - Iteration 350: 	Loss: 0.1612
+Train Step A - Iteration 400: 	Loss: 0.1547
+Train Step A - Iteration 450: 	Loss: 0.1594
+Train Step A - Iteration 500: 	Loss: 0.1737
+Train Step A - Iteration 550: 	Loss: 0.1541
+Train Step A - Epoch [60]: 	Loss: 0.1554
+Test Step A - Epoch [60]: 	Accuracy: 92.94%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0021
+Train Step A - Iteration 50: 	Loss: 0.1525
+Train Step A - Iteration 100: 	Loss: 0.1542
+Train Step A - Iteration 150: 	Loss: 0.1443
+Train Step A - Iteration 200: 	Loss: 0.1480
+Train Step A - Iteration 250: 	Loss: 0.1453
+Train Step A - Iteration 300: 	Loss: 0.1543
+Train Step A - Iteration 350: 	Loss: 0.1560
+Train Step A - Iteration 400: 	Loss: 0.1471
+Train Step A - Iteration 450: 	Loss: 0.1643
+Train Step A - Iteration 500: 	Loss: 0.1596
+Train Step A - Iteration 550: 	Loss: 0.1672
+Train Step A - Epoch [61]: 	Loss: 0.1551
+Test Step A - Epoch [61]: 	Accuracy: 93.11%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0042
+Train Step A - Iteration 50: 	Loss: 0.1527
+Train Step A - Iteration 100: 	Loss: 0.1390
+Train Step A - Iteration 150: 	Loss: 0.1464
+Train Step A - Iteration 200: 	Loss: 0.1569
+Train Step A - Iteration 250: 	Loss: 0.1414
+Train Step A - Iteration 300: 	Loss: 0.1412
+Train Step A - Iteration 350: 	Loss: 0.1406
+Train Step A - Iteration 400: 	Loss: 0.1676
+Train Step A - Iteration 450: 	Loss: 0.1693
+Train Step A - Iteration 500: 	Loss: 0.1539
+Train Step A - Iteration 550: 	Loss: 0.1574
+Train Step A - Epoch [62]: 	Loss: 0.1521
+Test Step A - Epoch [62]: 	Accuracy: 93.11%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0039
+Train Step A - Iteration 50: 	Loss: 0.1367
+Train Step A - Iteration 100: 	Loss: 0.1379
+Train Step A - Iteration 150: 	Loss: 0.1546
+Train Step A - Iteration 200: 	Loss: 0.1468
+Train Step A - Iteration 250: 	Loss: 0.1403
+Train Step A - Iteration 300: 	Loss: 0.1675
+Train Step A - Iteration 350: 	Loss: 0.1534
+Train Step A - Iteration 400: 	Loss: 0.1490
+Train Step A - Iteration 450: 	Loss: 0.1608
+Train Step A - Iteration 500: 	Loss: 0.1618
+Train Step A - Iteration 550: 	Loss: 0.1584
+Train Step A - Epoch [63]: 	Loss: 0.1520
+Test Step A - Epoch [63]: 	Accuracy: 92.99%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0023
+Train Step A - Iteration 50: 	Loss: 0.1490
+Train Step A - Iteration 100: 	Loss: 0.1298
+Train Step A - Iteration 150: 	Loss: 0.1493
+Train Step A - Iteration 200: 	Loss: 0.1617
+Train Step A - Iteration 250: 	Loss: 0.1588
+Train Step A - Iteration 300: 	Loss: 0.1466
+Train Step A - Iteration 350: 	Loss: 0.1489
+Train Step A - Iteration 400: 	Loss: 0.1399
+Train Step A - Iteration 450: 	Loss: 0.1474
+Train Step A - Iteration 500: 	Loss: 0.1379
+Train Step A - Iteration 550: 	Loss: 0.1399
+Train Step A - Epoch [64]: 	Loss: 0.1464
+Test Step A - Epoch [64]: 	Accuracy: 93.14%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0030
+Train Step A - Iteration 50: 	Loss: 0.1468
+Train Step A - Iteration 100: 	Loss: 0.1429
+Train Step A - Iteration 150: 	Loss: 0.1478
+Train Step A - Iteration 200: 	Loss: 0.1490
+Train Step A - Iteration 250: 	Loss: 0.1470
+Train Step A - Iteration 300: 	Loss: 0.1319
+Train Step A - Iteration 350: 	Loss: 0.1511
+Train Step A - Iteration 400: 	Loss: 0.1467
+Train Step A - Iteration 450: 	Loss: 0.1507
+Train Step A - Iteration 500: 	Loss: 0.1576
+Train Step A - Iteration 550: 	Loss: 0.1463
+Train Step A - Epoch [65]: 	Loss: 0.1475
+Test Step A - Epoch [65]: 	Accuracy: 93.15%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0052
+Train Step A - Iteration 50: 	Loss: 0.1407
+Train Step A - Iteration 100: 	Loss: 0.1517
+Train Step A - Iteration 150: 	Loss: 0.1381
+Train Step A - Iteration 200: 	Loss: 0.1382
+Train Step A - Iteration 250: 	Loss: 0.1460
+Train Step A - Iteration 300: 	Loss: 0.1348
+Train Step A - Iteration 350: 	Loss: 0.1398
+Train Step A - Iteration 400: 	Loss: 0.1623
+Train Step A - Iteration 450: 	Loss: 0.1580
+Train Step A - Iteration 500: 	Loss: 0.1441
+Train Step A - Iteration 550: 	Loss: 0.1480
+Train Step A - Epoch [66]: 	Loss: 0.1460
+Test Step A - Epoch [66]: 	Accuracy: 93.13%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0024
+Train Step A - Iteration 50: 	Loss: 0.1250
+Train Step A - Iteration 100: 	Loss: 0.1521
+Train Step A - Iteration 150: 	Loss: 0.1432
+Train Step A - Iteration 200: 	Loss: 0.1437
+Train Step A - Iteration 250: 	Loss: 0.1364
+Train Step A - Iteration 300: 	Loss: 0.1423
+Train Step A - Iteration 350: 	Loss: 0.1338
+Train Step A - Iteration 400: 	Loss: 0.1407
+Train Step A - Iteration 450: 	Loss: 0.1377
+Train Step A - Iteration 500: 	Loss: 0.1423
+Train Step A - Iteration 550: 	Loss: 0.1489
+Train Step A - Epoch [67]: 	Loss: 0.1409
+Test Step A - Epoch [67]: 	Accuracy: 93.07%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0033
+Train Step A - Iteration 50: 	Loss: 0.1464
+Train Step A - Iteration 100: 	Loss: 0.1373
+Train Step A - Iteration 150: 	Loss: 0.1305
+Train Step A - Iteration 200: 	Loss: 0.1278
+Train Step A - Iteration 250: 	Loss: 0.1423
+Train Step A - Iteration 300: 	Loss: 0.1471
+Train Step A - Iteration 350: 	Loss: 0.1440
+Train Step A - Iteration 400: 	Loss: 0.1579
+Train Step A - Iteration 450: 	Loss: 0.1411
+Train Step A - Iteration 500: 	Loss: 0.1491
+Train Step A - Iteration 550: 	Loss: 0.1320
+Train Step A - Epoch [68]: 	Loss: 0.1423
+Test Step A - Epoch [68]: 	Accuracy: 93.14%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0012
+Train Step A - Iteration 50: 	Loss: 0.1397
+Train Step A - Iteration 100: 	Loss: 0.1316
+Train Step A - Iteration 150: 	Loss: 0.1387
+Train Step A - Iteration 200: 	Loss: 0.1416
+Train Step A - Iteration 250: 	Loss: 0.1495
+Train Step A - Iteration 300: 	Loss: 0.1417
+Train Step A - Iteration 350: 	Loss: 0.1360
+Train Step A - Iteration 400: 	Loss: 0.1364
+Train Step A - Iteration 450: 	Loss: 0.1423
+Train Step A - Iteration 500: 	Loss: 0.1367
+Train Step A - Iteration 550: 	Loss: 0.1461
+Train Step A - Epoch [69]: 	Loss: 0.1403
+Test Step A - Epoch [69]: 	Accuracy: 93.06%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0016
+Train Step A - Iteration 50: 	Loss: 0.1308
+Train Step A - Iteration 100: 	Loss: 0.1309
+Train Step A - Iteration 150: 	Loss: 0.1363
+Train Step A - Iteration 200: 	Loss: 0.1367
+Train Step A - Iteration 250: 	Loss: 0.1364
+Train Step A - Iteration 300: 	Loss: 0.1494
+Train Step A - Iteration 350: 	Loss: 0.1282
+Train Step A - Iteration 400: 	Loss: 0.1393
+Train Step A - Iteration 450: 	Loss: 0.1409
+Train Step A - Iteration 500: 	Loss: 0.1493
+Train Step A - Iteration 550: 	Loss: 0.1426
+Train Step A - Epoch [70]: 	Loss: 0.1385
+Test Step A - Epoch [70]: 	Accuracy: 93.15%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0026
+Train Step A - Iteration 50: 	Loss: 0.1352
+Train Step A - Iteration 100: 	Loss: 0.1369
+Train Step A - Iteration 150: 	Loss: 0.1416
+Train Step A - Iteration 200: 	Loss: 0.1320
+Train Step A - Iteration 250: 	Loss: 0.1290
+Train Step A - Iteration 300: 	Loss: 0.1369
+Train Step A - Iteration 350: 	Loss: 0.1303
+Train Step A - Iteration 400: 	Loss: 0.1284
+Train Step A - Iteration 450: 	Loss: 0.1398
+Train Step A - Iteration 500: 	Loss: 0.1326
+Train Step A - Iteration 550: 	Loss: 0.1369
+Train Step A - Epoch [71]: 	Loss: 0.1345
+Test Step A - Epoch [71]: 	Accuracy: 93.02%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0039
+Train Step A - Iteration 50: 	Loss: 0.1359
+Train Step A - Iteration 100: 	Loss: 0.1311
+Train Step A - Iteration 150: 	Loss: 0.1313
+Train Step A - Iteration 200: 	Loss: 0.1365
+Train Step A - Iteration 250: 	Loss: 0.1258
+Train Step A - Iteration 300: 	Loss: 0.1380
+Train Step A - Iteration 350: 	Loss: 0.1370
+Train Step A - Iteration 400: 	Loss: 0.1475
+Train Step A - Iteration 450: 	Loss: 0.1214
+Train Step A - Iteration 500: 	Loss: 0.1364
+Train Step A - Iteration 550: 	Loss: 0.1319
+Train Step A - Epoch [72]: 	Loss: 0.1337
+Test Step A - Epoch [72]: 	Accuracy: 93.17%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0046
+Train Step A - Iteration 50: 	Loss: 0.1250
+Train Step A - Iteration 100: 	Loss: 0.1375
+Train Step A - Iteration 150: 	Loss: 0.1286
+Train Step A - Iteration 200: 	Loss: 0.1276
+Train Step A - Iteration 250: 	Loss: 0.1244
+Train Step A - Iteration 300: 	Loss: 0.1341
+Train Step A - Iteration 350: 	Loss: 0.1218
+Train Step A - Iteration 400: 	Loss: 0.1250
+Train Step A - Iteration 450: 	Loss: 0.1311
+Train Step A - Iteration 500: 	Loss: 0.1427
+Train Step A - Iteration 550: 	Loss: 0.1378
+Train Step A - Epoch [73]: 	Loss: 0.1311
+Test Step A - Epoch [73]: 	Accuracy: 93.12%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0026
+Train Step A - Iteration 50: 	Loss: 0.1291
+Train Step A - Iteration 100: 	Loss: 0.1337
+Train Step A - Iteration 150: 	Loss: 0.1219
+Train Step A - Iteration 200: 	Loss: 0.1258
+Train Step A - Iteration 250: 	Loss: 0.1357
+Train Step A - Iteration 300: 	Loss: 0.1399
+Train Step A - Iteration 350: 	Loss: 0.1233
+Train Step A - Iteration 400: 	Loss: 0.1396
+Train Step A - Iteration 450: 	Loss: 0.1330
+Train Step A - Iteration 500: 	Loss: 0.1371
+Train Step A - Iteration 550: 	Loss: 0.1389
+Train Step A - Epoch [74]: 	Loss: 0.1332
+Test Step A - Epoch [74]: 	Accuracy: 93.12%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0029
+Train Step A - Iteration 50: 	Loss: 0.1358
+Train Step A - Iteration 100: 	Loss: 0.1256
+Train Step A - Iteration 150: 	Loss: 0.1242
+Train Step A - Iteration 200: 	Loss: 0.1287
+Train Step A - Iteration 250: 	Loss: 0.1288
+Train Step A - Iteration 300: 	Loss: 0.1266
+Train Step A - Iteration 350: 	Loss: 0.1175
+Train Step A - Iteration 400: 	Loss: 0.1322
+Train Step A - Iteration 450: 	Loss: 0.1296
+Train Step A - Iteration 500: 	Loss: 0.1311
+Train Step A - Iteration 550: 	Loss: 0.1312
+Train Step A - Epoch [75]: 	Loss: 0.1284
+Test Step A - Epoch [75]: 	Accuracy: 93.09%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0026
+Train Step A - Iteration 50: 	Loss: 0.1201
+Train Step A - Iteration 100: 	Loss: 0.1275
+Train Step A - Iteration 150: 	Loss: 0.1332
+Train Step A - Iteration 200: 	Loss: 0.1202
+Train Step A - Iteration 250: 	Loss: 0.1274
+Train Step A - Iteration 300: 	Loss: 0.1228
+Train Step A - Iteration 350: 	Loss: 0.1225
+Train Step A - Iteration 400: 	Loss: 0.1347
+Train Step A - Iteration 450: 	Loss: 0.1265
+Train Step A - Iteration 500: 	Loss: 0.1259
+Train Step A - Iteration 550: 	Loss: 0.1308
+Train Step A - Epoch [76]: 	Loss: 0.1266
+Test Step A - Epoch [76]: 	Accuracy: 93.10%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0023
+Train Step A - Iteration 50: 	Loss: 0.1225
+Train Step A - Iteration 100: 	Loss: 0.1199
+Train Step A - Iteration 150: 	Loss: 0.1198
+Train Step A - Iteration 200: 	Loss: 0.1244
+Train Step A - Iteration 250: 	Loss: 0.1241
+Train Step A - Iteration 300: 	Loss: 0.1284
+Train Step A - Iteration 350: 	Loss: 0.1317
+Train Step A - Iteration 400: 	Loss: 0.1207
+Train Step A - Iteration 450: 	Loss: 0.1281
+Train Step A - Iteration 500: 	Loss: 0.1288
+Train Step A - Iteration 550: 	Loss: 0.1237
+Train Step A - Epoch [77]: 	Loss: 0.1254
+Test Step A - Epoch [77]: 	Accuracy: 93.20%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0021
+Train Step A - Iteration 50: 	Loss: 0.1165
+Train Step A - Iteration 100: 	Loss: 0.1297
+Train Step A - Iteration 150: 	Loss: 0.1292
+Train Step A - Iteration 200: 	Loss: 0.1274
+Train Step A - Iteration 250: 	Loss: 0.1250
+Train Step A - Iteration 300: 	Loss: 0.1253
+Train Step A - Iteration 350: 	Loss: 0.1213
+Train Step A - Iteration 400: 	Loss: 0.1302
+Train Step A - Iteration 450: 	Loss: 0.1374
+Train Step A - Iteration 500: 	Loss: 0.1173
+Train Step A - Iteration 550: 	Loss: 0.1184
+Train Step A - Epoch [78]: 	Loss: 0.1246
+Test Step A - Epoch [78]: 	Accuracy: 93.13%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0020
+Train Step A - Iteration 50: 	Loss: 0.1187
+Train Step A - Iteration 100: 	Loss: 0.1192
+Train Step A - Iteration 150: 	Loss: 0.1247
+Train Step A - Iteration 200: 	Loss: 0.1229
+Train Step A - Iteration 250: 	Loss: 0.1191
+Train Step A - Iteration 300: 	Loss: 0.1246
+Train Step A - Iteration 350: 	Loss: 0.1191
+Train Step A - Iteration 400: 	Loss: 0.1265
+Train Step A - Iteration 450: 	Loss: 0.1254
+Train Step A - Iteration 500: 	Loss: 0.1307
+Train Step A - Iteration 550: 	Loss: 0.1236
+Train Step A - Epoch [79]: 	Loss: 0.1221
+Test Step A - Epoch [79]: 	Accuracy: 93.20%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0016
+Train Step A - Iteration 50: 	Loss: 0.1117
+Train Step A - Iteration 100: 	Loss: 0.1196
+Train Step A - Iteration 150: 	Loss: 0.1190
+Train Step A - Iteration 200: 	Loss: 0.1250
+Train Step A - Iteration 250: 	Loss: 0.1249
+Train Step A - Iteration 300: 	Loss: 0.1277
+Train Step A - Iteration 350: 	Loss: 0.1310
+Train Step A - Iteration 400: 	Loss: 0.1274
+Train Step A - Iteration 450: 	Loss: 0.1168
+Train Step A - Iteration 500: 	Loss: 0.1227
+Train Step A - Iteration 550: 	Loss: 0.1155
+Train Step A - Epoch [80]: 	Loss: 0.1222
+Test Step A - Epoch [80]: 	Accuracy: 93.17%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0021
+Train Step A - Iteration 50: 	Loss: 0.1130
+Train Step A - Iteration 100: 	Loss: 0.1205
+Train Step A - Iteration 150: 	Loss: 0.1152
+Train Step A - Iteration 200: 	Loss: 0.1189
+Train Step A - Iteration 250: 	Loss: 0.1247
+Train Step A - Iteration 300: 	Loss: 0.1261
+Train Step A - Iteration 350: 	Loss: 0.1197
+Train Step A - Iteration 400: 	Loss: 0.1136
+Train Step A - Iteration 450: 	Loss: 0.1234
+Train Step A - Iteration 500: 	Loss: 0.1330
+Train Step A - Iteration 550: 	Loss: 0.1048
+Train Step A - Epoch [81]: 	Loss: 0.1194
+Test Step A - Epoch [81]: 	Accuracy: 93.13%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0034
+Train Step A - Iteration 50: 	Loss: 0.1077
+Train Step A - Iteration 100: 	Loss: 0.1347
+Train Step A - Iteration 150: 	Loss: 0.1114
+Train Step A - Iteration 200: 	Loss: 0.1173
+Train Step A - Iteration 250: 	Loss: 0.1233
+Train Step A - Iteration 300: 	Loss: 0.1162
+Train Step A - Iteration 350: 	Loss: 0.1074
+Train Step A - Iteration 400: 	Loss: 0.1255
+Train Step A - Iteration 450: 	Loss: 0.1205
+Train Step A - Iteration 500: 	Loss: 0.1266
+Train Step A - Iteration 550: 	Loss: 0.1206
+Train Step A - Epoch [82]: 	Loss: 0.1196
+Test Step A - Epoch [82]: 	Accuracy: 92.97%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0020
+Train Step A - Iteration 50: 	Loss: 0.1045
+Train Step A - Iteration 100: 	Loss: 0.1227
+Train Step A - Iteration 150: 	Loss: 0.1122
+Train Step A - Iteration 200: 	Loss: 0.1096
+Train Step A - Iteration 250: 	Loss: 0.1283
+Train Step A - Iteration 300: 	Loss: 0.1244
+Train Step A - Iteration 350: 	Loss: 0.1213
+Train Step A - Iteration 400: 	Loss: 0.1257
+Train Step A - Iteration 450: 	Loss: 0.1184
+Train Step A - Iteration 500: 	Loss: 0.1220
+Train Step A - Iteration 550: 	Loss: 0.1193
+Train Step A - Epoch [83]: 	Loss: 0.1190
+Test Step A - Epoch [83]: 	Accuracy: 93.24%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0016
+Train Step A - Iteration 50: 	Loss: 0.1145
+Train Step A - Iteration 100: 	Loss: 0.1285
+Train Step A - Iteration 150: 	Loss: 0.1159
+Train Step A - Iteration 200: 	Loss: 0.1126
+Train Step A - Iteration 250: 	Loss: 0.1233
+Train Step A - Iteration 300: 	Loss: 0.1140
+Train Step A - Iteration 350: 	Loss: 0.1174
+Train Step A - Iteration 400: 	Loss: 0.1138
+Train Step A - Iteration 450: 	Loss: 0.1138
+Train Step A - Iteration 500: 	Loss: 0.1220
+Train Step A - Iteration 550: 	Loss: 0.1312
+Train Step A - Epoch [84]: 	Loss: 0.1188
+Test Step A - Epoch [84]: 	Accuracy: 93.18%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0049
+Train Step A - Iteration 50: 	Loss: 0.1136
+Train Step A - Iteration 100: 	Loss: 0.1106
+Train Step A - Iteration 150: 	Loss: 0.1128
+Train Step A - Iteration 200: 	Loss: 0.1175
+Train Step A - Iteration 250: 	Loss: 0.1093
+Train Step A - Iteration 300: 	Loss: 0.1200
+Train Step A - Iteration 350: 	Loss: 0.1053
+Train Step A - Iteration 400: 	Loss: 0.1272
+Train Step A - Iteration 450: 	Loss: 0.1119
+Train Step A - Iteration 500: 	Loss: 0.1101
+Train Step A - Iteration 550: 	Loss: 0.1096
+Train Step A - Epoch [85]: 	Loss: 0.1132
+Test Step A - Epoch [85]: 	Accuracy: 93.15%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0018
+Train Step A - Iteration 50: 	Loss: 0.1123
+Train Step A - Iteration 100: 	Loss: 0.1037
+Train Step A - Iteration 150: 	Loss: 0.1199
+Train Step A - Iteration 200: 	Loss: 0.1206
+Train Step A - Iteration 250: 	Loss: 0.1170
+Train Step A - Iteration 300: 	Loss: 0.1102
+Train Step A - Iteration 350: 	Loss: 0.1075
+Train Step A - Iteration 400: 	Loss: 0.1096
+Train Step A - Iteration 450: 	Loss: 0.1153
+Train Step A - Iteration 500: 	Loss: 0.1242
+Train Step A - Iteration 550: 	Loss: 0.1136
+Train Step A - Epoch [86]: 	Loss: 0.1142
+Test Step A - Epoch [86]: 	Accuracy: 93.13%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0022
+Train Step A - Iteration 50: 	Loss: 0.1120
+Train Step A - Iteration 100: 	Loss: 0.1229
+Train Step A - Iteration 150: 	Loss: 0.1027
+Train Step A - Iteration 200: 	Loss: 0.1026
+Train Step A - Iteration 250: 	Loss: 0.1111
+Train Step A - Iteration 300: 	Loss: 0.1160
+Train Step A - Iteration 350: 	Loss: 0.1091
+Train Step A - Iteration 400: 	Loss: 0.1086
+Train Step A - Iteration 450: 	Loss: 0.1255
+Train Step A - Iteration 500: 	Loss: 0.1105
+Train Step A - Iteration 550: 	Loss: 0.1119
+Train Step A - Epoch [87]: 	Loss: 0.1124
+Test Step A - Epoch [87]: 	Accuracy: 93.19%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0014
+Train Step A - Iteration 50: 	Loss: 0.1053
+Train Step A - Iteration 100: 	Loss: 0.1118
+Train Step A - Iteration 150: 	Loss: 0.1136
+Train Step A - Iteration 200: 	Loss: 0.1090
+Train Step A - Iteration 250: 	Loss: 0.1132
+Train Step A - Iteration 300: 	Loss: 0.1191
+Train Step A - Iteration 350: 	Loss: 0.1073
+Train Step A - Iteration 400: 	Loss: 0.1179
+Train Step A - Iteration 450: 	Loss: 0.1133
+Train Step A - Iteration 500: 	Loss: 0.1081
+Train Step A - Iteration 550: 	Loss: 0.1133
+Train Step A - Epoch [88]: 	Loss: 0.1120
+Test Step A - Epoch [88]: 	Accuracy: 93.29%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0019
+Train Step A - Iteration 50: 	Loss: 0.1069
+Train Step A - Iteration 100: 	Loss: 0.1096
+Train Step A - Iteration 150: 	Loss: 0.1160
+Train Step A - Iteration 200: 	Loss: 0.1060
+Train Step A - Iteration 250: 	Loss: 0.1177
+Train Step A - Iteration 300: 	Loss: 0.1030
+Train Step A - Iteration 350: 	Loss: 0.1160
+Train Step A - Iteration 400: 	Loss: 0.1048
+Train Step A - Iteration 450: 	Loss: 0.1190
+Train Step A - Iteration 500: 	Loss: 0.1243
+Train Step A - Iteration 550: 	Loss: 0.1033
+Train Step A - Epoch [89]: 	Loss: 0.1119
+Test Step A - Epoch [89]: 	Accuracy: 93.30%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0010
+Train Step A - Iteration 50: 	Loss: 0.0962
+Train Step A - Iteration 100: 	Loss: 0.1146
+Train Step A - Iteration 150: 	Loss: 0.1093
+Train Step A - Iteration 200: 	Loss: 0.1078
+Train Step A - Iteration 250: 	Loss: 0.1205
+Train Step A - Iteration 300: 	Loss: 0.1104
+Train Step A - Iteration 350: 	Loss: 0.1221
+Train Step A - Iteration 400: 	Loss: 0.1188
+Train Step A - Iteration 450: 	Loss: 0.1044
+Train Step A - Iteration 500: 	Loss: 0.0986
+Train Step A - Iteration 550: 	Loss: 0.1092
+Train Step A - Epoch [90]: 	Loss: 0.1101
+Test Step A - Epoch [90]: 	Accuracy: 93.26%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0036
+Train Step A - Iteration 50: 	Loss: 0.1018
+Train Step A - Iteration 100: 	Loss: 0.1108
+Train Step A - Iteration 150: 	Loss: 0.1059
+Train Step A - Iteration 200: 	Loss: 0.1071
+Train Step A - Iteration 250: 	Loss: 0.1142
+Train Step A - Iteration 300: 	Loss: 0.1136
+Train Step A - Iteration 350: 	Loss: 0.1044
+Train Step A - Iteration 400: 	Loss: 0.1110
+Train Step A - Iteration 450: 	Loss: 0.1124
+Train Step A - Iteration 500: 	Loss: 0.1103
+Train Step A - Iteration 550: 	Loss: 0.1197
+Train Step A - Epoch [91]: 	Loss: 0.1101
+Test Step A - Epoch [91]: 	Accuracy: 93.17%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0017
+Train Step A - Iteration 50: 	Loss: 0.0980
+Train Step A - Iteration 100: 	Loss: 0.1009
+Train Step A - Iteration 150: 	Loss: 0.1104
+Train Step A - Iteration 200: 	Loss: 0.1126
+Train Step A - Iteration 250: 	Loss: 0.0971
+Train Step A - Iteration 300: 	Loss: 0.1027
+Train Step A - Iteration 350: 	Loss: 0.1039
+Train Step A - Iteration 400: 	Loss: 0.1004
+Train Step A - Iteration 450: 	Loss: 0.1086
+Train Step A - Iteration 500: 	Loss: 0.1042
+Train Step A - Iteration 550: 	Loss: 0.1179
+Train Step A - Epoch [92]: 	Loss: 0.1054
+Test Step A - Epoch [92]: 	Accuracy: 93.15%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0012
+Train Step A - Iteration 50: 	Loss: 0.1044
+Train Step A - Iteration 100: 	Loss: 0.1064
+Train Step A - Iteration 150: 	Loss: 0.0954
+Train Step A - Iteration 200: 	Loss: 0.1010
+Train Step A - Iteration 250: 	Loss: 0.1091
+Train Step A - Iteration 300: 	Loss: 0.1018
+Train Step A - Iteration 350: 	Loss: 0.1092
+Train Step A - Iteration 400: 	Loss: 0.1234
+Train Step A - Iteration 450: 	Loss: 0.1084
+Train Step A - Iteration 500: 	Loss: 0.1071
+Train Step A - Iteration 550: 	Loss: 0.1072
+Train Step A - Epoch [93]: 	Loss: 0.1066
+Test Step A - Epoch [93]: 	Accuracy: 93.12%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0023
+Train Step A - Iteration 50: 	Loss: 0.0985
+Train Step A - Iteration 100: 	Loss: 0.1013
+Train Step A - Iteration 150: 	Loss: 0.1038
+Train Step A - Iteration 200: 	Loss: 0.1070
+Train Step A - Iteration 250: 	Loss: 0.1003
+Train Step A - Iteration 300: 	Loss: 0.1060
+Train Step A - Iteration 350: 	Loss: 0.1004
+Train Step A - Iteration 400: 	Loss: 0.1058
+Train Step A - Iteration 450: 	Loss: 0.1147
+Train Step A - Iteration 500: 	Loss: 0.1046
+Train Step A - Iteration 550: 	Loss: 0.1082
+Train Step A - Epoch [94]: 	Loss: 0.1046
+Test Step A - Epoch [94]: 	Accuracy: 93.12%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0026
+Train Step A - Iteration 50: 	Loss: 0.1007
+Train Step A - Iteration 100: 	Loss: 0.1010
+Train Step A - Iteration 150: 	Loss: 0.0945
+Train Step A - Iteration 200: 	Loss: 0.0968
+Train Step A - Iteration 250: 	Loss: 0.1078
+Train Step A - Iteration 300: 	Loss: 0.1079
+Train Step A - Iteration 350: 	Loss: 0.1011
+Train Step A - Iteration 400: 	Loss: 0.1006
+Train Step A - Iteration 450: 	Loss: 0.1152
+Train Step A - Iteration 500: 	Loss: 0.1034
+Train Step A - Iteration 550: 	Loss: 0.0993
+Train Step A - Epoch [95]: 	Loss: 0.1027
+Test Step A - Epoch [95]: 	Accuracy: 93.25%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0008
+Train Step A - Iteration 50: 	Loss: 0.1075
+Train Step A - Iteration 100: 	Loss: 0.1105
+Train Step A - Iteration 150: 	Loss: 0.0998
+Train Step A - Iteration 200: 	Loss: 0.1015
+Train Step A - Iteration 250: 	Loss: 0.1039
+Train Step A - Iteration 300: 	Loss: 0.1088
+Train Step A - Iteration 350: 	Loss: 0.0982
+Train Step A - Iteration 400: 	Loss: 0.1102
+Train Step A - Iteration 450: 	Loss: 0.1115
+Train Step A - Iteration 500: 	Loss: 0.1148
+Train Step A - Iteration 550: 	Loss: 0.0984
+Train Step A - Epoch [96]: 	Loss: 0.1053
+Test Step A - Epoch [96]: 	Accuracy: 93.16%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0033
+Train Step A - Iteration 50: 	Loss: 0.0970
+Train Step A - Iteration 100: 	Loss: 0.0966
+Train Step A - Iteration 150: 	Loss: 0.1059
+Train Step A - Iteration 200: 	Loss: 0.0913
+Train Step A - Iteration 250: 	Loss: 0.1021
+Train Step A - Iteration 300: 	Loss: 0.0968
+Train Step A - Iteration 350: 	Loss: 0.1036
+Train Step A - Iteration 400: 	Loss: 0.0955
+Train Step A - Iteration 450: 	Loss: 0.1070
+Train Step A - Iteration 500: 	Loss: 0.1095
+Train Step A - Iteration 550: 	Loss: 0.1020
+Train Step A - Epoch [97]: 	Loss: 0.1008
+Test Step A - Epoch [97]: 	Accuracy: 93.27%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0014
+Train Step A - Iteration 50: 	Loss: 0.0897
+Train Step A - Iteration 100: 	Loss: 0.1023
+Train Step A - Iteration 150: 	Loss: 0.0997
+Train Step A - Iteration 200: 	Loss: 0.0942
+Train Step A - Iteration 250: 	Loss: 0.1041
+Train Step A - Iteration 300: 	Loss: 0.0936
+Train Step A - Iteration 350: 	Loss: 0.1042
+Train Step A - Iteration 400: 	Loss: 0.1003
+Train Step A - Iteration 450: 	Loss: 0.1004
+Train Step A - Iteration 500: 	Loss: 0.1082
+Train Step A - Iteration 550: 	Loss: 0.1005
+Train Step A - Epoch [98]: 	Loss: 0.1004
+Test Step A - Epoch [98]: 	Accuracy: 93.15%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0017
+Train Step A - Iteration 50: 	Loss: 0.0888
+Train Step A - Iteration 100: 	Loss: 0.0947
+Train Step A - Iteration 150: 	Loss: 0.1126
+Train Step A - Iteration 200: 	Loss: 0.1022
+Train Step A - Iteration 250: 	Loss: 0.1022
+Train Step A - Iteration 300: 	Loss: 0.0941
+Train Step A - Iteration 350: 	Loss: 0.1082
+Train Step A - Iteration 400: 	Loss: 0.0987
+Train Step A - Iteration 450: 	Loss: 0.1012
+Train Step A - Iteration 500: 	Loss: 0.0996
+Train Step A - Iteration 550: 	Loss: 0.1044
+Train Step A - Epoch [99]: 	Loss: 0.1004
+Test Step A - Epoch [99]: 	Accuracy: 93.38%
+-----------------------------------------------------------------------------------------------
+
+Train Step A - Iteration 0: 	Loss: 0.0019
+Train Step A - Iteration 50: 	Loss: 0.0978
+Train Step A - Iteration 100: 	Loss: 0.0941
+Train Step A - Iteration 150: 	Loss: 0.1006
+Train Step A - Iteration 200: 	Loss: 0.1029
+Train Step A - Iteration 250: 	Loss: 0.1019
+Train Step A - Iteration 300: 	Loss: 0.0953
+Train Step A - Iteration 350: 	Loss: 0.0965
+Train Step A - Iteration 400: 	Loss: 0.1016
+Train Step A - Iteration 450: 	Loss: 0.0998
+Train Step A - Iteration 500: 	Loss: 0.1046
+Train Step A - Iteration 550: 	Loss: 0.1113
+Train Step A - Epoch [100]: 	Loss: 0.1006
+Test Step A - Epoch [100]: 	Accuracy: 93.24%
+-----------------------------------------------------------------------------------------------
+
+Using downloaded and verified file: ./data/SVHN/raw/train/train_32x32.mat
+Using downloaded and verified file: ./data/SVHN/raw/test/test_32x32.mat
+Train Step B - Epoch [1]:               Discriminator GAN loss: 0.3264,               Generator GAN Loss: 2.9820,               Cycle loss: 1.0364,               Semantic Loss: 2.1409,               Task loss: 2.2400
+Test Step B - Epoch [1]: 	Accuracy: 12.15%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [2]:               Discriminator GAN loss: 0.3468,               Generator GAN Loss: 3.3829,               Cycle loss: 0.8650,               Semantic Loss: 1.4534,               Task loss: 2.1383
+Test Step B - Epoch [2]: 	Accuracy: 27.83%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [3]:               Discriminator GAN loss: 0.3447,               Generator GAN Loss: 3.6127,               Cycle loss: 0.7334,               Semantic Loss: 1.4172,               Task loss: 1.8217
+Test Step B - Epoch [3]: 	Accuracy: 40.04%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [4]:               Discriminator GAN loss: 0.3773,               Generator GAN Loss: 3.4312,               Cycle loss: 0.6558,               Semantic Loss: 1.4177,               Task loss: 1.4895
+Test Step B - Epoch [4]: 	Accuracy: 53.38%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [5]:               Discriminator GAN loss: 0.4106,               Generator GAN Loss: 3.3425,               Cycle loss: 0.6032,               Semantic Loss: 1.3766,               Task loss: 1.3112
+Test Step B - Epoch [5]: 	Accuracy: 59.21%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [6]:               Discriminator GAN loss: 0.4420,               Generator GAN Loss: 3.2038,               Cycle loss: 0.5654,               Semantic Loss: 1.3165,               Task loss: 1.1811
+Test Step B - Epoch [6]: 	Accuracy: 59.82%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [7]:               Discriminator GAN loss: 0.4445,               Generator GAN Loss: 3.1711,               Cycle loss: 0.5356,               Semantic Loss: 1.2271,               Task loss: 1.0876
+Test Step B - Epoch [7]: 	Accuracy: 67.17%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [8]:               Discriminator GAN loss: 0.4254,               Generator GAN Loss: 3.2033,               Cycle loss: 0.5123,               Semantic Loss: 1.1444,               Task loss: 1.0015
+Test Step B - Epoch [8]: 	Accuracy: 68.56%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [9]:               Discriminator GAN loss: 0.4226,               Generator GAN Loss: 3.2307,               Cycle loss: 0.4922,               Semantic Loss: 1.0530,               Task loss: 0.9380
+Test Step B - Epoch [9]: 	Accuracy: 71.12%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [10]:               Discriminator GAN loss: 0.4378,               Generator GAN Loss: 3.2237,               Cycle loss: 0.4771,               Semantic Loss: 1.0194,               Task loss: 0.8920
+Test Step B - Epoch [10]: 	Accuracy: 72.31%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [11]:               Discriminator GAN loss: 0.4223,               Generator GAN Loss: 3.2454,               Cycle loss: 0.4608,               Semantic Loss: 0.9552,               Task loss: 0.8377
+Test Step B - Epoch [11]: 	Accuracy: 73.17%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [12]:               Discriminator GAN loss: 0.4333,               Generator GAN Loss: 3.2472,               Cycle loss: 0.4474,               Semantic Loss: 0.9270,               Task loss: 0.8124
+Test Step B - Epoch [12]: 	Accuracy: 73.84%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [13]:               Discriminator GAN loss: 0.4004,               Generator GAN Loss: 3.2750,               Cycle loss: 0.4321,               Semantic Loss: 0.8607,               Task loss: 0.7671
+Test Step B - Epoch [13]: 	Accuracy: 75.27%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [14]:               Discriminator GAN loss: 0.4064,               Generator GAN Loss: 3.2862,               Cycle loss: 0.4170,               Semantic Loss: 0.8273,               Task loss: 0.7420
+Test Step B - Epoch [14]: 	Accuracy: 74.58%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [15]:               Discriminator GAN loss: 0.4097,               Generator GAN Loss: 3.2916,               Cycle loss: 0.4016,               Semantic Loss: 0.8039,               Task loss: 0.7234
+Test Step B - Epoch [15]: 	Accuracy: 75.39%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [16]:               Discriminator GAN loss: 0.4034,               Generator GAN Loss: 3.3306,               Cycle loss: 0.3887,               Semantic Loss: 0.7845,               Task loss: 0.7044
+Test Step B - Epoch [16]: 	Accuracy: 75.70%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [17]:               Discriminator GAN loss: 0.4066,               Generator GAN Loss: 3.3160,               Cycle loss: 0.3743,               Semantic Loss: 0.7462,               Task loss: 0.6814
+Test Step B - Epoch [17]: 	Accuracy: 75.93%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [18]:               Discriminator GAN loss: 0.4028,               Generator GAN Loss: 3.3344,               Cycle loss: 0.3625,               Semantic Loss: 0.7274,               Task loss: 0.6662
+Test Step B - Epoch [18]: 	Accuracy: 76.10%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [19]:               Discriminator GAN loss: 0.3945,               Generator GAN Loss: 3.3627,               Cycle loss: 0.3533,               Semantic Loss: 0.6953,               Task loss: 0.6497
+Test Step B - Epoch [19]: 	Accuracy: 76.71%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [20]:               Discriminator GAN loss: 0.3908,               Generator GAN Loss: 3.3892,               Cycle loss: 0.3432,               Semantic Loss: 0.6740,               Task loss: 0.6387
+Test Step B - Epoch [20]: 	Accuracy: 76.75%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [21]:               Discriminator GAN loss: 0.3955,               Generator GAN Loss: 3.3982,               Cycle loss: 0.3359,               Semantic Loss: 0.6565,               Task loss: 0.6287
+Test Step B - Epoch [21]: 	Accuracy: 76.57%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [22]:               Discriminator GAN loss: 0.3802,               Generator GAN Loss: 3.4354,               Cycle loss: 0.3286,               Semantic Loss: 0.6388,               Task loss: 0.6168
+Test Step B - Epoch [22]: 	Accuracy: 76.51%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [23]:               Discriminator GAN loss: 0.3788,               Generator GAN Loss: 3.4640,               Cycle loss: 0.3259,               Semantic Loss: 0.6166,               Task loss: 0.6030
+Test Step B - Epoch [23]: 	Accuracy: 76.95%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [24]:               Discriminator GAN loss: 0.3841,               Generator GAN Loss: 3.4879,               Cycle loss: 0.3178,               Semantic Loss: 0.6027,               Task loss: 0.5889
+Test Step B - Epoch [24]: 	Accuracy: 76.96%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [25]:               Discriminator GAN loss: 0.3737,               Generator GAN Loss: 3.5132,               Cycle loss: 0.3129,               Semantic Loss: 0.5930,               Task loss: 0.5852
+Test Step B - Epoch [25]: 	Accuracy: 77.30%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [26]:               Discriminator GAN loss: 0.3688,               Generator GAN Loss: 3.5561,               Cycle loss: 0.3117,               Semantic Loss: 0.5777,               Task loss: 0.5766
+Test Step B - Epoch [26]: 	Accuracy: 77.52%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [27]:               Discriminator GAN loss: 0.3800,               Generator GAN Loss: 3.5747,               Cycle loss: 0.3056,               Semantic Loss: 0.5637,               Task loss: 0.5675
+Test Step B - Epoch [27]: 	Accuracy: 77.50%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [28]:               Discriminator GAN loss: 0.3604,               Generator GAN Loss: 3.6008,               Cycle loss: 0.3022,               Semantic Loss: 0.5478,               Task loss: 0.5616
+Test Step B - Epoch [28]: 	Accuracy: 77.16%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [29]:               Discriminator GAN loss: 0.3564,               Generator GAN Loss: 3.6424,               Cycle loss: 0.3012,               Semantic Loss: 0.5364,               Task loss: 0.5556
+Test Step B - Epoch [29]: 	Accuracy: 77.55%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [30]:               Discriminator GAN loss: 0.3558,               Generator GAN Loss: 3.6744,               Cycle loss: 0.2961,               Semantic Loss: 0.5301,               Task loss: 0.5526
+Test Step B - Epoch [30]: 	Accuracy: 76.79%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [31]:               Discriminator GAN loss: 0.3535,               Generator GAN Loss: 3.6960,               Cycle loss: 0.2934,               Semantic Loss: 0.5149,               Task loss: 0.5394
+Test Step B - Epoch [31]: 	Accuracy: 76.99%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [32]:               Discriminator GAN loss: 0.3517,               Generator GAN Loss: 3.7136,               Cycle loss: 0.2936,               Semantic Loss: 0.5066,               Task loss: 0.5358
+Test Step B - Epoch [32]: 	Accuracy: 77.12%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [33]:               Discriminator GAN loss: 0.3303,               Generator GAN Loss: 3.7606,               Cycle loss: 0.2882,               Semantic Loss: 0.4971,               Task loss: 0.5276
+Test Step B - Epoch [33]: 	Accuracy: 77.26%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [34]:               Discriminator GAN loss: 0.3310,               Generator GAN Loss: 3.8067,               Cycle loss: 0.2897,               Semantic Loss: 0.4946,               Task loss: 0.5260
+Test Step B - Epoch [34]: 	Accuracy: 77.10%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [35]:               Discriminator GAN loss: 0.3372,               Generator GAN Loss: 3.8284,               Cycle loss: 0.2843,               Semantic Loss: 0.4857,               Task loss: 0.5237
+Test Step B - Epoch [35]: 	Accuracy: 77.70%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [36]:               Discriminator GAN loss: 0.3202,               Generator GAN Loss: 3.8648,               Cycle loss: 0.2833,               Semantic Loss: 0.4798,               Task loss: 0.5159
+Test Step B - Epoch [36]: 	Accuracy: 77.54%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [37]:               Discriminator GAN loss: 0.3210,               Generator GAN Loss: 3.9019,               Cycle loss: 0.2836,               Semantic Loss: 0.4775,               Task loss: 0.5111
+Test Step B - Epoch [37]: 	Accuracy: 77.32%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [38]:               Discriminator GAN loss: 0.3221,               Generator GAN Loss: 3.9252,               Cycle loss: 0.2786,               Semantic Loss: 0.4633,               Task loss: 0.5058
+Test Step B - Epoch [38]: 	Accuracy: 77.08%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [39]:               Discriminator GAN loss: 0.3103,               Generator GAN Loss: 3.9716,               Cycle loss: 0.2767,               Semantic Loss: 0.4618,               Task loss: 0.5017
+Test Step B - Epoch [39]: 	Accuracy: 77.71%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [40]:               Discriminator GAN loss: 0.3041,               Generator GAN Loss: 4.0063,               Cycle loss: 0.2841,               Semantic Loss: 0.4617,               Task loss: 0.4996
+Test Step B - Epoch [40]: 	Accuracy: 77.30%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [41]:               Discriminator GAN loss: 0.3002,               Generator GAN Loss: 4.0322,               Cycle loss: 0.2747,               Semantic Loss: 0.4502,               Task loss: 0.4988
+Test Step B - Epoch [41]: 	Accuracy: 77.66%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [42]:               Discriminator GAN loss: 0.2990,               Generator GAN Loss: 4.0762,               Cycle loss: 0.2726,               Semantic Loss: 0.4458,               Task loss: 0.4917
+Test Step B - Epoch [42]: 	Accuracy: 77.59%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [43]:               Discriminator GAN loss: 0.2939,               Generator GAN Loss: 4.1004,               Cycle loss: 0.2793,               Semantic Loss: 0.4454,               Task loss: 0.4877
+Test Step B - Epoch [43]: 	Accuracy: 77.66%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [44]:               Discriminator GAN loss: 0.2968,               Generator GAN Loss: 4.1231,               Cycle loss: 0.2722,               Semantic Loss: 0.4366,               Task loss: 0.4871
+Test Step B - Epoch [44]: 	Accuracy: 77.55%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [45]:               Discriminator GAN loss: 0.2819,               Generator GAN Loss: 4.1546,               Cycle loss: 0.2694,               Semantic Loss: 0.4280,               Task loss: 0.4778
+Test Step B - Epoch [45]: 	Accuracy: 77.26%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [46]:               Discriminator GAN loss: 0.2814,               Generator GAN Loss: 4.1990,               Cycle loss: 0.2738,               Semantic Loss: 0.4341,               Task loss: 0.4791
+Test Step B - Epoch [46]: 	Accuracy: 77.47%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [47]:               Discriminator GAN loss: 0.2790,               Generator GAN Loss: 4.2092,               Cycle loss: 0.2716,               Semantic Loss: 0.4289,               Task loss: 0.4801
+Test Step B - Epoch [47]: 	Accuracy: 77.72%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [48]:               Discriminator GAN loss: 0.2751,               Generator GAN Loss: 4.2398,               Cycle loss: 0.2673,               Semantic Loss: 0.4194,               Task loss: 0.4736
+Test Step B - Epoch [48]: 	Accuracy: 77.96%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [49]:               Discriminator GAN loss: 0.2679,               Generator GAN Loss: 4.2803,               Cycle loss: 0.2664,               Semantic Loss: 0.4159,               Task loss: 0.4682
+Test Step B - Epoch [49]: 	Accuracy: 77.23%
+-----------------------------------------------------------------------------------------------
+
+Train Step B - Epoch [50]:               Discriminator GAN loss: 0.2709,               Generator GAN Loss: 4.2931,               Cycle loss: 0.2653,               Semantic Loss: 0.4163,               Task loss: 0.4657
+Test Step B - Epoch [50]: 	Accuracy: 78.02%
+-----------------------------------------------------------------------------------------------
+
+The process took 176.2777144908905 minutes to complete.

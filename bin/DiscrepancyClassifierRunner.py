@@ -14,10 +14,14 @@ if __name__ == "__main__":
     start_time = time.time()
 
     # Load SVHN and MNIST datasets
-    dataloader_S_train, dataloader_S_test = svhn_loader(batch_size)
-    dataloader_M_train, dataloader_M_test = mnist_loader(batch_size)
+    dataloader_S_train, dataloader_S_test = mnist_loader(batch_size)
+    dataloader_T_train, dataloader_T_test = svhn_loader(batch_size)
 
     DClassifier = DiscrepancySolver(lr=lr, n_step_C=n_step_C, weight_decay=weight_decay)
     for epoch in range(num_epochs):
-        DClassifier.train(epoch, dataloader_S_train, dataloader_M_train)
-        DClassifier.test(epoch, dataloader_M_test)
+        DClassifier.train(epoch, dataloader_S_train, dataloader_T_train)
+        DClassifier.test(epoch, dataloader_T_test)
+
+    end_time = time.time()
+    duration = end_time - start_time
+    print(f"The process took {duration/60} minutes to complete.")

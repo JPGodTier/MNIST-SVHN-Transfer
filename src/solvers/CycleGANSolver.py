@@ -137,9 +137,16 @@ class CycleGANSolver(nn.Module):
     # -----------------------------------------------------------------------------
     # train_cycle_GAN
     # -----------------------------------------------------------------------------
-    def train_cycle_GAN(self, dataloader_S_train, dataloader_M_train, num_epochs, dataloader_S_test, path):
+    def train_cycle_GAN(self, dataloader_S_train, dataloader_M_train, dataloader_S_test, num_epochs, num_gen_training, path):
         for epoch in range(num_epochs):
             print(f"Epoch [{epoch+1}/{num_epochs}] starts")
+
+            # Start Training mode
+            self.G_MS.train()
+            self.G_SM.train()
+            self.D_S.train()
+            self.D_M.train()
+
             running_loss_G = 0.0
             running_loss_D = 0.0
 
@@ -152,23 +159,23 @@ class CycleGANSolver(nn.Module):
                 real_S = real_S[0].to(self.device)
                 real_M = real_M[0].to(self.device)
 
+                # Discriminators' forward and backward pass
+                loss_D = self.train_discriminators(real_S, real_M)
+                loss_D_cumulated += loss_D
+                running_loss_D += loss_D
+
                 # Generators' forward and backward pass
-                loss_G = self.train_generators(real_S, real_M)
+                for i in range(num_gen_training):
+                    loss_G = self.train_generators(real_S, real_M)
                 loss_G_cumulated += loss_G
                 running_loss_G += loss_G
 
-                if iteration % 4 == 0:
-                    # Discriminators' forward and backward pass
-                    loss_D = self.train_discriminators(real_S, real_M) / 4 # We want the Discriminator to learn 4x slowlier
-                    loss_D_cumulated += loss_D
-                    running_loss_D += loss_D
-
+                # Print losses for each 50 iteration
                 iteration += 1
                 if iteration % 50 == 0:
                     print(f"Iteration {iteration}: Loss_G: {loss_G_cumulated/50:.4f}, Loss_D: {loss_D_cumulated/50:.4f}")
                     loss_G_cumulated = 0
                     loss_D_cumulated = 0
-
 
             # Average losses over the dataset
             avg_loss_G = running_loss_G / len(dataloader_S_train)
@@ -177,7 +184,12 @@ class CycleGANSolver(nn.Module):
             print(f"Epoch [{epoch+1}/{num_epochs}], Loss_G: {avg_loss_G:.4f}, Loss_D: {avg_loss_D:.4f}")
 
             ### Print transformed pictures of epoch i
-            # Process the first batch and get the first 10 SVHN images
+            # Start Evaluation mode
+            self.G_MS.eval()
+            self.G_SM.eval()
+            self.D_S.eval()
+            self.D_M.eval()
+
             # Load SVHN and MNIST datasets
             images, _ = next(iter(dataloader_S_test))
             images = images.to(self.device)[40:50]

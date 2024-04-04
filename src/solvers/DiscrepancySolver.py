@@ -80,16 +80,16 @@ class DiscrepancySolver(nn.Module):
     # -----------------------------------------------------------------------------
     # train_step_B
     # -----------------------------------------------------------------------------
-    def train_step_B(self, x_S_train, x_M_train):
-        """Fix G, Train F1 and F2 (minimize both classiication losses on S_train and maximize discrepancy on M_train)"""
+    def train_step_B(self, x_S_train, x_T_train):
+        """Fix G, Train F1 and F2 (minimize both classification losses on S_train and maximize discrepancy on T_train)"""
         self.optimizer_F1.zero_grad()
         self.optimizer_F2.zero_grad()
 
         img_S, label_S = x_S_train
         img_S = img_S.to(self.device)
         label_S = label_S.long().to(self.device)
-        img_M, _ = x_M_train
-        img_M = img_M.to(self.device)
+        img_T, _ = x_T_train
+        img_T = img_T.to(self.device)
 
         # Calculating classification losses
         feat_S = self.G(img_S)
@@ -99,10 +99,10 @@ class DiscrepancySolver(nn.Module):
         loss_step_B2 = self.criterion_classif(output_S2, label_S)
 
         # Calculating discrepancy loss
-        feat_M = self.G(img_M)
-        output_M1 = self.F1(feat_M)
-        output_M2 = self.F2(feat_M)
-        loss_step_B3 = self.discrepancy(output_M1, output_M2)
+        feat_T = self.G(img_T)
+        output_T1 = self.F1(feat_T)
+        output_T2 = self.F2(feat_T)
+        loss_step_B3 = self.discrepancy(output_T1, output_T2)
 
         loss_step_B = loss_step_B1 + loss_step_B2 - loss_step_B3
 
@@ -118,18 +118,18 @@ class DiscrepancySolver(nn.Module):
     # -----------------------------------------------------------------------------
     # train_step_C
     # -----------------------------------------------------------------------------
-    def train_step_C(self, x_M_train):
-        """Fix F1 and F2, (Multiple) Train G (minimize discrepancy on M_train)"""
+    def train_step_C(self, x_T_train):
+        """Fix F1 and F2, (Multiple) Train G (minimize discrepancy on T_train)"""
         self.optimizer_G.zero_grad()
 
-        img_M, _ = x_M_train
-        img_M = img_M.to(self.device)
+        img_T, _ = x_T_train
+        img_T = img_T.to(self.device)
 
         # Calculating discrepancy loss
-        feat_M = self.G(img_M)
-        output_M1 = self.F1(feat_M)
-        output_M2 = self.F2(feat_M)
-        loss_step_C = self.discrepancy(output_M1, output_M2)
+        feat_T = self.G(img_T)
+        output_T1 = self.F1(feat_T)
+        output_T2 = self.F2(feat_T)
+        loss_step_C = self.discrepancy(output_T1, output_T2)
 
         # Backpropagation and gradient descent
         loss_step_C.backward()
@@ -142,8 +142,8 @@ class DiscrepancySolver(nn.Module):
     # -----------------------------------------------------------------------------
     # train
     # -----------------------------------------------------------------------------
-    def train(self, epoch, dataloader_S_train, dataloader_M_train):
-        # Start inference mode
+    def train(self, epoch, dataloader_S_train, dataloader_T_train):
+        # Start Training mode
         self.G.train()
         self.F1.train()
         self.F2.train()
@@ -159,16 +159,16 @@ class DiscrepancySolver(nn.Module):
         loss_discrep_iteration = 0.0
         
         # Iterate over mini-batches
-        for iteration, (x_S_train, x_M_train) in enumerate(zip(dataloader_S_train, dataloader_M_train)):
+        for iteration, (x_S_train, x_T_train) in enumerate(zip(dataloader_S_train, dataloader_T_train)):
             # Train step A - Train G, F1 and F2 (minimize both classification losses on S_train)
             self.train_step_A(x_S_train)
 
-            # Train step B - Fix G, Train F1 and F2 (minimize both classiication losses on S_train and maximize discrepancy on M_train)
-            loss_clf1, loss_clf2 = self.train_step_B(x_S_train, x_M_train)
+            # Train step B - Fix G, Train F1 and F2 (minimize both classiication losses on S_train and maximize discrepancy on T_train)
+            loss_clf1, loss_clf2 = self.train_step_B(x_S_train, x_T_train)
 
-            # Train step C - Fix F1 and F2, (Multiple) Train G (minimize discrepancy on M_train)
+            # Train step C - Fix F1 and F2, (Multiple) Train G (minimize discrepancy on T_train)
             for i in range(self.n_step_C):
-                loss_discrep = self.train_step_C(x_M_train)
+                loss_discrep = self.train_step_C(x_T_train)
             
             loss_clf1_iteration += loss_clf1
             loss_clf2_iteration += loss_clf2
@@ -188,9 +188,10 @@ class DiscrepancySolver(nn.Module):
             loss_discrep_epoch += loss_discrep
 
         # Every epoch, print both averages of classification losses and average of discrepancy losses
-        avg_loss_clf1 = loss_clf1_epoch / len(dataloader_M_train)
-        avg_loss_clf2 = loss_clf2_epoch / len(dataloader_M_train)
-        avg_loss_discrep = loss_discrep_epoch / len(dataloader_M_train)
+        size = min(len(dataloader_S_train), len(dataloader_T_train))
+        avg_loss_clf1 = loss_clf1_epoch / size
+        avg_loss_clf2 = loss_clf2_epoch / size
+        avg_loss_discrep = loss_discrep_epoch / size
 
         print(f"Train - Epoch [{epoch+1}]: \t\tLoss_clf1: {avg_loss_clf1:.4f}, Loss_clf2: {avg_loss_clf2:.4f}, Loss_discrepancy: {avg_loss_discrep:.4f}")
     
@@ -198,7 +199,7 @@ class DiscrepancySolver(nn.Module):
     # -----------------------------------------------------------------------------
     # test
     # -----------------------------------------------------------------------------
-    def test(self, epoch, dataloader_M_test):
+    def test(self, epoch, dataloader_T_test):
         # Start inference mode
         self.G.eval()
         self.F1.eval()
@@ -210,25 +211,25 @@ class DiscrepancySolver(nn.Module):
         size = 0
 
         # Iterate over mini-batches
-        for x_M_test in dataloader_M_test:
-            img_M, label_M = x_M_test
-            img_M, label_M = img_M.to(self.device), label_M.long().to(self.device)
+        for x_T_test in dataloader_T_test:
+            img_T, label_T = x_T_test
+            img_T, label_T = img_T.to(self.device), label_T.long().to(self.device)
 
             # Calculate logit outputs of Predictors 1 and 2 and ensemble (sum)
-            feat_M = self.G(img_M)
-            output_M1 = self.F1(feat_M)
-            output_M2 = self.F2(feat_M)
-            output_ensemble = output_M1 + output_M2
+            feat_T = self.G(img_T)
+            output_T1 = self.F1(feat_T)
+            output_T2 = self.F2(feat_T)
+            output_ensemble = output_T1 + output_T2
 
             # Calculate predictions
-            pred1 = output_M1.data.max(1)[1]
-            pred2 = output_M2.data.max(1)[1]
+            pred1 = output_T1.data.max(1)[1]
+            pred2 = output_T2.data.max(1)[1]
             pred_ensemble = output_ensemble.data.max(1)[1]
 
-            correct_predictions_clf1 += pred1.eq(label_M.data).cpu().sum()
-            correct_predictions_clf2 += pred2.eq(label_M.data).cpu().sum()
-            correct_predictions_ensemble += pred_ensemble.eq(label_M.data).cpu().sum()
-            size += label_M.data.size()[0]
+            correct_predictions_clf1 += pred1.eq(label_T.data).cpu().sum()
+            correct_predictions_clf2 += pred2.eq(label_T.data).cpu().sum()
+            correct_predictions_ensemble += pred_ensemble.eq(label_T.data).cpu().sum()
+            size += label_T.data.size()[0]
 
         print(f"Test - Epoch [{epoch+1}]: Accuracy_clf1: {correct_predictions_clf1/size*100:.2f}%, Accuracy_clf2: {correct_predictions_clf2/size*100:.2f}%, Accuracy_ensemble: {correct_predictions_ensemble/size*100:.2f}%")
         print(f"-----------------------------------------------------------------------------------------------\n")

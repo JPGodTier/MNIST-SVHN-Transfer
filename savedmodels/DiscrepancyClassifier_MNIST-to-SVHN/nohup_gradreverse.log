@@ -1,0 +1,704 @@
+nohup: ignoring input
+Using downloaded and verified file: ./data/SVHN/greyscale/raw/train/train_32x32.mat
+Using downloaded and verified file: ./data/SVHN/greyscale/raw/test/test_32x32.mat
+Train - Iteration 0: 	Loss_clf1: 0.0418, Loss_clf2: 0.0447, Loss_discrepancy: 0.0011
+Train - Iteration 50: 	Loss_clf1: 3.9177, Loss_clf2: 3.9221, Loss_discrepancy: 0.0796
+Train - Iteration 100: 	Loss_clf1: 3.1529, Loss_clf2: 3.1450, Loss_discrepancy: 0.1226
+Train - Iteration 150: 	Loss_clf1: 2.9592, Loss_clf2: 2.9420, Loss_discrepancy: 0.1162
+Train - Iteration 200: 	Loss_clf1: 2.8398, Loss_clf2: 2.8680, Loss_discrepancy: 0.1125
+Train - Iteration 250: 	Loss_clf1: 2.8074, Loss_clf2: 2.7980, Loss_discrepancy: 0.1045
+Train - Iteration 300: 	Loss_clf1: 2.7483, Loss_clf2: 2.7185, Loss_discrepancy: 0.0868
+Train - Iteration 350: 	Loss_clf1: 2.7386, Loss_clf2: 2.6809, Loss_discrepancy: 0.0779
+Train - Iteration 400: 	Loss_clf1: 2.7084, Loss_clf2: 2.6878, Loss_discrepancy: 0.0741
+Train - Iteration 450: 	Loss_clf1: 2.6340, Loss_clf2: 2.6656, Loss_discrepancy: 0.0690
+Train - Epoch [1]: 		Loss_clf1: 2.9301, Loss_clf2: 2.9222, Loss_discrepancy: 0.0923
+Test - Epoch [1]: Accuracy_clf1: 11.50%, Accuracy_clf2: 13.64%, Accuracy_ensemble: 11.26%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0508, Loss_clf2: 0.0478, Loss_discrepancy: 0.0014
+Train - Iteration 50: 	Loss_clf1: 2.5566, Loss_clf2: 2.5580, Loss_discrepancy: 0.0602
+Train - Iteration 100: 	Loss_clf1: 2.5495, Loss_clf2: 2.5730, Loss_discrepancy: 0.0672
+Train - Iteration 150: 	Loss_clf1: 2.4571, Loss_clf2: 2.4797, Loss_discrepancy: 0.0727
+Train - Iteration 200: 	Loss_clf1: 2.4685, Loss_clf2: 2.4763, Loss_discrepancy: 0.0668
+Train - Iteration 250: 	Loss_clf1: 2.5434, Loss_clf2: 2.4744, Loss_discrepancy: 0.0660
+Train - Iteration 300: 	Loss_clf1: 2.5222, Loss_clf2: 2.5214, Loss_discrepancy: 0.0687
+Train - Iteration 350: 	Loss_clf1: 2.4537, Loss_clf2: 2.5093, Loss_discrepancy: 0.0658
+Train - Iteration 400: 	Loss_clf1: 2.5121, Loss_clf2: 2.4300, Loss_discrepancy: 0.0571
+Train - Iteration 450: 	Loss_clf1: 2.5329, Loss_clf2: 2.4107, Loss_discrepancy: 0.0557
+Train - Epoch [2]: 		Loss_clf1: 2.5120, Loss_clf2: 2.4915, Loss_discrepancy: 0.0641
+Test - Epoch [2]: Accuracy_clf1: 9.69%, Accuracy_clf2: 13.49%, Accuracy_ensemble: 11.51%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0453, Loss_clf2: 0.0456, Loss_discrepancy: 0.0013
+Train - Iteration 50: 	Loss_clf1: 2.4883, Loss_clf2: 2.4366, Loss_discrepancy: 0.0601
+Train - Iteration 100: 	Loss_clf1: 2.4999, Loss_clf2: 2.4643, Loss_discrepancy: 0.0560
+Train - Iteration 150: 	Loss_clf1: 2.4749, Loss_clf2: 2.4603, Loss_discrepancy: 0.0688
+Train - Iteration 200: 	Loss_clf1: 2.4389, Loss_clf2: 2.4894, Loss_discrepancy: 0.0616
+Train - Iteration 250: 	Loss_clf1: 2.4332, Loss_clf2: 2.5566, Loss_discrepancy: 0.0567
+Train - Iteration 300: 	Loss_clf1: 2.4047, Loss_clf2: 2.5331, Loss_discrepancy: 0.0481
+Train - Iteration 350: 	Loss_clf1: 2.3966, Loss_clf2: 2.5989, Loss_discrepancy: 0.0497
+Train - Iteration 400: 	Loss_clf1: 2.3865, Loss_clf2: 2.5342, Loss_discrepancy: 0.0545
+Train - Iteration 450: 	Loss_clf1: 2.4277, Loss_clf2: 2.5292, Loss_discrepancy: 0.0458
+Train - Epoch [3]: 		Loss_clf1: 2.4374, Loss_clf2: 2.5104, Loss_discrepancy: 0.0553
+Test - Epoch [3]: Accuracy_clf1: 9.36%, Accuracy_clf2: 11.95%, Accuracy_ensemble: 11.14%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0487, Loss_clf2: 0.0477, Loss_discrepancy: 0.0009
+Train - Iteration 50: 	Loss_clf1: 2.4217, Loss_clf2: 2.4908, Loss_discrepancy: 0.0502
+Train - Iteration 100: 	Loss_clf1: 2.4443, Loss_clf2: 2.4426, Loss_discrepancy: 0.0479
+Train - Iteration 150: 	Loss_clf1: 2.3822, Loss_clf2: 2.5645, Loss_discrepancy: 0.0435
+Train - Iteration 200: 	Loss_clf1: 2.3781, Loss_clf2: 2.5608, Loss_discrepancy: 0.0312
+Train - Iteration 250: 	Loss_clf1: 2.3893, Loss_clf2: 2.5452, Loss_discrepancy: 0.0319
+Train - Iteration 300: 	Loss_clf1: 2.3884, Loss_clf2: 2.4858, Loss_discrepancy: 0.0308
+Train - Iteration 350: 	Loss_clf1: 2.3676, Loss_clf2: 2.5123, Loss_discrepancy: 0.0308
+Train - Iteration 400: 	Loss_clf1: 2.3931, Loss_clf2: 2.4542, Loss_discrepancy: 0.0360
+Train - Iteration 450: 	Loss_clf1: 2.4485, Loss_clf2: 2.4259, Loss_discrepancy: 0.0389
+Train - Epoch [4]: 		Loss_clf1: 2.4012, Loss_clf2: 2.4944, Loss_discrepancy: 0.0378
+Test - Epoch [4]: Accuracy_clf1: 11.69%, Accuracy_clf2: 13.94%, Accuracy_ensemble: 14.11%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0479, Loss_clf2: 0.0483, Loss_discrepancy: 0.0006
+Train - Iteration 50: 	Loss_clf1: 2.4036, Loss_clf2: 2.4041, Loss_discrepancy: 0.0327
+Train - Iteration 100: 	Loss_clf1: 2.3922, Loss_clf2: 2.4398, Loss_discrepancy: 0.0400
+Train - Iteration 150: 	Loss_clf1: 2.3826, Loss_clf2: 2.4469, Loss_discrepancy: 0.0323
+Train - Iteration 200: 	Loss_clf1: 2.3840, Loss_clf2: 2.4100, Loss_discrepancy: 0.0313
+Train - Iteration 250: 	Loss_clf1: 2.3978, Loss_clf2: 2.3854, Loss_discrepancy: 0.0331
+Train - Iteration 300: 	Loss_clf1: 2.4083, Loss_clf2: 2.3999, Loss_discrepancy: 0.0304
+Train - Iteration 350: 	Loss_clf1: 2.3885, Loss_clf2: 2.3844, Loss_discrepancy: 0.0302
+Train - Iteration 400: 	Loss_clf1: 2.3827, Loss_clf2: 2.3841, Loss_discrepancy: 0.0280
+Train - Iteration 450: 	Loss_clf1: 2.3693, Loss_clf2: 2.3735, Loss_discrepancy: 0.0249
+Train - Epoch [5]: 		Loss_clf1: 2.3887, Loss_clf2: 2.4016, Loss_discrepancy: 0.0311
+Test - Epoch [5]: Accuracy_clf1: 8.22%, Accuracy_clf2: 7.57%, Accuracy_ensemble: 8.22%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0465, Loss_clf2: 0.0471, Loss_discrepancy: 0.0005
+Train - Iteration 50: 	Loss_clf1: 2.3732, Loss_clf2: 2.3613, Loss_discrepancy: 0.0246
+Train - Iteration 100: 	Loss_clf1: 2.3773, Loss_clf2: 2.3645, Loss_discrepancy: 0.0257
+Train - Iteration 150: 	Loss_clf1: 2.3804, Loss_clf2: 2.3390, Loss_discrepancy: 0.0222
+Train - Iteration 200: 	Loss_clf1: 2.3557, Loss_clf2: 2.3457, Loss_discrepancy: 0.0200
+Train - Iteration 250: 	Loss_clf1: 2.3351, Loss_clf2: 2.3355, Loss_discrepancy: 0.0230
+Train - Iteration 300: 	Loss_clf1: 2.3324, Loss_clf2: 2.3367, Loss_discrepancy: 0.0181
+Train - Iteration 350: 	Loss_clf1: 2.3385, Loss_clf2: 2.3348, Loss_discrepancy: 0.0180
+Train - Iteration 400: 	Loss_clf1: 2.3454, Loss_clf2: 2.3253, Loss_discrepancy: 0.0174
+Train - Iteration 450: 	Loss_clf1: 2.3308, Loss_clf2: 2.3359, Loss_discrepancy: 0.0185
+Train - Epoch [6]: 		Loss_clf1: 2.3509, Loss_clf2: 2.3423, Loss_discrepancy: 0.0209
+Test - Epoch [6]: Accuracy_clf1: 17.03%, Accuracy_clf2: 11.59%, Accuracy_ensemble: 11.26%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0468, Loss_clf2: 0.0468, Loss_discrepancy: 0.0005
+Train - Iteration 50: 	Loss_clf1: 2.3266, Loss_clf2: 2.3330, Loss_discrepancy: 0.0205
+Train - Iteration 100: 	Loss_clf1: 2.3232, Loss_clf2: 2.3242, Loss_discrepancy: 0.0147
+Train - Iteration 150: 	Loss_clf1: 2.3213, Loss_clf2: 2.3169, Loss_discrepancy: 0.0149
+Train - Iteration 200: 	Loss_clf1: 2.3221, Loss_clf2: 2.3157, Loss_discrepancy: 0.0139
+Train - Iteration 250: 	Loss_clf1: 2.3287, Loss_clf2: 2.3149, Loss_discrepancy: 0.0128
+Train - Iteration 300: 	Loss_clf1: 2.3197, Loss_clf2: 2.3185, Loss_discrepancy: 0.0138
+Train - Iteration 350: 	Loss_clf1: 2.3224, Loss_clf2: 2.3250, Loss_discrepancy: 0.0167
+Train - Iteration 400: 	Loss_clf1: 2.3211, Loss_clf2: 2.3257, Loss_discrepancy: 0.0215
+Train - Iteration 450: 	Loss_clf1: 2.3267, Loss_clf2: 2.3212, Loss_discrepancy: 0.0151
+Train - Epoch [7]: 		Loss_clf1: 2.3235, Loss_clf2: 2.3217, Loss_discrepancy: 0.0161
+Test - Epoch [7]: Accuracy_clf1: 16.14%, Accuracy_clf2: 18.05%, Accuracy_ensemble: 15.95%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0465, Loss_clf2: 0.0463, Loss_discrepancy: 0.0004
+Train - Iteration 50: 	Loss_clf1: 2.3288, Loss_clf2: 2.3240, Loss_discrepancy: 0.0216
+Train - Iteration 100: 	Loss_clf1: 2.3175, Loss_clf2: 2.3178, Loss_discrepancy: 0.0181
+Train - Iteration 150: 	Loss_clf1: 2.3164, Loss_clf2: 2.3244, Loss_discrepancy: 0.0223
+Train - Iteration 200: 	Loss_clf1: 2.3288, Loss_clf2: 2.3207, Loss_discrepancy: 0.0153
+Train - Iteration 250: 	Loss_clf1: 2.3268, Loss_clf2: 2.3331, Loss_discrepancy: 0.0164
+Train - Iteration 300: 	Loss_clf1: 2.3270, Loss_clf2: 2.3184, Loss_discrepancy: 0.0174
+Train - Iteration 350: 	Loss_clf1: 2.3185, Loss_clf2: 2.3134, Loss_discrepancy: 0.0168
+Train - Iteration 400: 	Loss_clf1: 2.3148, Loss_clf2: 2.3118, Loss_discrepancy: 0.0194
+Train - Iteration 450: 	Loss_clf1: 2.3180, Loss_clf2: 2.3174, Loss_discrepancy: 0.0202
+Train - Epoch [8]: 		Loss_clf1: 2.3216, Loss_clf2: 2.3201, Loss_discrepancy: 0.0186
+Test - Epoch [8]: Accuracy_clf1: 17.00%, Accuracy_clf2: 18.56%, Accuracy_ensemble: 17.73%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0466, Loss_clf2: 0.0465, Loss_discrepancy: 0.0004
+Train - Iteration 50: 	Loss_clf1: 2.3188, Loss_clf2: 2.3116, Loss_discrepancy: 0.0210
+Train - Iteration 100: 	Loss_clf1: 2.3166, Loss_clf2: 2.3225, Loss_discrepancy: 0.0183
+Train - Iteration 150: 	Loss_clf1: 2.3142, Loss_clf2: 2.3142, Loss_discrepancy: 0.0175
+Train - Iteration 200: 	Loss_clf1: 2.3177, Loss_clf2: 2.3122, Loss_discrepancy: 0.0250
+Train - Iteration 250: 	Loss_clf1: 2.3139, Loss_clf2: 2.3150, Loss_discrepancy: 0.0146
+Train - Iteration 300: 	Loss_clf1: 2.3175, Loss_clf2: 2.3173, Loss_discrepancy: 0.0171
+Train - Iteration 350: 	Loss_clf1: 2.3155, Loss_clf2: 2.3108, Loss_discrepancy: 0.0183
+Train - Iteration 400: 	Loss_clf1: 2.3168, Loss_clf2: 2.3090, Loss_discrepancy: 0.0130
+Train - Iteration 450: 	Loss_clf1: 2.3097, Loss_clf2: 2.3072, Loss_discrepancy: 0.0138
+Train - Epoch [9]: 		Loss_clf1: 2.3155, Loss_clf2: 2.3130, Loss_discrepancy: 0.0174
+Test - Epoch [9]: Accuracy_clf1: 16.85%, Accuracy_clf2: 19.56%, Accuracy_ensemble: 18.77%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0459, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3086, Loss_clf2: 2.3087, Loss_discrepancy: 0.0144
+Train - Iteration 100: 	Loss_clf1: 2.3112, Loss_clf2: 2.3028, Loss_discrepancy: 0.0109
+Train - Iteration 150: 	Loss_clf1: 2.3075, Loss_clf2: 2.3049, Loss_discrepancy: 0.0133
+Train - Iteration 200: 	Loss_clf1: 2.3112, Loss_clf2: 2.3034, Loss_discrepancy: 0.0073
+Train - Iteration 250: 	Loss_clf1: 2.3091, Loss_clf2: 2.3086, Loss_discrepancy: 0.0085
+Train - Iteration 300: 	Loss_clf1: 2.3081, Loss_clf2: 2.3035, Loss_discrepancy: 0.0111
+Train - Iteration 350: 	Loss_clf1: 2.3070, Loss_clf2: 2.3055, Loss_discrepancy: 0.0106
+Train - Iteration 400: 	Loss_clf1: 2.3060, Loss_clf2: 2.3049, Loss_discrepancy: 0.0081
+Train - Iteration 450: 	Loss_clf1: 2.3039, Loss_clf2: 2.3046, Loss_discrepancy: 0.0105
+Train - Epoch [10]: 		Loss_clf1: 2.3080, Loss_clf2: 2.3052, Loss_discrepancy: 0.0105
+Test - Epoch [10]: Accuracy_clf1: 16.93%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.10%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0462, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3050, Loss_clf2: 2.3035, Loss_discrepancy: 0.0095
+Train - Iteration 100: 	Loss_clf1: 2.3044, Loss_clf2: 2.3047, Loss_discrepancy: 0.0089
+Train - Iteration 150: 	Loss_clf1: 2.3057, Loss_clf2: 2.3037, Loss_discrepancy: 0.0107
+Train - Iteration 200: 	Loss_clf1: 2.3054, Loss_clf2: 2.3030, Loss_discrepancy: 0.0095
+Train - Iteration 250: 	Loss_clf1: 2.3037, Loss_clf2: 2.3016, Loss_discrepancy: 0.0093
+Train - Iteration 300: 	Loss_clf1: 2.3036, Loss_clf2: 2.3018, Loss_discrepancy: 0.0112
+Train - Iteration 350: 	Loss_clf1: 2.3070, Loss_clf2: 2.3005, Loss_discrepancy: 0.0091
+Train - Iteration 400: 	Loss_clf1: 2.3033, Loss_clf2: 2.3042, Loss_discrepancy: 0.0077
+Train - Iteration 450: 	Loss_clf1: 2.3020, Loss_clf2: 2.3021, Loss_discrepancy: 0.0078
+Train - Epoch [11]: 		Loss_clf1: 2.3044, Loss_clf2: 2.3028, Loss_discrepancy: 0.0093
+Test - Epoch [11]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0459, Loss_clf2: 0.0462, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3026, Loss_clf2: 2.3026, Loss_discrepancy: 0.0082
+Train - Iteration 100: 	Loss_clf1: 2.3030, Loss_clf2: 2.3034, Loss_discrepancy: 0.0084
+Train - Iteration 150: 	Loss_clf1: 2.3021, Loss_clf2: 2.3006, Loss_discrepancy: 0.0085
+Train - Iteration 200: 	Loss_clf1: 2.3031, Loss_clf2: 2.3022, Loss_discrepancy: 0.0084
+Train - Iteration 250: 	Loss_clf1: 2.3022, Loss_clf2: 2.3020, Loss_discrepancy: 0.0085
+Train - Iteration 300: 	Loss_clf1: 2.3021, Loss_clf2: 2.3029, Loss_discrepancy: 0.0086
+Train - Iteration 350: 	Loss_clf1: 2.3024, Loss_clf2: 2.3016, Loss_discrepancy: 0.0087
+Train - Iteration 400: 	Loss_clf1: 2.3026, Loss_clf2: 2.3018, Loss_discrepancy: 0.0087
+Train - Iteration 450: 	Loss_clf1: 2.3036, Loss_clf2: 2.3025, Loss_discrepancy: 0.0088
+Train - Epoch [12]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3022, Loss_discrepancy: 0.0085
+Test - Epoch [12]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0462, Loss_clf2: 0.0460, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3012, Loss_clf2: 2.3027, Loss_discrepancy: 0.0089
+Train - Iteration 100: 	Loss_clf1: 2.3037, Loss_clf2: 2.3028, Loss_discrepancy: 0.0090
+Train - Iteration 150: 	Loss_clf1: 2.3012, Loss_clf2: 2.3015, Loss_discrepancy: 0.0091
+Train - Iteration 200: 	Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0091
+Train - Iteration 250: 	Loss_clf1: 2.3027, Loss_clf2: 2.3021, Loss_discrepancy: 0.0092
+Train - Iteration 300: 	Loss_clf1: 2.3022, Loss_clf2: 2.3024, Loss_discrepancy: 0.0092
+Train - Iteration 350: 	Loss_clf1: 2.3022, Loss_clf2: 2.3026, Loss_discrepancy: 0.0093
+Train - Iteration 400: 	Loss_clf1: 2.3032, Loss_clf2: 2.3023, Loss_discrepancy: 0.0093
+Train - Iteration 450: 	Loss_clf1: 2.3016, Loss_clf2: 2.3021, Loss_discrepancy: 0.0094
+Train - Epoch [13]: 		Loss_clf1: 2.3022, Loss_clf2: 2.3023, Loss_discrepancy: 0.0092
+Test - Epoch [13]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0458, Loss_clf2: 0.0459, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3019, Loss_clf2: 2.3035, Loss_discrepancy: 0.0094
+Train - Iteration 100: 	Loss_clf1: 2.3034, Loss_clf2: 2.3012, Loss_discrepancy: 0.0095
+Train - Iteration 150: 	Loss_clf1: 2.3025, Loss_clf2: 2.3025, Loss_discrepancy: 0.0095
+Train - Iteration 200: 	Loss_clf1: 2.3012, Loss_clf2: 2.3021, Loss_discrepancy: 0.0095
+Train - Iteration 250: 	Loss_clf1: 2.3012, Loss_clf2: 2.3020, Loss_discrepancy: 0.0095
+Train - Iteration 300: 	Loss_clf1: 2.3036, Loss_clf2: 2.3028, Loss_discrepancy: 0.0096
+Train - Iteration 350: 	Loss_clf1: 2.3019, Loss_clf2: 2.3024, Loss_discrepancy: 0.0096
+Train - Iteration 400: 	Loss_clf1: 2.3029, Loss_clf2: 2.3026, Loss_discrepancy: 0.0096
+Train - Iteration 450: 	Loss_clf1: 2.3022, Loss_clf2: 2.3019, Loss_discrepancy: 0.0096
+Train - Epoch [14]: 		Loss_clf1: 2.3023, Loss_clf2: 2.3023, Loss_discrepancy: 0.0095
+Test - Epoch [14]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3035, Loss_clf2: 2.3022, Loss_discrepancy: 0.0097
+Train - Iteration 100: 	Loss_clf1: 2.3028, Loss_clf2: 2.3028, Loss_discrepancy: 0.0097
+Train - Iteration 150: 	Loss_clf1: 2.3010, Loss_clf2: 2.3019, Loss_discrepancy: 0.0097
+Train - Iteration 200: 	Loss_clf1: 2.3011, Loss_clf2: 2.3036, Loss_discrepancy: 0.0097
+Train - Iteration 250: 	Loss_clf1: 2.3026, Loss_clf2: 2.3014, Loss_discrepancy: 0.0097
+Train - Iteration 300: 	Loss_clf1: 2.3023, Loss_clf2: 2.3022, Loss_discrepancy: 0.0098
+Train - Iteration 350: 	Loss_clf1: 2.3020, Loss_clf2: 2.3028, Loss_discrepancy: 0.0098
+Train - Iteration 400: 	Loss_clf1: 2.3033, Loss_clf2: 2.3009, Loss_discrepancy: 0.0098
+Train - Iteration 450: 	Loss_clf1: 2.3035, Loss_clf2: 2.3034, Loss_discrepancy: 0.0098
+Train - Epoch [15]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3024, Loss_discrepancy: 0.0097
+Test - Epoch [15]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0459, Loss_clf2: 0.0462, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3015, Loss_clf2: 2.3023, Loss_discrepancy: 0.0098
+Train - Iteration 100: 	Loss_clf1: 2.3018, Loss_clf2: 2.3021, Loss_discrepancy: 0.0098
+Train - Iteration 150: 	Loss_clf1: 2.3050, Loss_clf2: 2.3035, Loss_discrepancy: 0.0098
+Train - Iteration 200: 	Loss_clf1: 2.3018, Loss_clf2: 2.3019, Loss_discrepancy: 0.0098
+Train - Iteration 250: 	Loss_clf1: 2.3000, Loss_clf2: 2.3014, Loss_discrepancy: 0.0098
+Train - Iteration 300: 	Loss_clf1: 2.3040, Loss_clf2: 2.3041, Loss_discrepancy: 0.0098
+Train - Iteration 350: 	Loss_clf1: 2.3024, Loss_clf2: 2.3027, Loss_discrepancy: 0.0098
+Train - Iteration 400: 	Loss_clf1: 2.3021, Loss_clf2: 2.3017, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3028, Loss_clf2: 2.3014, Loss_discrepancy: 0.0099
+Train - Epoch [16]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3024, Loss_discrepancy: 0.0098
+Test - Epoch [16]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0461, Loss_clf2: 0.0459, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3030, Loss_clf2: 2.3031, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3014, Loss_clf2: 2.3027, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3025, Loss_clf2: 2.3017, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3027, Loss_clf2: 2.3019, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3018, Loss_clf2: 2.3026, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3043, Loss_clf2: 2.3046, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3024, Loss_clf2: 2.3020, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3022, Loss_clf2: 2.3020, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3016, Loss_clf2: 2.3015, Loss_discrepancy: 0.0099
+Train - Epoch [17]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Test - Epoch [17]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0462, Loss_clf2: 0.0464, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3037, Loss_clf2: 2.3031, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3021, Loss_clf2: 2.3015, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3026, Loss_clf2: 2.3022, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3026, Loss_clf2: 2.3019, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3010, Loss_clf2: 2.3033, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3027, Loss_clf2: 2.3023, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3024, Loss_clf2: 2.3023, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3033, Loss_clf2: 2.3033, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3015, Loss_clf2: 2.3023, Loss_discrepancy: 0.0099
+Train - Epoch [18]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [18]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0461, Loss_clf2: 0.0459, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3018, Loss_clf2: 2.3033, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3032, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3020, Loss_clf2: 2.3015, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3016, Loss_clf2: 2.3015, Loss_discrepancy: 0.0100
+Train - Iteration 250: 	Loss_clf1: 2.3024, Loss_clf2: 2.3020, Loss_discrepancy: 0.0100
+Train - Iteration 300: 	Loss_clf1: 2.3031, Loss_clf2: 2.3035, Loss_discrepancy: 0.0101
+Train - Iteration 350: 	Loss_clf1: 2.3025, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3038, Loss_clf2: 2.3017, Loss_discrepancy: 0.0100
+Train - Iteration 450: 	Loss_clf1: 2.3021, Loss_clf2: 2.3041, Loss_discrepancy: 0.0099
+Train - Epoch [19]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3025, Loss_discrepancy: 0.0100
+Test - Epoch [19]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0462, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3041, Loss_clf2: 2.3034, Loss_discrepancy: 0.0100
+Train - Iteration 100: 	Loss_clf1: 2.3035, Loss_clf2: 2.3027, Loss_discrepancy: 0.0100
+Train - Iteration 150: 	Loss_clf1: 2.3014, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3028, Loss_clf2: 2.3019, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3016, Loss_clf2: 2.3018, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3010, Loss_clf2: 2.3020, Loss_discrepancy: 0.0100
+Train - Iteration 350: 	Loss_clf1: 2.3035, Loss_clf2: 2.3035, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3016, Loss_clf2: 2.3027, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3022, Loss_clf2: 2.3014, Loss_discrepancy: 0.0100
+Train - Epoch [20]: 		Loss_clf1: 2.3026, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [20]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0463, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3024, Loss_clf2: 2.3019, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3010, Loss_clf2: 2.3020, Loss_discrepancy: 0.0100
+Train - Iteration 150: 	Loss_clf1: 2.3029, Loss_clf2: 2.3031, Loss_discrepancy: 0.0100
+Train - Iteration 200: 	Loss_clf1: 2.3028, Loss_clf2: 2.3022, Loss_discrepancy: 0.0100
+Train - Iteration 250: 	Loss_clf1: 2.3028, Loss_clf2: 2.3010, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3032, Loss_clf2: 2.3026, Loss_discrepancy: 0.0101
+Train - Iteration 350: 	Loss_clf1: 2.3021, Loss_clf2: 2.3038, Loss_discrepancy: 0.0098
+Train - Iteration 400: 	Loss_clf1: 2.3024, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3024, Loss_clf2: 2.3023, Loss_discrepancy: 0.0100
+Train - Epoch [21]: 		Loss_clf1: 2.3026, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Test - Epoch [21]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3010, Loss_clf2: 2.3022, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3035, Loss_clf2: 2.3011, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3019, Loss_clf2: 2.3014, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3015, Loss_clf2: 2.3011, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3031, Loss_clf2: 2.3023, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3023, Loss_clf2: 2.3046, Loss_discrepancy: 0.0100
+Train - Iteration 350: 	Loss_clf1: 2.3010, Loss_clf2: 2.3022, Loss_discrepancy: 0.0100
+Train - Iteration 400: 	Loss_clf1: 2.3041, Loss_clf2: 2.3049, Loss_discrepancy: 0.0100
+Train - Iteration 450: 	Loss_clf1: 2.3039, Loss_clf2: 2.3036, Loss_discrepancy: 0.0100
+Train - Epoch [22]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [22]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0461, Loss_clf2: 0.0459, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3036, Loss_clf2: 2.3016, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3038, Loss_clf2: 2.3018, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3015, Loss_clf2: 2.3019, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3027, Loss_clf2: 2.3030, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3021, Loss_clf2: 2.3029, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3017, Loss_clf2: 2.3016, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3017, Loss_clf2: 2.3037, Loss_discrepancy: 0.0100
+Train - Iteration 400: 	Loss_clf1: 2.3018, Loss_clf2: 2.3032, Loss_discrepancy: 0.0100
+Train - Iteration 450: 	Loss_clf1: 2.3027, Loss_clf2: 2.3024, Loss_discrepancy: 0.0100
+Train - Epoch [23]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [23]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0464, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3036, Loss_clf2: 2.3021, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3031, Loss_clf2: 2.3021, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3020, Loss_clf2: 2.3039, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3039, Loss_clf2: 2.3016, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3021, Loss_clf2: 2.3031, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3016, Loss_clf2: 2.3013, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3023, Loss_clf2: 2.3014, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3006, Loss_clf2: 2.3030, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3032, Loss_clf2: 2.3031, Loss_discrepancy: 0.0099
+Train - Epoch [24]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [24]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0462, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3025, Loss_clf2: 2.3019, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3019, Loss_clf2: 2.3033, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3021, Loss_clf2: 2.3028, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3029, Loss_clf2: 2.3014, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3027, Loss_clf2: 2.3028, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3023, Loss_clf2: 2.3023, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3039, Loss_clf2: 2.3037, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3028, Loss_clf2: 2.3035, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3013, Loss_clf2: 2.3003, Loss_discrepancy: 0.0099
+Train - Epoch [25]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Test - Epoch [25]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0459, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3024, Loss_clf2: 2.3022, Loss_discrepancy: 0.0100
+Train - Iteration 100: 	Loss_clf1: 2.3027, Loss_clf2: 2.3034, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3025, Loss_clf2: 2.3016, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3031, Loss_clf2: 2.3018, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3021, Loss_clf2: 2.3020, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3015, Loss_clf2: 2.3023, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3027, Loss_clf2: 2.3029, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3008, Loss_clf2: 2.3029, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3032, Loss_clf2: 2.3035, Loss_discrepancy: 0.0100
+Train - Epoch [26]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [26]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0462, Loss_clf2: 0.0462, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3027, Loss_clf2: 2.3022, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3033, Loss_clf2: 2.3021, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3027, Loss_clf2: 2.3036, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3016, Loss_clf2: 2.3031, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3012, Loss_clf2: 2.3018, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3019, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3031, Loss_clf2: 2.3019, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3034, Loss_clf2: 2.3027, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3032, Loss_clf2: 2.3015, Loss_discrepancy: 0.0099
+Train - Epoch [27]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Test - Epoch [27]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0461, Loss_clf2: 0.0459, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3041, Loss_clf2: 2.3030, Loss_discrepancy: 0.0100
+Train - Iteration 100: 	Loss_clf1: 2.3013, Loss_clf2: 2.3030, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3025, Loss_clf2: 2.3016, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3040, Loss_clf2: 2.3040, Loss_discrepancy: 0.0100
+Train - Iteration 250: 	Loss_clf1: 2.3032, Loss_clf2: 2.3034, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3022, Loss_clf2: 2.3029, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3017, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3020, Loss_clf2: 2.3019, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3011, Loss_clf2: 2.3004, Loss_discrepancy: 0.0099
+Train - Epoch [28]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [28]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0461, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3031, Loss_clf2: 2.3035, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3029, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3035, Loss_clf2: 2.3011, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3039, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3000, Loss_clf2: 2.3026, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3022, Loss_clf2: 2.3014, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3013, Loss_clf2: 2.3033, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3026, Loss_clf2: 2.3035, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3023, Loss_clf2: 2.3018, Loss_discrepancy: 0.0099
+Train - Epoch [29]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Test - Epoch [29]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0459, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3029, Loss_clf2: 2.3020, Loss_discrepancy: 0.0102
+Train - Iteration 100: 	Loss_clf1: 2.3025, Loss_clf2: 2.3023, Loss_discrepancy: 0.0100
+Train - Iteration 150: 	Loss_clf1: 2.3010, Loss_clf2: 2.3031, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3031, Loss_clf2: 2.3030, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3032, Loss_clf2: 2.3032, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3015, Loss_clf2: 2.3018, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3028, Loss_clf2: 2.3021, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3013, Loss_clf2: 2.3016, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3028, Loss_clf2: 2.3038, Loss_discrepancy: 0.0098
+Train - Epoch [30]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3026, Loss_discrepancy: 0.0099
+Test - Epoch [30]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3017, Loss_clf2: 2.3011, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3018, Loss_clf2: 2.3034, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3023, Loss_clf2: 2.3027, Loss_discrepancy: 0.0098
+Train - Iteration 200: 	Loss_clf1: 2.3023, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3041, Loss_clf2: 2.3021, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3044, Loss_clf2: 2.3042, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3036, Loss_clf2: 2.3013, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3022, Loss_clf2: 2.3022, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3002, Loss_clf2: 2.3026, Loss_discrepancy: 0.0099
+Train - Epoch [31]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Test - Epoch [31]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3025, Loss_clf2: 2.3013, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3001, Loss_clf2: 2.3012, Loss_discrepancy: 0.0100
+Train - Iteration 150: 	Loss_clf1: 2.3032, Loss_clf2: 2.3029, Loss_discrepancy: 0.0100
+Train - Iteration 200: 	Loss_clf1: 2.3027, Loss_clf2: 2.3034, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3016, Loss_clf2: 2.3020, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3021, Loss_clf2: 2.3033, Loss_discrepancy: 0.0100
+Train - Iteration 350: 	Loss_clf1: 2.3026, Loss_clf2: 2.3027, Loss_discrepancy: 0.0100
+Train - Iteration 400: 	Loss_clf1: 2.3042, Loss_clf2: 2.3023, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3033, Loss_clf2: 2.3030, Loss_discrepancy: 0.0099
+Train - Epoch [32]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3024, Loss_discrepancy: 0.0100
+Test - Epoch [32]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3010, Loss_clf2: 2.3018, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3018, Loss_clf2: 2.3032, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3049, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3028, Loss_clf2: 2.3019, Loss_discrepancy: 0.0098
+Train - Iteration 300: 	Loss_clf1: 2.3029, Loss_clf2: 2.3039, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3008, Loss_clf2: 2.3027, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3031, Loss_clf2: 2.3019, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3027, Loss_clf2: 2.3019, Loss_discrepancy: 0.0099
+Train - Epoch [33]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [33]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0461, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3019, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3016, Loss_clf2: 2.3030, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3008, Loss_clf2: 2.3016, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3027, Loss_clf2: 2.3024, Loss_discrepancy: 0.0100
+Train - Iteration 250: 	Loss_clf1: 2.3034, Loss_clf2: 2.3023, Loss_discrepancy: 0.0100
+Train - Iteration 300: 	Loss_clf1: 2.3033, Loss_clf2: 2.3022, Loss_discrepancy: 0.0100
+Train - Iteration 350: 	Loss_clf1: 2.3027, Loss_clf2: 2.3017, Loss_discrepancy: 0.0100
+Train - Iteration 400: 	Loss_clf1: 2.3018, Loss_clf2: 2.3032, Loss_discrepancy: 0.0101
+Train - Iteration 450: 	Loss_clf1: 2.3036, Loss_clf2: 2.3023, Loss_discrepancy: 0.0100
+Train - Epoch [34]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3024, Loss_discrepancy: 0.0100
+Test - Epoch [34]: Accuracy_clf1: 11.07%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0461, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3024, Loss_clf2: 2.3016, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3022, Loss_clf2: 2.3018, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3020, Loss_clf2: 2.3035, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3030, Loss_clf2: 2.3010, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3032, Loss_clf2: 2.3026, Loss_discrepancy: 0.0100
+Train - Iteration 300: 	Loss_clf1: 2.3025, Loss_clf2: 2.3037, Loss_discrepancy: 0.0100
+Train - Iteration 350: 	Loss_clf1: 2.3002, Loss_clf2: 2.3030, Loss_discrepancy: 0.0100
+Train - Iteration 400: 	Loss_clf1: 2.3026, Loss_clf2: 2.3034, Loss_discrepancy: 0.0101
+Train - Iteration 450: 	Loss_clf1: 2.3034, Loss_clf2: 2.3019, Loss_discrepancy: 0.0100
+Train - Epoch [35]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3025, Loss_discrepancy: 0.0100
+Test - Epoch [35]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0459, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3026, Loss_clf2: 2.3036, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3038, Loss_clf2: 2.3014, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3021, Loss_clf2: 2.3014, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3012, Loss_clf2: 2.3044, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3018, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3025, Loss_clf2: 2.3018, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3039, Loss_clf2: 2.3030, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3030, Loss_clf2: 2.3015, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3017, Loss_clf2: 2.3033, Loss_discrepancy: 0.0099
+Train - Epoch [36]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [36]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0462, Loss_clf2: 0.0457, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3018, Loss_clf2: 2.3023, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3037, Loss_clf2: 2.3027, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3025, Loss_clf2: 2.3019, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3036, Loss_clf2: 2.3029, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3021, Loss_clf2: 2.3017, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3038, Loss_clf2: 2.3037, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3008, Loss_clf2: 2.3022, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3014, Loss_clf2: 2.3009, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3014, Loss_clf2: 2.3042, Loss_discrepancy: 0.0099
+Train - Epoch [37]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [37]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0458, Loss_clf2: 0.0463, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3025, Loss_clf2: 2.3016, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3031, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3016, Loss_clf2: 2.3023, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3036, Loss_clf2: 2.3019, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3037, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3019, Loss_clf2: 2.3022, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3022, Loss_clf2: 2.3034, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3027, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3015, Loss_clf2: 2.3031, Loss_discrepancy: 0.0099
+Train - Epoch [38]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Test - Epoch [38]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0460, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3038, Loss_clf2: 2.3021, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3020, Loss_clf2: 2.3017, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3029, Loss_clf2: 2.3026, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3034, Loss_clf2: 2.3030, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3015, Loss_clf2: 2.3029, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3014, Loss_clf2: 2.3031, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3003, Loss_clf2: 2.3016, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3033, Loss_clf2: 2.3022, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3035, Loss_clf2: 2.3027, Loss_discrepancy: 0.0099
+Train - Epoch [39]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Test - Epoch [39]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0459, Loss_clf2: 0.0462, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3030, Loss_clf2: 2.3001, Loss_discrepancy: 0.0098
+Train - Iteration 100: 	Loss_clf1: 2.3014, Loss_clf2: 2.3018, Loss_discrepancy: 0.0098
+Train - Iteration 150: 	Loss_clf1: 2.3018, Loss_clf2: 2.3031, Loss_discrepancy: 0.0098
+Train - Iteration 200: 	Loss_clf1: 2.3050, Loss_clf2: 2.3014, Loss_discrepancy: 0.0098
+Train - Iteration 250: 	Loss_clf1: 2.3009, Loss_clf2: 2.3039, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3039, Loss_clf2: 2.3043, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3018, Loss_clf2: 2.3022, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3010, Loss_clf2: 2.3026, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3022, Loss_clf2: 2.3026, Loss_discrepancy: 0.0099
+Train - Epoch [40]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [40]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0459, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3033, Loss_clf2: 2.3033, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3014, Loss_clf2: 2.3034, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3025, Loss_clf2: 2.3021, Loss_discrepancy: 0.0100
+Train - Iteration 200: 	Loss_clf1: 2.3038, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3028, Loss_clf2: 2.3029, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3006, Loss_clf2: 2.3013, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3023, Loss_clf2: 2.3028, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3032, Loss_clf2: 2.3011, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3035, Loss_clf2: 2.3019, Loss_discrepancy: 0.0098
+Train - Epoch [41]: 		Loss_clf1: 2.3026, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Test - Epoch [41]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0461, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3007, Loss_clf2: 2.3033, Loss_discrepancy: 0.0100
+Train - Iteration 100: 	Loss_clf1: 2.3026, Loss_clf2: 2.3018, Loss_discrepancy: 0.0100
+Train - Iteration 150: 	Loss_clf1: 2.3030, Loss_clf2: 2.3029, Loss_discrepancy: 0.0100
+Train - Iteration 200: 	Loss_clf1: 2.3023, Loss_clf2: 2.3036, Loss_discrepancy: 0.0100
+Train - Iteration 250: 	Loss_clf1: 2.3020, Loss_clf2: 2.3023, Loss_discrepancy: 0.0100
+Train - Iteration 300: 	Loss_clf1: 2.3039, Loss_clf2: 2.3008, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3018, Loss_clf2: 2.3020, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3033, Loss_clf2: 2.3036, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3031, Loss_clf2: 2.3016, Loss_discrepancy: 0.0099
+Train - Epoch [42]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3025, Loss_discrepancy: 0.0100
+Test - Epoch [42]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0461, Loss_clf2: 0.0460, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3033, Loss_clf2: 2.3028, Loss_discrepancy: 0.0100
+Train - Iteration 100: 	Loss_clf1: 2.3018, Loss_clf2: 2.3034, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3026, Loss_clf2: 2.3032, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3018, Loss_clf2: 2.3017, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3012, Loss_clf2: 2.3007, Loss_discrepancy: 0.0098
+Train - Iteration 300: 	Loss_clf1: 2.3027, Loss_clf2: 2.3027, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3022, Loss_clf2: 2.3027, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3043, Loss_clf2: 2.3023, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3016, Loss_clf2: 2.3027, Loss_discrepancy: 0.0099
+Train - Epoch [43]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [43]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0462, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3018, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3031, Loss_clf2: 2.3015, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3000, Loss_clf2: 2.3029, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3023, Loss_clf2: 2.3031, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3051, Loss_clf2: 2.3027, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3023, Loss_clf2: 2.3023, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3021, Loss_clf2: 2.3034, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3036, Loss_clf2: 2.3018, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3020, Loss_clf2: 2.3020, Loss_discrepancy: 0.0099
+Train - Epoch [44]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Test - Epoch [44]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3035, Loss_clf2: 2.3026, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3019, Loss_clf2: 2.3012, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3020, Loss_clf2: 2.3030, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3017, Loss_clf2: 2.3029, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3032, Loss_clf2: 2.3027, Loss_discrepancy: 0.0100
+Train - Iteration 300: 	Loss_clf1: 2.3022, Loss_clf2: 2.3028, Loss_discrepancy: 0.0100
+Train - Iteration 350: 	Loss_clf1: 2.3022, Loss_clf2: 2.3021, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3028, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3020, Loss_clf2: 2.3017, Loss_discrepancy: 0.0099
+Train - Epoch [45]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [45]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0461, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3014, Loss_clf2: 2.3005, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3023, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3020, Loss_clf2: 2.3021, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3024, Loss_clf2: 2.3027, Loss_discrepancy: 0.0100
+Train - Iteration 250: 	Loss_clf1: 2.3036, Loss_clf2: 2.3025, Loss_discrepancy: 0.0100
+Train - Iteration 300: 	Loss_clf1: 2.3033, Loss_clf2: 2.3029, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3017, Loss_clf2: 2.3045, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3039, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3019, Loss_clf2: 2.3013, Loss_discrepancy: 0.0100
+Train - Epoch [46]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [46]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0462, Loss_clf2: 0.0461, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3030, Loss_clf2: 2.3029, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3037, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3033, Loss_clf2: 2.3015, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3030, Loss_clf2: 2.3030, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3018, Loss_clf2: 2.3030, Loss_discrepancy: 0.0100
+Train - Iteration 300: 	Loss_clf1: 2.3025, Loss_clf2: 2.3023, Loss_discrepancy: 0.0101
+Train - Iteration 350: 	Loss_clf1: 2.3036, Loss_clf2: 2.3031, Loss_discrepancy: 0.0100
+Train - Iteration 400: 	Loss_clf1: 2.3020, Loss_clf2: 2.3013, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3009, Loss_clf2: 2.3027, Loss_discrepancy: 0.0100
+Train - Epoch [47]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3025, Loss_discrepancy: 0.0100
+Test - Epoch [47]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0459, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3027, Loss_clf2: 2.3027, Loss_discrepancy: 0.0100
+Train - Iteration 100: 	Loss_clf1: 2.3021, Loss_clf2: 2.3015, Loss_discrepancy: 0.0100
+Train - Iteration 150: 	Loss_clf1: 2.3046, Loss_clf2: 2.3033, Loss_discrepancy: 0.0100
+Train - Iteration 200: 	Loss_clf1: 2.3017, Loss_clf2: 2.3022, Loss_discrepancy: 0.0100
+Train - Iteration 250: 	Loss_clf1: 2.3036, Loss_clf2: 2.3029, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3029, Loss_clf2: 2.3023, Loss_discrepancy: 0.0099
+Train - Iteration 350: 	Loss_clf1: 2.3014, Loss_clf2: 2.3030, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3015, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3024, Loss_clf2: 2.3027, Loss_discrepancy: 0.0098
+Train - Epoch [48]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [48]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0462, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3026, Loss_clf2: 2.3021, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3030, Loss_clf2: 2.3029, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3013, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3031, Loss_clf2: 2.3012, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3021, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Train - Iteration 300: 	Loss_clf1: 2.3021, Loss_clf2: 2.3033, Loss_discrepancy: 0.0098
+Train - Iteration 350: 	Loss_clf1: 2.3034, Loss_clf2: 2.3020, Loss_discrepancy: 0.0099
+Train - Iteration 400: 	Loss_clf1: 2.3036, Loss_clf2: 2.3031, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3017, Loss_clf2: 2.3020, Loss_discrepancy: 0.0099
+Train - Epoch [49]: 		Loss_clf1: 2.3025, Loss_clf2: 2.3024, Loss_discrepancy: 0.0099
+Test - Epoch [49]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+Train - Iteration 0: 	Loss_clf1: 0.0460, Loss_clf2: 0.0462, Loss_discrepancy: 0.0002
+Train - Iteration 50: 	Loss_clf1: 2.3025, Loss_clf2: 2.3019, Loss_discrepancy: 0.0099
+Train - Iteration 100: 	Loss_clf1: 2.3032, Loss_clf2: 2.3033, Loss_discrepancy: 0.0099
+Train - Iteration 150: 	Loss_clf1: 2.3025, Loss_clf2: 2.3020, Loss_discrepancy: 0.0099
+Train - Iteration 200: 	Loss_clf1: 2.3027, Loss_clf2: 2.3014, Loss_discrepancy: 0.0099
+Train - Iteration 250: 	Loss_clf1: 2.3027, Loss_clf2: 2.3025, Loss_discrepancy: 0.0100
+Train - Iteration 300: 	Loss_clf1: 2.3025, Loss_clf2: 2.3033, Loss_discrepancy: 0.0100
+Train - Iteration 350: 	Loss_clf1: 2.3022, Loss_clf2: 2.3027, Loss_discrepancy: 0.0100
+Train - Iteration 400: 	Loss_clf1: 2.3010, Loss_clf2: 2.3022, Loss_discrepancy: 0.0099
+Train - Iteration 450: 	Loss_clf1: 2.3027, Loss_clf2: 2.3026, Loss_discrepancy: 0.0099
+Train - Epoch [50]: 		Loss_clf1: 2.3024, Loss_clf2: 2.3025, Loss_discrepancy: 0.0099
+Test - Epoch [50]: Accuracy_clf1: 7.76%, Accuracy_clf2: 19.59%, Accuracy_ensemble: 19.59%
+-----------------------------------------------------------------------------------------------
+
+The process took 50.9531277736028 minutes to complete.

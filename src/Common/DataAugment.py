@@ -1,4 +1,8 @@
 from src.utils import *
+import torch
+from torchvision import transforms
+import random
+from PIL import Image
 
 
 # -----------------------------------------------------------------------------
@@ -66,4 +70,40 @@ def colorize_digit_tensor(image, color_variability=0.2):
     return augmented_image
 
 
+def augment_image(image, affine_params={}, crop_params={}, colorize_params={}):
+    """
+    Randomly applies one or more augmentation methods to the input tensor image with optional parameters.
 
+    Parameters:
+    - image: Tensor image of an MNIST digit, normalized to [-1, 1].
+    - affine_params: Optional parameters for the affine transformation as a dict.
+    - crop_params: Optional parameters for the random resized crop as a dict.
+    - colorize_params: Optional parameters for the colorize digit tensor as a dict.
+
+    Returns:
+    - The augmented image tensor.
+    """
+    # List of augmentation functions to choose from with their optional parameters
+    augmentations = [
+        lambda img: apply_random_affine(img, **affine_params),
+        lambda img: apply_random_resized_crop(img, **crop_params),
+        lambda img: colorize_digit_tensor(img, **colorize_params)
+    ]
+
+    # Convert tensor image to PIL Image for apply_random_affine and apply_random_resized_crop
+    img_pil = transforms.ToPILImage()(image)
+
+    # Randomly select augmentations (1 or more)
+    chosen_augmentations = random.sample(augmentations, k=random.randint(1, len(augmentations)))
+
+    for aug in chosen_augmentations:
+        if aug == colorize_digit_tensor:
+            image = aug(image)  # Apply augmentation for tensor
+        else:
+            img_pil = aug(img_pil)  # Apply augmentation for PIL image
+
+    # If the last augmentation was on PIL, convert back to tensor
+    if isinstance(img_pil, Image.Image):
+        image = transforms.ToTensor()(img_pil)
+
+    return image

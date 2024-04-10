@@ -98,7 +98,7 @@ def augment_image(image, affine_params={}, crop_params={}, colorize_params={}):
 
     for aug in chosen_augmentations:
         if aug == colorize_digit_tensor:
-            image = aug(image)  # Apply augmentation for tensor
+            image = aug(s)  # Apply augmentation for tensor
         else:
             img_pil = aug(img_pil)  # Apply augmentation for PIL image
 

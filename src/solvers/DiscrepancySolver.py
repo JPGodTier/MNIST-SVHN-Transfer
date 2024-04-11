@@ -2,12 +2,13 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-from src.models.FeatureGenerator.FeatureGenerator import FeatureGenerator
-from src.models.ClassPredictor.ClassPredictor import ClassPredictor
+from src.models.DiscrepancyClassifier.FeatureGenerator.FeatureGenerator import FeatureGenerator
+from src.models.DiscrepancyClassifier.ClassPredictor.ClassPredictor import ClassPredictor
+from src.Common.DataAugment import augment_images
 
 
 class DiscrepancySolver(nn.Module):
-    def __init__(self, lr=0.0002, n_step_C=4, n_classes=10, weight_decay=0.0005):
+    def __init__(self, lr=0.0002, n_step_C=4, n_classes=10, weight_decay=0.0005, data_augment_source=True):
         super(DiscrepancySolver, self).__init__()
         # Init Generator and both Predictors
         self.G = FeatureGenerator()
@@ -32,6 +33,7 @@ class DiscrepancySolver(nn.Module):
         self.n_step_C = n_step_C
         self.n_classes = n_classes
         self.weight_decay = weight_decay
+        self.data_augment_source = data_augment_source
 
         # Init optimizers for Generators and Discriminators
         self.optimizer_G = optim.Adam(self.G.parameters(), lr=self.lr, weight_decay=self.weight_decay)
@@ -60,6 +62,8 @@ class DiscrepancySolver(nn.Module):
 
         img_S, label_S = x_S_train
         img_S = img_S.to(self.device)
+        if self.data_augment_source:
+            img_S = augment_images(img_S)
         label_S = label_S.long().to(self.device)
 
         # Calculating classification losses
@@ -87,6 +91,8 @@ class DiscrepancySolver(nn.Module):
 
         img_S, label_S = x_S_train
         img_S = img_S.to(self.device)
+        if self.data_augment_source:
+            img_S = augment_images(img_S)
         label_S = label_S.long().to(self.device)
         img_T, _ = x_T_train
         img_T = img_T.to(self.device)

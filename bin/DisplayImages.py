@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torchvision
 import torchvision.transforms as transforms
-from src.Models.ResNet18.ResNet18 import ResNet18
+from src.models.ResNet18.ResNet18 import ResNet18
 from src.utils import *
 import matplotlib.pyplot as plt
 import numpy as np

@@ -406,8 +406,6 @@ class CyCADASolver(nn.Module):
               D_feat Discriminator loss: {loss_stepC_D_feat_avg:.4f}, \
               F_T Genearator Loss: {loss_stepC_F_T_avg:.4f}")
         
-        self.display(epoch, img_S)
-
     
     # -----------------------------------------------------------------------------
     # test_stepC

@@ -3,6 +3,7 @@ import torchvision
 import torchvision.transforms as transforms
 from torch.autograd import Function
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 # -----------------------------------------------------------------------------
@@ -111,3 +112,22 @@ class GradReverse(Function):
 
 def grad_reverse(x, lambd=1.0):
     return GradReverse.apply(x, lambd)
+
+
+# -----------------------------------------------------------------------------
+# display_images
+# -----------------------------------------------------------------------------
+def display_images(loader, len=1):
+    
+    np.set_printoptions(threshold=np.inf, linewidth=np.inf)
+
+    # Get some random training images
+    dataiter = iter(loader)
+    images, _ = next(dataiter)
+
+    # Show images
+    images = torchvision.utils.make_grid(images[1])
+    npimages = images.numpy()
+    print(npimages)
+    plt.imshow(np.transpose(npimages, (1, 2, 0)))
+    plt.show()

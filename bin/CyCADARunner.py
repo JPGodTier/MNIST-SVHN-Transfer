@@ -2,7 +2,7 @@ import torch
 import os
 import time
 import matplotlib.pyplot as plt
-from src.solvers.CyCADASolver import CyCADASolver
+from src.solvers.CyCADASolver_Dfeataccuracy_BCmerged import CyCADASolver
 from src.utils import svhn_loader, mnist_loader
 
 # Hyperparameters
@@ -10,17 +10,18 @@ batch_size_stepA = 128
 batch_size_stepB = 128
 batch_size_stepC = 50
 num_epochs_stepA = 100
-num_epochs_stepB = 50
+num_epochs_stepB = 100
 num_epochs_stepC = 200
 lr_stepA = 0.0001
 lr_stepB = 0.00001
 lr_stepC = 0.0002
 
 # Training and saving parameters
-stepA = False
+stepA = True
 stepB = True
 stepC = False
-path = "savedmodels/CyCADA_MNIST-to-SVHN/StepAandB/lrB_e-3"
+path = "savedmodels/CyCADA_MNIST-to-SVHN/StepBCmerged/new_Standard"
+data_augment_source = False
 
 
 # -----------------------------------------------------------------------------
@@ -81,7 +82,7 @@ def stepC_runner(CyCADAClassifier, batch_size_stepC, num_epochs_stepC):
 if __name__ == "__main__":
     start_time = time.time()
 
-    CyCADAClassifier = CyCADASolver(lr_stepA=lr_stepA,lr_stepB=lr_stepB,lr_stepC=lr_stepC, path=path)
+    CyCADAClassifier = CyCADASolver(lr_stepA=lr_stepA,lr_stepB=lr_stepB,lr_stepC=lr_stepC, path=path, data_augment_source=data_augment_source)
     print(f"Using device {CyCADAClassifier.device}")
     CyCADAClassifier = CyCADAClassifier.to(CyCADAClassifier.device)
 

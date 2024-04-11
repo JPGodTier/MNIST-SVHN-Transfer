@@ -3,8 +3,8 @@ import torch.nn as nn
 import torch.optim as optim
 import matplotlib.pyplot as plt
 import os
-from src.models.UNet.UNet import UNet
-from src.models.PatchGAN.PatchGAN import PatchGAN
+from src.models.CycleGAN.UNet.UNet import UNet
+from src.models.CycleGAN.PatchGAN.PatchGAN import PatchGAN
 from src.utils import unnormalize_mnist, unnormalize_svhn
 
 

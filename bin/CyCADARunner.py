@@ -1,7 +1,7 @@
 import torch
 import os
 import time
-from src.solvers.CyCADASolver_Dfeataccuracy_BCmerged import CyCADASolver
+from src.solvers.CyCADASolver import CyCADASolver
 from src.Common.utils import svhn_loader, mnist_loader
 
 # Hyperparameters

@@ -62,7 +62,6 @@ class CyCADASolver(nn.Module):
 
         # Init D_feat_accuracy
         self.D_feat_acc = 0.0
-    
 
     # -----------------------------------------------------------------------------
     # train_stepA
@@ -108,7 +107,6 @@ class CyCADASolver(nn.Module):
         avg_loss_stepA = loss_stepA_epoch / len(dataloader_S_train)
 
         print(f"Train Step A - Epoch [{epoch+1}]: \tLoss: {avg_loss_stepA:.4f}")
-
 
     # -----------------------------------------------------------------------------
     # test_stepA
@@ -171,7 +169,6 @@ class CyCADASolver(nn.Module):
         self.optimizer_D.step()
 
         return loss_stepB_D_GAN
-
 
     # -----------------------------------------------------------------------------
     # train_generators - Step B.2
@@ -251,7 +248,6 @@ class CyCADASolver(nn.Module):
         self.optimizer_D_feat.step()
 
         return loss_stepB_D_feat_GAN
-    
 
     # -----------------------------------------------------------------------------
     # train_F_T - Step B.4
@@ -283,7 +279,6 @@ class CyCADASolver(nn.Module):
         self.optimizer_F_T.step()
 
         return loss_stepB_F_T_task, loss_stepB_F_T_GAN
-
 
     # -----------------------------------------------------------------------------
     # train_stepB
@@ -353,7 +348,6 @@ class CyCADASolver(nn.Module):
         
         self.display(epoch, img_S)
     
-    
     # -----------------------------------------------------------------------------
     # test_stepB
     # -----------------------------------------------------------------------------
@@ -379,7 +373,6 @@ class CyCADASolver(nn.Module):
 
         print(f"Test Step B - Epoch [{epoch+1}]: \tAccuracy: {correct_predictions_stepB/size*100:.2f}%")
         print(f"-----------------------------------------------------------------------------------------------\n")
-    
 
     # -----------------------------------------------------------------------------
     # display

@@ -1,9 +1,8 @@
 import torch
 import os
 import time
-import matplotlib.pyplot as plt
 from src.solvers.CyCADASolver_Dfeataccuracy_BCmerged import CyCADASolver
-from src.utils import svhn_loader, mnist_loader
+from src.Common.utils import svhn_loader, mnist_loader
 
 # Hyperparameters
 batch_size_stepA = 128

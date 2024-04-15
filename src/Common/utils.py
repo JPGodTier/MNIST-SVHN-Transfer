@@ -12,9 +12,9 @@ import matplotlib.pyplot as plt
 def mnist_loader(batch_size):
     # Resize the data and transform the data to torch.FloatTensor and normalize it
     transform = transforms.Compose([
-        transforms.Resize(32), # Resize the image to 32x32
-        transforms.Grayscale(3), # Convert grayscale to RGB by replicating channels
-        transforms.ToTensor(), # Transform to tensor type
+        transforms.Resize(32),  # Resize the image to 32x32
+        transforms.Grayscale(3),  # Convert grayscale to RGB by replicating channels
+        transforms.ToTensor(),  # Transform to tensor type
         transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)) # Mean and STD for MNIST
     ])
 
@@ -36,7 +36,7 @@ def svhn_loader(batch_size):
     # Resize the data and transform the data to torch.FloatTensor and normalize it
     transform = transforms.Compose([
         transforms.Resize(32),
-        transforms.ToTensor(), # Transorm to tensor type
+        transforms.ToTensor(),  # Transorm to tensor type
         transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
     ])
 
@@ -72,6 +72,7 @@ def svhn_loader_greyscale(batch_size):
     svhn_test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=True)
 
     return svhn_train_loader, svhn_test_loader
+
 
 # -----------------------------------------------------------------------------
 # unnormalize_svhn
@@ -109,6 +110,7 @@ class GradReverse(Function):
     @staticmethod
     def backward(ctx, grad_output):
         return grad_output * -ctx.lambd, None
+
 
 def grad_reverse(x, lambd=1.0):
     return GradReverse.apply(x, lambd)

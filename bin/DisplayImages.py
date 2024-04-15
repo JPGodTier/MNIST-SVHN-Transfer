@@ -1,28 +1,20 @@
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
 import torchvision
-import torchvision.transforms as transforms
-from src.models.ResNet18.ResNet18 import ResNet18
-from src.utils import *
 import matplotlib.pyplot as plt
-import numpy as np
 
+from src.Common.utils import mnist_loader, svhn_loader, unnormalize_mnist, unnormalize_svhn
 
-if __name__ == "__main__":
+def main():
     dataset = 'svhn'  # 'mnist' or 'svhn'
-
 
     # -----------------------------------------------------------------------------
     # Import and initialization
     # -----------------------------------------------------------------------------
     # Import data loaders
-    batch_size = 100 # Batchs size for gradient descent
+    batch_size = 100  # Batchs size for gradient descent
     if dataset == 'mnist':
         train_loader, test_loader = mnist_loader(batch_size)
     elif dataset == 'svhn':
         train_loader, test_loader = svhn_loader(batch_size)
-
 
     # -----------------------------------------------------------------------------
     # Display pictures
@@ -31,7 +23,6 @@ if __name__ == "__main__":
     dataiter = iter(train_loader)
     images, labels = next(dataiter)
     print(images.size())
-
 
     images_number = 50
 
@@ -45,3 +36,7 @@ if __name__ == "__main__":
     plt.imshow(npimg)
     plt.show()
     print(' '.join('%5s' % labels[j] for j in range(images_number)))
+
+
+if __name__ == "__main__":
+    main()

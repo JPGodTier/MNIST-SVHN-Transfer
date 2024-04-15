@@ -1,5 +1,6 @@
 import torch.nn as nn
-from src.models.UNet.UNetBlocks import DoubleConv, Down, Up, OutConv
+from src.models.CycleGAN.UNet.UNetBlocks import DoubleConv, Down, Up, OutConv
+
 
 # -----------------------------------------------------------------------------
 # Unet

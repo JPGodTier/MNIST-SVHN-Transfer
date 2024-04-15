@@ -1,6 +1,6 @@
 import time
 from src.solvers.DiscrepancySolver import DiscrepancySolver
-from src.utils import svhn_loader, mnist_loader
+from src.Common.utils import svhn_loader, mnist_loader
 
 # Hyperparameters
 batch_size = 128

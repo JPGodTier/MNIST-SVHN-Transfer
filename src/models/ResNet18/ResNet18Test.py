@@ -2,9 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torchvision
-import torchvision.transforms as transforms
-from src.models.ResNet18.ResNet18 import ResNet18
-from src.utils import mnist_loader, svhn_loader
 import matplotlib.pyplot as plt
 import numpy as np
 

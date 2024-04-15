@@ -2,11 +2,11 @@ import torch
 import time
 import os
 from src.solvers.CycleGANSolver import CycleGANSolver
-from src.utils import mnist_loader, svhn_loader
+from src.Common.utils import mnist_loader, svhn_loader
 
 
 # Define parameters
-batch_size = 50 # Batchs size of Dataloader for gradient descent
+batch_size = 50  # Batchs size of Dataloader for gradient descent
 num_epochs = 100
 loss_cycle_weight = 10
 num_gen_training = 2

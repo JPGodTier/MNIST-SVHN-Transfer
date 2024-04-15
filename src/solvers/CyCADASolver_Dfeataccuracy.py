@@ -1,10 +1,9 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 import torch.optim as optim
 import matplotlib.pyplot as plt
 import os
-from src.utils import unnormalize_svhn, unnormalize_mnist
+from src.Common.utils import unnormalize_svhn, unnormalize_mnist
 from src.models.CyCADA.Generator import Generator
 from src.models.CyCADA.ImageDiscriminator import ImageDiscriminator
 from src.models.CyCADA.LabelDiscriminator import LabelDiscriminator

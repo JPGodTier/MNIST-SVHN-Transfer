@@ -6,7 +6,7 @@ import torchvision.transforms as transforms
 from src.models.ResNet18.ResNet18 import ResNet18
 from src.models.ResNet18.ResNet18Train import ModelTrain
 from src.models.ResNet18.ResNet18Test import ModelTest
-from src.utils import mnist_loader, svhn_loader
+from src.Common.utils import mnist_loader, svhn_loader
 import matplotlib.pyplot as plt
 import numpy as np
 

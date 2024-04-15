@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import os
 from src.models.CycleGAN.UNet.UNet import UNet
 from src.models.CycleGAN.PatchGAN.PatchGAN import PatchGAN
-from src.utils import unnormalize_mnist, unnormalize_svhn
+from src.Common.utils import unnormalize_mnist, unnormalize_svhn
 
 
 class CycleGANSolver(nn.Module):

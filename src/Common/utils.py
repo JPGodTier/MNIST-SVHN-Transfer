@@ -2,6 +2,7 @@ import torch
 import torchvision
 import torchvision.transforms as transforms
 from torch.autograd import Function
+from torch.utils.data import DataLoader
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -23,8 +24,8 @@ def mnist_loader(batch_size):
     test_dataset = torchvision.datasets.MNIST(root='./data', train=False, download=True, transform=transform)
     
     # Create data loaders
-    mnist_train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
-    mnist_test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=True)
+    mnist_train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
+    mnist_test_loader = DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=True)
 
     return mnist_train_loader, mnist_test_loader
 
@@ -45,8 +46,8 @@ def svhn_loader(batch_size):
     test_dataset = torchvision.datasets.SVHN(root='./data/SVHN/color/raw/test', split='test', download=True, transform=transform)
 
     # Create data loaders
-    svhn_train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
-    svhn_test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=True)
+    svhn_train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
+    svhn_test_loader = DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=True)
 
     return svhn_train_loader, svhn_test_loader
 

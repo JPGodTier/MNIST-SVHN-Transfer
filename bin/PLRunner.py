@@ -1,10 +1,6 @@
-import torch
 from torch.optim.lr_scheduler import StepLR
-import torchvision.transforms as transforms
-from torchvision.datasets import MNIST
 from src.models.PseudoLabelling.PseudoLabelling import CNNModel, generate_pseudo_labels, combine_datasets
-from src.Common.utils import mnist_loader, svhn_loader
-from src.models.PseudoLabelling.PLTrain import train, validate
+from src.solvers.PLSolver import train, validate
 from src.Common.DataAugment import *
 
 

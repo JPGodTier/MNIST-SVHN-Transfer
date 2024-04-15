@@ -24,9 +24,11 @@ setup(
         "scipy == 1.12.0",
         "six == 1.16.0",
         "sympy == 1.12",
-        "torch == 2.2.1",
+        "torch == 2.2.1+cu118",
+        "torchaudio==2.2.1+cu118"
         "torchvision == 0.17.1",
         "tqdm == 4.66.2",
-        "typing_extensions == 4.10.0"
+        "typing_extensions == 4.10.0",
+        "colorama == 0.4.6"
     ]
 )
